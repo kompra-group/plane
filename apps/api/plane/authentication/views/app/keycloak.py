@@ -86,6 +86,8 @@ class KeycloakCallbackEndpoint(View):
             path = str(validate_next_path(next_path)) if next_path else get_redirection_path(user=user)
             return HttpResponseRedirect(urljoin(base_host_url, path))
         except AuthenticationException as e:
+            if e.error_code == AUTHENTICATION_ERROR_CODES["KEYCLOAK_ACCESS_DENIED"]:
+                return HttpResponseRedirect("https://kompra.kz")
             params = e.get_error_dict()
             if next_path:
                 params["next_path"] = str(validate_next_path(next_path))
