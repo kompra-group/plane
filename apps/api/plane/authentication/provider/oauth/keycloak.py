@@ -2,6 +2,8 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # See the LICENSE file for details.
 
+import base64
+import json
 import os
 from datetime import datetime
 from urllib.parse import urlencode
@@ -66,6 +68,19 @@ class KeycloakOAuthProvider(OauthAdapter):
             callback=callback,
         )
 
+    def _decode_jwt_roles(self):
+        """Decode realm roles from the JWT access token payload without signature verification.
+        The token is trusted because it was just obtained directly from Keycloak's token endpoint."""
+        try:
+            access_token = self.token_data.get("access_token", "")
+            payload_b64 = access_token.split(".")[1]
+            # Add padding if needed
+            payload_b64 += "=" * (4 - len(payload_b64) % 4)
+            payload = json.loads(base64.urlsafe_b64decode(payload_b64))
+            return payload.get("realm_access", {}).get("roles", [])
+        except Exception:
+            return []
+
     def set_token_data(self):
         data = {
             "client_id": self.client_id,
@@ -98,6 +113,16 @@ class KeycloakOAuthProvider(OauthAdapter):
                 error_code=AUTHENTICATION_ERROR_CODES["OAUTH_PROVIDER_UNVERIFIED_EMAIL"],
                 error_message="OAUTH_PROVIDER_UNVERIFIED_EMAIL",
             )
+
+        # Check required Keycloak realm role if configured
+        required_role = os.environ.get("KEYCLOAK_REQUIRED_ROLE", "")
+        if required_role:
+            realm_roles = self._decode_jwt_roles()
+            if required_role not in realm_roles:
+                raise AuthenticationException(
+                    error_code=AUTHENTICATION_ERROR_CODES["KEYCLOAK_ACCESS_DENIED"],
+                    error_message="KEYCLOAK_ACCESS_DENIED",
+                )
 
         groups_attr = os.environ.get("OIDC_GROUPS_ATTRIBUTE", "groups")
         groups = user_info_response.get(groups_attr, [])
