@@ -4,24 +4,16 @@
  * See the LICENSE file for details.
  */
 
-import React from "react";
-// components
-import { AuthBase } from "@/components/auth-screens/auth-base";
-// helpers
-import { EAuthModes, EPageTypes } from "@/helpers/authentication.helper";
-// layouts
-import DefaultLayout from "@/layouts/default-layout";
-// wrappers
-import { AuthenticationWrapper } from "@/lib/wrappers/authentication-wrapper";
+"use client";
 
-function HomePage() {
-  return (
-    <DefaultLayout>
-      <AuthenticationWrapper pageType={EPageTypes.NON_AUTHENTICATED}>
-        <AuthBase authType={EAuthModes.SIGN_IN} />
-      </AuthenticationWrapper>
-    </DefaultLayout>
-  );
+import { useEffect } from "react";
+// plane imports
+import { API_BASE_URL } from "@plane/constants";
+
+export default function HomePage() {
+  useEffect(() => {
+    window.location.replace(`${API_BASE_URL}/auth/keycloak/`);
+  }, []);
+
+  return null;
 }
-
-export default HomePage;
