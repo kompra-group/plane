@@ -8,6 +8,8 @@ import type { ReactNode } from "react";
 import { observer } from "mobx-react";
 import { useSearchParams, usePathname } from "next/navigation";
 import useSWR from "swr";
+// plane imports
+import { API_BASE_URL } from "@plane/constants";
 // components
 import { LogoSpinner } from "@/components/common/logo-spinner";
 // helpers
@@ -103,7 +105,7 @@ export const AuthenticationWrapper = observer(function AuthenticationWrapper(pro
 
   if (pageType === EPageTypes.ONBOARDING) {
     if (!currentUser?.id) {
-      router.push(`/${pathname ? `?next_path=${pathname}` : ``}`);
+      window.location.assign(`${API_BASE_URL}/auth/keycloak/${pathname ? `?next_path=${pathname}` : ``}`);
       return <></>;
     } else {
       if (currentUser && currentUserProfile?.id && isUserOnboard) {
@@ -116,7 +118,7 @@ export const AuthenticationWrapper = observer(function AuthenticationWrapper(pro
 
   if (pageType === EPageTypes.SET_PASSWORD) {
     if (!currentUser?.id) {
-      router.push(`/${pathname ? `?next_path=${pathname}` : ``}`);
+      window.location.assign(`${API_BASE_URL}/auth/keycloak/${pathname ? `?next_path=${pathname}` : ``}`);
       return <></>;
     } else {
       if (currentUser && !currentUser?.is_password_autoset && currentUserProfile?.id && isUserOnboard) {
@@ -135,7 +137,7 @@ export const AuthenticationWrapper = observer(function AuthenticationWrapper(pro
         return <></>;
       }
     } else {
-      router.push(`/${pathname ? `?next_path=${pathname}` : ``}`);
+      window.location.assign(`${API_BASE_URL}/auth/keycloak/${pathname ? `?next_path=${pathname}` : ``}`);
       return <></>;
     }
   }
