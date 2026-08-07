@@ -99,6 +99,16 @@ class KeycloakOAuthProvider(OauthAdapter):
                 error_message="OAUTH_PROVIDER_UNVERIFIED_EMAIL",
             )
 
+        # Check required Keycloak realm role if configured
+        required_role = os.environ.get("KEYCLOAK_REQUIRED_ROLE", "")
+        if required_role:
+            realm_roles = user_info_response.get("realm_access", {}).get("roles", [])
+            if required_role not in realm_roles:
+                raise AuthenticationException(
+                    error_code=AUTHENTICATION_ERROR_CODES["KEYCLOAK_ACCESS_DENIED"],
+                    error_message="KEYCLOAK_ACCESS_DENIED",
+                )
+
         groups_attr = os.environ.get("OIDC_GROUPS_ATTRIBUTE", "groups")
         groups = user_info_response.get(groups_attr, [])
         if not isinstance(groups, list):
