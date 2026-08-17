@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: worker
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: worker
+  template:
+    metadata:
+      labels:
+        app: worker
+    spec:
+      containers:
+      - name: worker
+        image: "{{ .Values.global.imageRegistry }}/worker:{{ .Values.global.imageTag }}"
+        command: ["./bin/docker-entrypoint-worker.sh"]
+        envFrom:
+        - secretRef:
+            name: plane-vault-secret
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: beat-worker
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: beat-worker
+  template:
+    metadata:
+      labels:
+        app: beat-worker
+    spec:
+      containers:
+      - name: beat-worker
+        image: "{{ .Values.global.imageRegistry }}/beat-worker:{{ .Values.global.imageTag }}"
+        command: ["./bin/docker-entrypoint-beat.sh"]
+        envFrom:
+        - secretRef:
+            name: plane-vault-secret

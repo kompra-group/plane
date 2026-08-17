@@ -1,0 +1,13 @@
+global:
+  imageRegistry: "harbor.kompra.kz/plane" 
+  imageTag: "latest" # Переопределяется в CI/CD
+
+proxy:
+  nodePort: 30088 # Порт, который будет открыт на всех нодах кластера (от 30000 до 32767)
+migrator:
+  enabled: false
+vault:
+  server: "https://vault.kompra.kz"
+  path: "new-kompra"
+  secretKey: "plane/dev"
+  role: "plane-k8s-role"    
