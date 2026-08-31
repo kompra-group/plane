@@ -47,7 +47,8 @@ build_components:
         DOCKERFILE: apps/proxy/Dockerfile.ce
         BUILD_CONTEXT: ./apps/proxy
   tags:
-    - k8s
+    - decider-dev
+
 
 deploy_to_k8s:
   stage: deploy
@@ -61,4 +62,5 @@ deploy_to_k8s:
   only:
     - dev
   tags:
-    - k8s    
+    - decider-dev
+
