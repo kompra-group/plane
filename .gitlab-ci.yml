@@ -58,7 +58,8 @@ deploy_to_k8s:
   - cp "$KUBE_CONFIG_DEV" ~/.kube/config
   - chmod 600 ~/.kube/config
   script:
-    - helm upgrade --install plane ./helm/plane --namespace plane --set global.imageTag=$CI_COMMIT_SHORT_SHA --disable-openapi-validation
+     #- helm upgrade --install plane ./helm/plane --namespace plane --set global.imageTag=$CI_COMMIT_SHORT_SHA --disable-openapi-validation
+    - helm template plane ./helm/plane --namespace plane --set global.imageTag=$CI_COMMIT_SHORT_SHA | kubectl apply -n plane -f -
   only:
     - dev
   tags:
