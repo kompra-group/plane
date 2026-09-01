@@ -52,7 +52,7 @@ build_components:
 
 deploy_to_k8s:
   stage: deploy
-  image: dtzar/helm-kubectl:3.12.0
+  image: dtzar/helm-kubectl:latest
   before_script:
   - mkdir -p ~/.kube
   - cp "$KUBE_CONFIG_DEV" ~/.kube/config
