@@ -1,0 +1,34 @@
+{
+  "command_k": {
+    "empty_state": {
+      "search": {
+        "title": "Нәтиже табылмады"
+      }
+    }
+  },
+  "sidebar": {
+    "stickies": "Жабысқақ жазбалар",
+    "your_work": "Жұмыстарыңыз",
+    "projects": "Жобалар",
+    "pages": "Беттер",
+    "new_work_item": "Жаңа тапсырма",
+    "home": "Басты бет",
+    "inbox": "Кіріс жәшік",
+    "workspace": "Жұмыс кеңістігі",
+    "views": "Көріністер",
+    "analytics": "Аналитика",
+    "work_items": "Тапсырмалар",
+    "cycles": "Циклдар",
+    "modules": "Модульдер",
+    "intake": "Кіріс",
+    "drafts": "Жобалар",
+    "favorites": "Таңдаулылар",
+    "pro": "Pro",
+    "upgrade": "Жаңарту",
+    "pi_chat": "Plane AI",
+    "epics": "Эпиктер",
+    "upgrade_plan": "Жоспарды жаңарту",
+    "plane_pro": "Plane Pro",
+    "business": "Бизнес"
+  }
+}
