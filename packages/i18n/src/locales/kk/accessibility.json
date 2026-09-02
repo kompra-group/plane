@@ -1,34 +1,34 @@
 {
   "aria_labels": {
     "projects_sidebar": {
-      "workspace_logo": "Workspace logo",
-      "open_workspace_switcher": "Open workspace switcher",
-      "open_user_menu": "Open user menu",
-      "open_command_palette": "Open command palette",
-      "open_extended_sidebar": "Open extended sidebar",
-      "close_extended_sidebar": "Close extended sidebar",
-      "create_favorites_folder": "Create favorites folder",
-      "open_folder": "Open folder",
-      "close_folder": "Close folder",
-      "open_favorites_menu": "Open favorites menu",
-      "close_favorites_menu": "Close favorites menu",
-      "enter_folder_name": "Enter folder name",
-      "create_new_project": "Create new project",
-      "open_projects_menu": "Open projects menu",
-      "close_projects_menu": "Close projects menu",
-      "toggle_quick_actions_menu": "Toggle quick actions menu",
-      "open_project_menu": "Open project menu",
-      "close_project_menu": "Close project menu",
-      "collapse_sidebar": "Collapse sidebar",
-      "expand_sidebar": "Expand sidebar",
-      "edition_badge": "Open paid plans' modal"
+      "workspace_logo": "Жұмыс кеңістігінің логотипі",
+      "open_workspace_switcher": "Жұмыс кеңістіктерін ауыстырғышты ашу",
+      "open_user_menu": "Пайдаланушы мәзірін ашу",
+      "open_command_palette": "Командалар палитрасын ашу",
+      "open_extended_sidebar": "Кеңейтілген бүйір тақтаны ашу",
+      "close_extended_sidebar": "Кеңейтілген бүйір тақтаны жабу",
+      "create_favorites_folder": "Таңдаулылар қалтасын жасау",
+      "open_folder": "Қалтаны ашу",
+      "close_folder": "Қалтаны жабу",
+      "open_favorites_menu": "Таңдаулылар мәзірін ашу",
+      "close_favorites_menu": "Таңдаулылар мәзірін жабу",
+      "enter_folder_name": "Қалта атын енгізу",
+      "create_new_project": "Жаңа жоба жасау",
+      "open_projects_menu": "Жобалар мәзірін ашу",
+      "close_projects_menu": "Жобалар мәзірін жабу",
+      "toggle_quick_actions_menu": "Жылдам әрекеттер мәзірін қосу/өшіру",
+      "open_project_menu": "Жоба мәзірін ашу",
+      "close_project_menu": "Жоба мәзірін жабу",
+      "collapse_sidebar": "Бүйір тақтаны жию",
+      "expand_sidebar": "Бүйір тақтаны жаю",
+      "edition_badge": "Ақылы жоспарлар терезесін ашу"
     },
     "auth_forms": {
-      "clear_email": "Clear email",
-      "show_password": "Show password",
-      "hide_password": "Hide password",
-      "close_alert": "Close alert",
-      "close_popover": "Close popover"
+      "clear_email": "Электрондық поштаны тазарту",
+      "show_password": "Құпиясөзді көрсету",
+      "hide_password": "Құпиясөзді жасыру",
+      "close_alert": "Ескертуді жабу",
+      "close_popover": "Ашылмалы терезені жабу"
     }
   }
 }

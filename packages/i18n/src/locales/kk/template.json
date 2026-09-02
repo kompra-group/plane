@@ -1,224 +1,224 @@
 {
   "templates": {
     "settings": {
-      "title": "Templates",
-      "description": "Save 80% time spent on creating projects, work items, and pages when you use templates.",
-      "new_project_template": "New project template",
-      "new_work_item_template": "New work item template",
-      "new_page_template": "New page template",
+      "title": "Үлгілер",
+      "description": "Үлгілерді пайдаланып жобалар, тапсырмалар мен беттер жасауға жұмсалатын уақыттың 80%-ын үнемдеңіз.",
+      "new_project_template": "Жаңа жоба үлгісі",
+      "new_work_item_template": "Жаңа тапсырма үлгісі",
+      "new_page_template": "Жаңа бет үлгісі",
       "options": {
         "project": {
-          "label": "Project templates"
+          "label": "Жоба үлгілері"
         },
         "work_item": {
-          "label": "Work item templates"
+          "label": "Тапсырма үлгілері"
         },
         "page": {
-          "label": "Page templates"
+          "label": "Бет үлгілері"
         }
       },
       "create_template": {
-        "label": "Create template",
+        "label": "Үлгі жасау",
         "no_permission": {
-          "project": "Contact your project admin to create templates",
-          "workspace": "Contact your workspace admin to create templates"
+          "project": "Үлгі жасау үшін жоба әкімшісіне хабарласыңыз",
+          "workspace": "Үлгі жасау үшін жұмыс кеңістігі әкімшісіне хабарласыңыз"
         }
       },
       "use_template": {
         "button": {
-          "default": "Use template",
-          "loading": "Applying"
+          "default": "Үлгіні пайдалану",
+          "loading": "Қолданылуда"
         }
       },
       "template_source": {
         "workspace": {
-          "info": "Derived from workspace"
+          "info": "Жұмыс кеңістігінен алынған"
         },
         "project": {
-          "info": "Derived from project"
+          "info": "Жобадан алынған"
         }
       },
       "form": {
         "project": {
           "template": {
             "name": {
-              "placeholder": "Name your project template.",
+              "placeholder": "Жоба үлгісіне ат беріңіз.",
               "validation": {
-                "required": "Template name is required",
-                "maxLength": "Template name should be less than 255 characters"
+                "required": "Үлгі атауы қажет",
+                "maxLength": "Үлгі атауы 255 таңбадан аз болуы керек"
               }
             },
             "description": {
-              "placeholder": "Describe when and how to use this template."
+              "placeholder": "Бұл үлгіні қашан және қалай пайдалану керектігін сипаттаңыз."
             }
           },
           "name": {
-            "placeholder": "Name your project.",
+            "placeholder": "Жобаңызға ат беріңіз.",
             "validation": {
-              "required": "Project title is required",
-              "maxLength": "Project title should be less than 255 characters"
+              "required": "Жоба тақырыбы қажет",
+              "maxLength": "Жоба тақырыбы 255 таңбадан аз болуы керек"
             }
           },
           "description": {
-            "placeholder": "Describe the purpose and goals of this project."
+            "placeholder": "Осы жобаның мақсаты мен мақсаттарын сипаттаңыз."
           },
           "button": {
-            "create": "Create project template",
-            "update": "Update project template"
+            "create": "Жоба үлгісін жасау",
+            "update": "Жоба үлгісін жаңарту"
           }
         },
         "work_item": {
           "template": {
             "name": {
-              "placeholder": "Name your work-item template.",
+              "placeholder": "Тапсырма үлгісіне ат беріңіз.",
               "validation": {
-                "required": "Template name is required",
-                "maxLength": "Template name should be less than 255 characters"
+                "required": "Үлгі атауы қажет",
+                "maxLength": "Үлгі атауы 255 таңбадан аз болуы керек"
               }
             },
             "description": {
-              "placeholder": "Describe when and how to use this template."
+              "placeholder": "Бұл үлгіні қашан және қалай пайдалану керектігін сипаттаңыз."
             }
           },
           "name": {
-            "placeholder": "Give this work item a title.",
+            "placeholder": "Бұл тапсырмаға тақырып беріңіз.",
             "validation": {
-              "required": "Work item title is required",
-              "maxLength": "Work item title should be less than 255 characters"
+              "required": "Тапсырма тақырыбы қажет",
+              "maxLength": "Тапсырма тақырыбы 255 таңбадан аз болуы керек"
             }
           },
           "description": {
-            "placeholder": "Describe this work item so its clear what you will accomplish when you complete this."
+            "placeholder": "Осы тапсырманы аяқтаған кезде нені орындайтыныңызды анық ету үшін оны сипаттаңыз."
           },
           "button": {
-            "create": "Create work-item template",
-            "update": "Update work-item template"
+            "create": "Тапсырма үлгісін жасау",
+            "update": "Тапсырма үлгісін жаңарту"
           }
         },
         "page": {
           "template": {
             "name": {
-              "placeholder": "Name your page template.",
+              "placeholder": "Бет үлгісіне ат беріңіз.",
               "validation": {
-                "required": "Template name is required",
-                "maxLength": "Template name should be less than 255 characters"
+                "required": "Үлгі атауы қажет",
+                "maxLength": "Үлгі атауы 255 таңбадан аз болуы керек"
               }
             },
             "description": {
-              "placeholder": "Describe when and how to use this template."
+              "placeholder": "Бұл үлгіні қашан және қалай пайдалану керектігін сипаттаңыз."
             }
           },
           "name": {
-            "placeholder": "Untitled page",
+            "placeholder": "Тақырыпсыз бет",
             "validation": {
-              "maxLength": "Page name should be less than 255 characters"
+              "maxLength": "Бет атауы 255 таңбадан аз болуы керек"
             }
           },
           "button": {
-            "create": "Create page template",
-            "update": "Update page template"
+            "create": "Бет үлгісін жасау",
+            "update": "Бет үлгісін жаңарту"
           }
         },
         "publish": {
-          "action": "{isPublished, select, true {Publish settings} other {Publish to Marketplace}}",
-          "unpublish_action": "Unpublish from Marketplace",
-          "title": "Make your template discoverable and recognizable.",
+          "action": "{isPublished, select, true {Жариялау параметрлері} other {Маркетплейске жариялау}}",
+          "unpublish_action": "Маркетплейстен алып тастау",
+          "title": "Үлгіңізді табылатын және тануға болатын ету.",
           "name": {
-            "label": "Name of template",
-            "placeholder": "Name your template",
+            "label": "Үлгі атауы",
+            "placeholder": "Үлгіңізге ат беріңіз",
             "validation": {
-              "required": "Template name is required",
-              "maxLength": "Template name should be less than 255 characters"
+              "required": "Үлгі атауы қажет",
+              "maxLength": "Үлгі атауы 255 таңбадан аз болуы керек"
             }
           },
           "short_description": {
-            "label": "Short description",
-            "placeholder": "This template is great for Project Managers who manage several projects at the same time.",
+            "label": "Қысқаша сипаттама",
+            "placeholder": "Бұл үлгі бір уақытта бірнеше жобаны басқаратын Жоба менеджерлері үшін тамаша.",
             "validation": {
-              "required": "Short description is required"
+              "required": "Қысқаша сипаттама қажет"
             }
           },
           "description": {
-            "label": "Description",
-            "placeholder": "Enhance productivity and streamline communication with our Speech-To-Text integration.\n• Real-time transcription: Convert spoken words into accurate text instantly.\n• Task and comment creation: Add tasks, descriptions, and comments through voice commands.",
+            "label": "Сипаттама",
+            "placeholder": "Өнімділікті арттырыңыз және байланысты жеңілдетіңіз.\n• Нақты уақыттағы транскрипция: Сөйленген сөздерді дәл мәтінге айналдырыңыз.\n• Тапсырма және пікір жасау: Дауыс командалары арқылы тапсырмалар мен пікірлер қосыңыз.",
             "validation": {
-              "required": "Description is required"
+              "required": "Сипаттама қажет"
             }
           },
           "category": {
-            "label": "Category",
-            "placeholder": "Choose where you think this fits best. You can choose more than one.",
+            "label": "Санат",
+            "placeholder": "Ең сәйкес орнын таңдаңыз. Бірнешеуін таңдай аласыз.",
             "validation": {
-              "required": "At least one category is required"
+              "required": "Кем дегенде бір санат қажет"
             }
           },
           "keywords": {
-            "label": "Keywords",
-            "placeholder": "Use terms that you think your users will search for when looking for this template.",
-            "helperText": "Enter comma-separated keywords that are likely to help people find this from search.",
+            "label": "Кілт сөздер",
+            "placeholder": "Пайдаланушылардың осы үлгіні іздегенде пайдаланатын терминдерін пайдаланыңыз.",
+            "helperText": "Адамдардың іздеу арқылы тапуына көмектесетін үтірмен бөлінген кілт сөздерді енгізіңіз.",
             "validation": {
-              "required": "At least one keyword is required"
+              "required": "Кем дегенде бір кілт сөз қажет"
             }
           },
           "website": {
-            "label": "Website URL",
+            "label": "Веб-сайт URL",
             "placeholder": "https://plane.so",
             "validation": {
-              "invalid": "Invalid URL",
-              "maxLength": "URL should be less than 800 characters"
+              "invalid": "Жарамсыз URL",
+              "maxLength": "URL 800 таңбадан аз болуы керек"
             }
           },
           "company_name": {
-            "label": "Company name",
+            "label": "Компания атауы",
             "placeholder": "Plane",
             "validation": {
-              "required": "Company name is required",
-              "maxLength": "Company name should be less than 255 characters"
+              "required": "Компания атауы қажет",
+              "maxLength": "Компания атауы 255 таңбадан аз болуы керек"
             }
           },
           "contact_email": {
-            "label": "Contact email",
+            "label": "Байланыс электрондық поштасы",
             "placeholder": "help@plane.so",
             "validation": {
-              "invalid": "Invalid email address",
-              "maxLength": "Contact email should be less than 255 characters"
+              "invalid": "Жарамсыз электрондық пошта мекенжайы",
+              "maxLength": "Байланыс электрондық поштасы 255 таңбадан аз болуы керек"
             }
           },
           "privacy_policy_url": {
-            "label": "Link to your privacy policy",
+            "label": "Құпиялылық саясатына сілтеме",
             "placeholder": "https://planes.so/privacy-policy",
             "validation": {
-              "invalid": "Invalid URL",
-              "maxLength": "URL should be less than 800 characters"
+              "invalid": "Жарамсыз URL",
+              "maxLength": "URL 800 таңбадан аз болуы керек"
             }
           },
           "terms_of_service_url": {
-            "label": "Link to your terms of use",
+            "label": "Пайдалану шарттарына сілтеме",
             "placeholder": "https://planes.so/terms-of-use",
             "validation": {
-              "invalid": "Invalid URL",
-              "maxLength": "URL should be less than 800 characters"
+              "invalid": "Жарамсыз URL",
+              "maxLength": "URL 800 таңбадан аз болуы керек"
             }
           },
           "cover_image": {
-            "label": "Add a cover image that will be displayed in the marketplace",
-            "upload_title": "Upload cover image",
-            "upload_placeholder": "Click to upload or drag and drop to upload a cover image",
-            "drop_here": "Drop here",
-            "click_to_upload": "Click to upload",
-            "invalid_file_or_exceeds_size_limit": "Invalid file or exceeds size limit. Please try again.",
-            "upload_and_save": "Upload and save",
-            "uploading": "Uploading",
-            "remove": "Remove",
-            "removing": "Removing",
+            "label": "Маркетплейсте көрсетілетін мұқаба суретін қосыңыз",
+            "upload_title": "Мұқаба суретін жүктеу",
+            "upload_placeholder": "Мұқаба суретін жүктеу үшін басыңыз немесе апарып тастаңыз",
+            "drop_here": "Осы жерге тастаңыз",
+            "click_to_upload": "Жүктеу үшін басыңыз",
+            "invalid_file_or_exceeds_size_limit": "Жарамсыз файл немесе өлшем шегінен асады. Қайта көріңіз.",
+            "upload_and_save": "Жүктеу және сақтау",
+            "uploading": "Жүктелуде",
+            "remove": "Жою",
+            "removing": "Жойылуда",
             "validation": {
-              "required": "Cover image is required"
+              "required": "Мұқаба суреті қажет"
             }
           },
           "attach_screenshots": {
-            "label": "Include pictures you think will make viewers of this template.",
+            "label": "Осы үлгінің қараушыларын тартатын суреттерді қосыңыз.",
             "validation": {
-              "required": "At least one screenshot is required"
+              "required": "Кем дегенде бір скриншот қажет"
             }
           }
         }
@@ -226,107 +226,107 @@
     },
     "empty_state": {
       "upgrade": {
-        "title": "Templates",
-        "description": "With project, work-item, and page templates in Plane, you don't have to create a project from scratch or set work item props manually.",
-        "sub_description": "Get 80% of your admin time back when you use Templates."
+        "title": "Үлгілер",
+        "description": "Plane-дегі жоба, тапсырма және бет үлгілерімен жобаны нөлден жасамай немесе тапсырма қасиеттерін қолмен орнатпай-ақ болады.",
+        "sub_description": "Үлгілерді пайдаланып әкімшілік уақытыңыздың 80%-ын қайтарып алыңыз."
       },
       "no_templates": {
-        "button": "Create your first template"
+        "button": "Бірінші үлгіңізді жасаңыз"
       },
       "no_labels": {
-        "description": "No labels yet. Create labels to help organize and filter work items in you project."
+        "description": "Белгілер жоқ. Жобаңыздағы тапсырмаларды ұйымдастыру мен сүзуге көмектесу үшін белгілер жасаңыз."
       },
       "no_modules": {
-        "description": "No modules yet. Organize work into sub-projects with dedicated leads and assignees."
+        "description": "Модульдер жоқ. Жұмысты арнайы жетекшілер мен орындаушылармен бірге ішкі жобаларға ұйымдастырыңыз."
       },
       "no_work_items": {
-        "description": "No work items yet. Add one to structure your work better."
+        "description": "Тапсырмалар жоқ. Жұмысты жақсырақ құрылымдау үшін бір қосыңыз."
       },
       "no_sub_work_items": {
-        "description": "No sub-work items yet. Add one to structure your work better."
+        "description": "Ішкі тапсырмалар жоқ. Жұмысты жақсырақ құрылымдау үшін бір қосыңыз."
       },
       "page": {
         "no_templates": {
-          "title": "There are no templates you have access to.",
-          "description": "Please create a template"
+          "title": "Қолжетімді үлгілер жоқ.",
+          "description": "Үлгі жасаңыз"
         },
         "no_results": {
-          "title": "That didn't match a template.",
-          "description": "Try searching by other terms."
+          "title": "Үлгіге сәйкес келмеді.",
+          "description": "Басқа сөздермен іздеп көріңіз."
         }
       }
     },
     "toasts": {
       "create": {
         "success": {
-          "title": "Template created",
-          "message": "{templateName}, the {templateType} template, is now available for your workspace."
+          "title": "Үлгі жасалды",
+          "message": "{templateName} {templateType} үлгісі жұмыс кеңістігіңізде қолжетімді."
         },
         "error": {
-          "title": "We couldn't create that template this time.",
-          "message": "Try saving your details again or copy them over to a new template, preferably in another tab."
+          "title": "Осы жолы үлгіні жасау мүмкін болмады.",
+          "message": "Деректеріңізді қайта сақтап көріңіз немесе жаңа үлгіге, артықшылықты басқа қойындыда көшіріңіз."
         }
       },
       "update": {
         "success": {
-          "title": "Template changed",
-          "message": "{templateName}, the {templateType} template, was changed."
+          "title": "Үлгі өзгертілді",
+          "message": "{templateName} {templateType} үлгісі өзгертілді."
         },
         "error": {
-          "title": "We couldn't save changes to this template.",
-          "message": "Try saving your details again or come back to this template later. If there's trouble still, reach out to us."
+          "title": "Осы үлгіге өзгерістерді сақтау мүмкін болмады.",
+          "message": "Деректеріңізді қайта сақтап көріңіз немесе кейінірек осы үлгіге оралыңыз. Қиындық болса, бізге хабарласыңыз."
         }
       },
       "delete": {
         "success": {
-          "title": "Template deleted",
-          "message": "{templateName}, the {templateType} template, has now been deleted from your workspace."
+          "title": "Үлгі жойылды",
+          "message": "{templateName} {templateType} үлгісі жұмыс кеңістігіңізден жойылды."
         },
         "error": {
-          "title": "We couldn't delete that template this.",
-          "message": "Try deleting it again or come back to it later. If you can't delete it then, reach out to us."
+          "title": "Осы жолы үлгіні жою мүмкін болмады.",
+          "message": "Қайта жойып көріңіз немесе кейінірек оралыңыз. Жоя алмасаңыз, бізге хабарласыңыз."
         }
       },
       "unpublish": {
         "success": {
-          "title": "Template unpublished",
-          "message": "{templateName}, the {templateType} template, has now been unpublished."
+          "title": "Үлгі жарияланымнан алынды",
+          "message": "{templateName} {templateType} үлгісі жарияланымнан алынды."
         },
         "error": {
-          "title": "We couldn't unpublish that template this.",
-          "message": "Try unpublishing it again or come back to it later. If you can't unpublish it then, reach out to us."
+          "title": "Осы жолы үлгіні жарияланымнан алу мүмкін болмады.",
+          "message": "Қайта алып көріңіз немесе кейінірек оралыңыз. Ала алмасаңыз, бізге хабарласыңыз."
         }
       }
     },
     "delete_confirmation": {
-      "title": "Delete template",
+      "title": "Үлгіні жою",
       "description": {
-        "prefix": "Are you sure you want to delete template-",
-        "suffix": "? All of the data related to the template will be permanently removed. This action cannot be undone."
+        "prefix": "Үлгіні жойғыңыз келетінін растайсыз ба - ",
+        "suffix": "? Үлгіге қатысты барлық деректер біржолата жойылады. Бұл әрекетті қайтару мүмкін емес."
       }
     },
     "unpublish_confirmation": {
-      "title": "Unpublish template",
+      "title": "Үлгіні жарияланымнан алу",
       "description": {
-        "prefix": "Are you sure you want to unpublish template-",
-        "suffix": "? This template will no longer be available to users on the marketplace."
+        "prefix": "Үлгіні жарияланымнан алғыңыз келетінін растайсыз ба - ",
+        "suffix": "? Бұл үлгі маркетплейстегі пайдаланушыларға қол жетімді болмайды."
       }
     },
     "dropdown": {
       "add": {
-        "work_item": "Add new template",
-        "project": "Add new template"
+        "work_item": "Жаңа үлгі қосу",
+        "project": "Жаңа үлгі қосу"
       },
       "label": {
-        "project": "Pick a project template",
-        "page": "Choose from template"
+        "project": "Жоба үлгісін таңдаңыз",
+        "page": "Үлгіден таңдаңыз"
       },
       "tooltip": {
-        "work_item": "Pick a work item template"
+        "work_item": "Тапсырма үлгісін таңдаңыз"
       },
       "no_results": {
-        "work_item": "No templates found.",
-        "project": "No templates found."
+        "work_item": "Үлгілер табылмады.",
+        "project": "Үлгілер табылмады."
       }
     }
   }

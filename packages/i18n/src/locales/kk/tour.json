@@ -2,194 +2,194 @@
   "product_tour": {
     "workitems": {
       "step_zero": {
-        "title": "Welcome to your workspace",
-        "description": "To help you get started, we’ve created a Demo Project for you. Let’s add your first work item."
+        "title": "Жұмыс кеңістігіңізге қош келдіңіз",
+        "description": "Бастауға көмектесу үшін сізге Demo жобасы жасалды. Бірінші тапсырмаңызды қосайық."
       },
       "step_one": {
-        "title": "Click “+ Add work item”",
-        "description": "Start by clicking the “+ New Work Item” button. You can create tasks, bugs, or custom type that fits your needs."
+        "title": "\"+ Тапсырма қосу\" батырмасын басыңыз",
+        "description": "\"+ Жаңа тапсырма\" батырмасын басудан бастаңыз. Тапсырмалар, қателер немесе қажеттіліктеріңізге сай өзгеше түрлер жасауға болады."
       },
       "step_two": {
-        "title": "Filter your work items",
-        "description": "Use filters to quickly narrow down your list. You can filter by status, priority, or team members. "
+        "title": "Тапсырмаларыңызды сүзіңіз",
+        "description": "Тізімді тез тарылту үшін сүзгілерді пайдаланыңыз. Күй, басымдылық немесе топ мүшелері бойынша сүзуге болады."
       },
       "step_three": {
-        "title": "View, group, and order work items as needed.",
-        "description": "See required properties, and group or order work items as per your needs."
+        "title": "Тапсырмаларды қажетінше қараңыз, топтаңыз және реттеңіз.",
+        "description": "Қажетті қасиеттерді қараңыз, тапсырмаларды қажетінше топтаңыз немесе реттеңіз."
       },
       "step_four": {
-        "title": "Visualize however you want",
-        "description": "Select which properties you want to see in the list. You can also group and sort work items your way."
+        "title": "Қалаған түрде визуалдаңыз",
+        "description": "Тізімде қандай қасиеттерді көргіңіз келетінін таңдаңыз. Сонымен қатар тапсырмаларды өзіңіздікі ретінде топтастыру және сұрыптауға болады."
       }
     },
     "cycle": {
       "step_zero": {
-        "title": "Make progress with Cycles",
-        "description": "Press Q to create a Cycle. Name it and set dates—only one cycle per project."
+        "title": "Циклдармен прогреске жетіңіз",
+        "description": "Цикл жасау үшін Q батырмасын басыңыз. Атын беріңіз және күндерді белгілеңіз — жобаға тек бір цикл болады."
       },
       "step_one": {
-        "title": "Create a new cycle",
-        "description": "Press Q to create a Cycle. Name it and set dates—only one cycle per project."
+        "title": "Жаңа цикл жасау",
+        "description": "Цикл жасау үшін Q батырмасын басыңыз. Атын беріңіз және күндерді белгілеңіз — жобаға тек бір цикл болады."
       },
       "step_two": {
-        "title": "Click “+ ”",
-        "description": "Start by clicking the “+” button. Add new or existing work items directly from the Cycle page."
+        "title": "\"+\" батырмасын басыңыз",
+        "description": "\"+\" батырмасын басудан бастаңыз. Цикл бетінен тікелей жаңа немесе бар тапсырмалар қосыңыз."
       },
       "step_three": {
-        "title": "Cycle summary",
-        "description": "Track cycle progress, team productivity, and priorities—and investigate if things fall behind."
+        "title": "Цикл қорытындысы",
+        "description": "Цикл прогресін, команда өнімділігін және басымдылықтарды бақылаңыз — және жұмыс кешіксе тексеріңіз."
       },
       "step_four": {
-        "title": "Transfer work items",
-        "description": "After the due date, a cycle auto-completes. Move unfinished work to another cycle."
+        "title": "Тапсырмаларды тасымалдау",
+        "description": "Мерзім өткеннен кейін цикл автоматты түрде аяқталады. Аяқталмаған жұмыстарды басқа циклге жылжытыңыз."
       }
     },
     "module": {
       "step_zero": {
-        "title": "Break your project down into Modules",
-        "description": "Modules are smaller, focused projects that help users group and organize work items within specific time frames."
+        "title": "Жобаңызды модульдерге бөліңіз",
+        "description": "Модульдер — пайдаланушыларға белгілі уақыт шеңберінде тапсырмаларды топтастыруға және ұйымдастыруға көмектесетін кішірек, бағытталған жобалар."
       },
       "step_one": {
-        "title": "Create Module",
-        "description": "Modules are smaller, focused projects that help users group and organize work items within specific time frames."
+        "title": "Модуль жасау",
+        "description": "Модульдер — пайдаланушыларға белгілі уақыт шеңберінде тапсырмаларды топтастыруға және ұйымдастыруға көмектесетін кішірек, бағытталған жобалар."
       },
       "step_two": {
-        "title": "Click “+ ”",
-        "description": "Start by clicking the “+” button. Add new or existing work items directly from the Module page."
+        "title": "\"+\" батырмасын басыңыз",
+        "description": "\"+\" батырмасын басудан бастаңыз. Модуль бетінен тікелей жаңа немесе бар тапсырмалар қосыңыз."
       },
       "step_three": {
-        "title": "Module states",
-        "description": "Modules use these statuses to help users plan and clearly track progress and stage."
+        "title": "Модуль күйлері",
+        "description": "Модульдер пайдаланушыларға прогресс пен кезеңді жоспарлауға және нақты бақылауға көмектесу үшін осы күйлерді пайдаланады."
       },
       "step_four": {
-        "title": "Module progress",
-        "description": "Module progress is tracked via completed items, with analytics to monitor performance."
+        "title": "Модуль прогресі",
+        "description": "Модуль прогресі аяқталған элементтер арқылы бақыланады, өнімділікті бақылауға арналған аналитикамен."
       }
     },
     "page": {
       "step_zero": {
-        "title": "Document with AI-powered Pages",
-        "description": "Pages in Plane let you capture, organize, and collaborate on project info—no external tools needed."
+        "title": "AI-мен жұмыс жасайтын беттермен құжаттаңыз",
+        "description": "Plane-дегі беттер жоба ақпаратын тіркеуге, ұйымдастыруға және бірлесіп жұмыс жасауға мүмкіндік береді — сыртқы құралдар қажет емес."
       },
       "step_one": {
-        "title": "Make page Public or Private",
-        "description": "Pages can be set as public, visible to everyone in your workspace, or private, accessible only to you."
+        "title": "Бетті Жалпы немесе Жеке етіңіз",
+        "description": "Беттерді жалпы (жұмыс кеңістігіндегі барлығына көрінетін) немесе жеке (тек сізге қолжетімді) етіп орнатуға болады."
       },
       "step_two": {
-        "title": "Use / command",
-        "description": "Use / on a page to add content from 16 block types, including lists, images, tables, and embeds."
+        "title": "/ командасын пайдаланыңыз",
+        "description": "Тізімдер, суреттер, кестелер және ендірулерді қоса 16 блок түрінен мазмұн қосу үшін бетте / пайдаланыңыз."
       },
       "step_three": {
-        "title": "Page actions",
-        "description": "Once your page is created, you can click the ••• menu in the top-right corner to perform the following actions."
+        "title": "Бет әрекеттері",
+        "description": "Бет жасалғаннан кейін төмендегі әрекеттерді орындау үшін жоғарғы оң жақтағы ••• мәзірін басуға болады."
       },
       "step_four": {
-        "title": "Table of contents",
-        "description": "Get a bird’s-eye view of your page by clicking the panel icon to see all headings."
+        "title": "Мазмұн кестесі",
+        "description": "Барлық тақырыптарды көру үшін панель белгішесін басып, бетке жалпы шолу жасаңыз."
       },
       "step_five": {
-        "title": "Version history",
-        "description": "Pages track all edits with version history, letting you restore previous versions if needed."
+        "title": "Нұсқа тарихы",
+        "description": "Беттер нұсқа тарихымен барлық өңдеулерді бақылайды, қажет болса алдыңғы нұсқаларды қалпына келтіруге мүмкіндік береді."
       }
     },
     "intake": {
       "step_zero": {
-        "title": "Streamline requests with intake",
-        "description": "A Plane-only feature that lets Guests create work items for bugs, requests, or tickets."
+        "title": "Кіріс арқылы сұраулардың ретін келтіріңіз",
+        "description": "Тек Plane-де бар мүмкіндік — Қонақтарға қателер, сұраулар немесе тапсырмалар үшін жұмыс элементтерін жасауға мүмкіндік береді."
       },
       "step_one": {
-        "title": "Open/closed intake requests",
-        "description": "Pending requests stay in the Open tab, and once addressed by an admin or member, they move to Closed."
+        "title": "Ашық/жабық кіріс сұраулары",
+        "description": "Күтіп тұрған сұраулар Ашық қойындысында қалады, ал әкімші немесе мүше шешкеннен кейін Жабық бөліміне өтеді."
       },
       "step_two": {
-        "title": "Accept/decline a pending request",
-        "description": "Accept to edit and move the work item to your project, or decline it to mark it as Cancelled."
+        "title": "Күтіп тұрған сұрауды қабылдау/қабылдамау",
+        "description": "Тапсырманы жобаңызға жылжыту үшін қабылдаңыз немесе Жойылды деп белгілеу үшін қабылдамаңыз."
       },
       "step_three": {
-        "title": "Snooze for now",
-        "description": "A work item can be snoozed to review it at a later time. It will be moved to the bottom of your open request list."
+        "title": "Қазіргі уақытқа кейінге қалдыру",
+        "description": "Тапсырманы кейінірек қарау үшін кейінге қалдыруға болады. Ол ашық сұраулар тізімінің соңына жылжытылады."
       }
     },
     "mcp_connectors": {
       "step_zero": {
-        "title": "Stop tab-switching. Connect your world.",
-        "description": "Link GitHub, Slack to track PRs and summarize chats directly in Plane AI."
+        "title": "Қойындылар арасын ауыстыруды тоқтатыңыз. Әлеміңізді байланыстырыңыз.",
+        "description": "GitHub, Slack-ті байланыстырып, PR-лерді бақылаңыз және чаттарды тікелей Plane AI-да қорытындылаңыз."
       }
     },
     "navigation": {
       "modal": {
-        "title": "Navigation, re-imagined",
-        "sub_title": "Your workspace is now easier to explore with a smarter, simplified navigation.",
-        "highlight_1": "Streamlined left-panel structure for quicker discovery",
-        "highlight_2": "Improved global search to jump to anything instantly",
-        "highlight_3": "Smarter category grouping for clarity and focus",
-        "footer": "Want a quick walkthrough?"
+        "title": "Навигация, қайта ойластырылған",
+        "sub_title": "Жұмыс кеңістігіңізді зерттеу енді ақылды, жеңілдетілген навигациямен оңайырақ.",
+        "highlight_1": "Тезірек табу үшін сол тақта құрылымы жеңілдетілді",
+        "highlight_2": "Кез келген нәрсеге тез өту үшін жетілдірілген жаһандық іздеу",
+        "highlight_3": "Анықтық пен назар үшін ақылды санат топтастыруы",
+        "footer": "Жылдам шолу керек пе?"
       },
       "step_zero": {
-        "title": "Find anything instantly",
-        "description": "Use universal search to jump to tasks, projects, pages, and people—without leaving your flow."
+        "title": "Кез келген нәрсені тез табыңыз",
+        "description": "Жаһандық іздеуді пайдаланып тапсырмаларға, жобаларға, беттерге және адамдарға — ағынды бұзбай өтіңіз."
       },
       "step_one": {
-        "title": "Stay in control of updates",
-        "description": "Your inbox keeps all mentions, approvals, and activity in one place, so you never miss important work."
+        "title": "Жаңартулардан хабардар болыңыз",
+        "description": "Кіріс жәшігіңіз барлық аталымдарды, бекітулерді және белсенділіктерді бір жерде ұстайды, сондықтан маңызды жұмыстарды ешқашан жіберіп алмайсыз."
       },
       "step_two": {
-        "title": "Personalize Your Navigation",
-        "description": "Customize what you see and how you navigate in Preferences."
+        "title": "Навигацияңызды жекелендіріңіз",
+        "description": "Параметрлерде нені көретіңізді және қалай шарлайтыныңызды реттеңіз."
       }
     },
     "actions": {
-      "close": "Close",
-      "next": "Next",
-      "back": "Back",
-      "done": "Done",
-      "take_a_tour": "Take a tour",
-      "get_started": "Get started",
-      "got_it": "Got it"
+      "close": "Жабу",
+      "next": "Келесі",
+      "back": "Артқа",
+      "done": "Дайын",
+      "take_a_tour": "Шолу жасау",
+      "get_started": "Бастау",
+      "got_it": "Түсіндім"
     },
     "seed_data": {
-      "title": "Here is your demo project",
-      "description": "Projects let you manage your teams, tasks, and everything you need to get things done within your workspace."
+      "title": "Міне, сіздің демо жобаңыз",
+      "description": "Жобалар жұмыс кеңістігіңіздегі командаларды, тапсырмаларды және жұмыстарды орындауға қажетті барлығын басқаруға мүмкіндік береді."
     }
   },
   "get_started": {
-    "title": "Hey {name}, welcome aboard!",
-    "description": "Here’s everything you need to kickstart your journey with Plane.",
+    "title": "Сәлем {name}, қош келдіңіз!",
+    "description": "Plane-мен жолыңызды бастауға қажеттінің барлығы осы жерде.",
     "checklist_section": {
-      "title": "Get started",
-      "description": "Begin your setup and see your ideas come to life faster.",
+      "title": "Бастау",
+      "description": "Орнатуды бастаңыз және идеяларыңыздың тезірек жүзеге асқанын қараңыз.",
       "checklist_items": {
         "item_1": {
-          "title": "Create a project"
+          "title": "Жоба жасау"
         },
         "item_2": {
-          "title": "Create a work item"
+          "title": "Тапсырма жасау"
         },
         "item_3": {
-          "title": "Invite team members"
+          "title": "Топ мүшелерін шақыру"
         },
         "item_4": {
-          "title": "Create a page"
+          "title": "Бет жасау"
         },
         "item_5": {
-          "title": "Try Plane AI chat"
+          "title": "Plane AI чатын байқап көру"
         },
         "item_6": {
-          "title": "Link Integrations"
+          "title": "Интеграцияларды байланыстыру"
         }
       }
     },
     "team_section": {
-      "title": "Invite your team",
-      "description": "Invite teammates and start building together."
+      "title": "Топыңызды шақыру",
+      "description": "Топ мүшелерін шақырып, бірге жасай бастаңыз."
     },
     "integrations_section": {
-      "title": "Power up your workspace",
-      "more_integrations": "Browse more integrations"
+      "title": "Жұмыс кеңістігіңізді күшейтіңіз",
+      "more_integrations": "Қосымша интеграцияларды қарау"
     },
     "switch_to_plane_section": {
-      "title": "Discover why teams switch to Plane",
-      "description": "Compare Plane with the tools you use today and see the difference."
+      "title": "Командалардың неліктен Plane-ге ауысатынын біліңіз",
+      "description": "Plane-ді бүгін пайдаланатын құралдарыңызбен салыстырып, айырмашылықты қараңыз."
     }
   }
 }

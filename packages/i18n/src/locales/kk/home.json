@@ -1,77 +1,77 @@
 {
   "home": {
     "empty": {
-      "quickstart_guide": "Your quickstart guide",
-      "not_right_now": "Not right now",
+      "quickstart_guide": "Жылдам бастау нұсқаулығы",
+      "not_right_now": "Қазір емес",
       "create_project": {
-        "title": "Create a project",
-        "description": "Most things start with a project in Plane.",
-        "cta": "Get started"
+        "title": "Жоба жасаңыз",
+        "description": "Plane-де барлығы жобадан басталады.",
+        "cta": "Бастау"
       },
       "invite_team": {
-        "title": "Invite your team",
-        "description": "Build, ship, and manage with coworkers.",
-        "cta": "Get them in"
+        "title": "Топыңызды шақырыңыз",
+        "description": "Әріптестермен бірге жасаңыз, жеткізіңіз және басқарыңыз.",
+        "cta": "Оларды шақыру"
       },
       "configure_workspace": {
-        "title": "Set up your workspace.",
-        "description": "Turn features on or off or go beyond that.",
-        "cta": "Configure this workspace"
+        "title": "Жұмыс кеңістігіңізді баптаңыз.",
+        "description": "Мүмкіндіктерді қосыңыз немесе өшіріңіз немесе одан да әрі кеңейтіңіз.",
+        "cta": "Осы жұмыс кеңістігін баптау"
       },
       "personalize_account": {
-        "title": "Make Plane yours.",
-        "description": "Choose your picture, colors, and more.",
-        "cta": "Personalize now"
+        "title": "Plane-ді өзіңіздікі етіңіз.",
+        "description": "Суретіңізді, түстеріңізді және басқаны таңдаңыз.",
+        "cta": "Қазір жекелендіру"
       },
       "widgets": {
-        "title": "It's Quiet Without Widgets, Turn Them On",
-        "description": "It looks like all your widgets are turned off. Enable them\nnow to enhance your experience!",
+        "title": "Виджетсіз тым тыныш, оларды қосыңыз",
+        "description": "Барлық виджеттер өшірілген сияқты. Тәжірибеңізді жақсарту үшін\nоларды қазір қосыңыз!",
         "primary_button": {
-          "text": "Manage widgets"
+          "text": "Виджеттерді басқару"
         }
       }
     },
     "quick_links": {
-      "empty": "Save links to work things that you'd like handy.",
-      "add": "Add quick Link",
-      "title": "Quicklink",
-      "title_plural": "Quicklinks"
+      "empty": "Жиі пайдаланатын жұмыс сілтемелерін сақтаңыз.",
+      "add": "Жылдам сілтеме қосу",
+      "title": "Жылдам сілтеме",
+      "title_plural": "Жылдам сілтемелер"
     },
     "recents": {
-      "title": "Recents",
+      "title": "Жақындағылар",
       "empty": {
-        "project": "Your recent projects will appear here once you visit one.",
-        "page": "Your recent pages will appear here once you visit one.",
-        "issue": "Your recent work items will appear here once you visit one.",
-        "default": "You don't have any recents yet."
+        "project": "Жоба ашқаннан кейін жақындағы жобаларыңыз осы жерде пайда болады.",
+        "page": "Бет ашқаннан кейін жақындағы беттеріңіз осы жерде пайда болады.",
+        "issue": "Тапсырма ашқаннан кейін жақындағы тапсырмаларыңыз осы жерде пайда болады.",
+        "default": "Әлі жақындағылар жоқ."
       },
       "filters": {
-        "all": "All",
-        "projects": "Projects",
-        "pages": "Pages",
-        "issues": "Work items"
+        "all": "Барлығы",
+        "projects": "Жобалар",
+        "pages": "Беттер",
+        "issues": "Тапсырмалар"
       }
     },
     "new_at_plane": {
-      "title": "New at Plane"
+      "title": "Plane-де жаңа"
     },
     "quick_tutorial": {
-      "title": "Quick tutorial"
+      "title": "Жылдам оқу"
     },
     "widget": {
-      "reordered_successfully": "Widget reordered successfully.",
-      "reordering_failed": "Error occurred while reordering widget."
+      "reordered_successfully": "Виджет ретімен орналасты.",
+      "reordering_failed": "Виджетті ретке келтіру кезінде қате пайда болды."
     },
-    "manage_widgets": "Manage widgets",
-    "title": "Home",
-    "star_us_on_github": "Star us on GitHub",
+    "manage_widgets": "Виджеттерді басқару",
+    "title": "Басты бет",
+    "star_us_on_github": "GitHub-та жұлдыз беріңіз",
     "business_trial_banner": {
-      "title": "Your 14-day Business plan trial is live!",
-      "description": "Explore all Business features. When you're ready, choose to subscribe. You'll not be billed automatically.",
-      "trial_ends_today": "Trial ends today",
-      "trial_ends_in_days": "Trial ends in {days, plural, one {# day} other {# days}}",
-      "start_subscription": "Start subscription",
-      "explore_business_features": "Explore Business features"
+      "title": "14 күндік Business жоспары сынақ мерзімі белсенді!",
+      "description": "Барлық Business мүмкіндіктерін зерттеңіз. Дайын болғанда жазылуды таңдаңыз. Автоматты төлем алынбайды.",
+      "trial_ends_today": "Сынақ мерзімі бүгін аяқталады",
+      "trial_ends_in_days": "Сынақ мерзімі {days, plural, one {# күннен} other {# күннен}} кейін аяқталады",
+      "start_subscription": "Жазылуды бастау",
+      "explore_business_features": "Business мүмкіндіктерін зерттеу"
     }
   }
 }

@@ -1,98 +1,98 @@
 {
   "workflows": {
     "workflow_states": {
-      "work_item_creation": "Allow new work items",
-      "work_item_creation_disable_tooltip": "Work item creation is disabled for this state",
-      "default_state": "Default state lets all members create new work items. This can't be changed",
-      "state_change_count": "{count, plural, one {1 permitted state change} other {{count} permitted state changes}}",
-      "movers_count": "{count, plural, one {1 listed reviewer} other {{count} listed reviewers}}",
+      "work_item_creation": "Жаңа тапсырмаларға рұқсат беру",
+      "work_item_creation_disable_tooltip": "Бұл күй үшін тапсырма жасау өшірілген",
+      "default_state": "Бастапқы күй барлық мүшелерге жаңа тапсырмалар жасауға мүмкіндік береді. Мұны өзгерту мүмкін емес",
+      "state_change_count": "{count, plural, one {1 рұқсат етілген күй өзгерісі} other {{count} рұқсат етілген күй өзгерісі}}",
+      "movers_count": "{count, plural, one {1 тізімдегі рецензент} other {{count} тізімдегі рецензент}}",
       "state_changes": {
         "label": {
-          "default": "Add permitted state change",
-          "loading": "Adding permitted state change"
+          "default": "Рұқсат етілген күй өзгерісін қосу",
+          "loading": "Рұқсат етілген күй өзгерісі қосылуда"
         },
-        "move_to": "Change state to",
+        "move_to": "Күйді өзгерту",
         "movers": {
-          "label": "When reviewed by",
-          "tooltip": "Reviewers are people who are permitted to move work items from one state to another.",
-          "add": "Add reviewers"
+          "label": "Рецензент арқылы",
+          "tooltip": "Рецензенттер — тапсырмаларды бір күйден екіншісіне жылжытуға рұқсаты бар адамдар.",
+          "add": "Рецензенттер қосу"
         }
       }
     },
     "workflow_disabled": {
-      "title": "You can't move this work item here."
+      "title": "Тапсырманы осы жерге жылжыту мүмкін емес."
     },
     "workflow_enabled": {
-      "label": "State change"
+      "label": "Күй өзгерісі"
     },
     "workflow_tree": {
-      "label": "For work items in",
-      "state_change_label": "can move it to"
+      "label": "Мынадағы тапсырмалар үшін",
+      "state_change_label": "жылжыта алады"
     },
     "empty_state": {
       "upgrade": {
-        "title": "Control the chaos of changes and reviews with Workflows.",
-        "description": "Set rules for where your work moves, by who, and when with Workflows in Plane."
+        "title": "Workflow арқылы өзгерістер мен рецензиялар хаосын бақылаңыз.",
+        "description": "Plane-дегі Workflow арқылы жұмысыңыздың қай жерге, кімге және қашан жылжитынын ережелермен белгілеңіз."
       }
     },
     "quick_actions": {
-      "view_change_history": "View change history",
-      "reset_workflow": "Reset workflow"
+      "view_change_history": "Өзгерістер тарихын қарау",
+      "reset_workflow": "Workflow-ды қалпына келтіру"
     },
     "confirmation_modals": {
       "reset_workflow": {
-        "title": "Are you sure you want to reset this workflow?",
-        "description": "If you reset this workflow, all your state-change rules will be deleted and you will have to create them again to run them for this project."
+        "title": "Осы workflow-ды қалпына келтіргіңіз келетінін растайсыз ба?",
+        "description": "Workflow-ды қалпына келтірсеңіз, барлық күй өзгерісі ережелері жойылады және осы жоба үшін іске қосу үшін оларды қайта жасауыңыз керек болады."
       },
       "delete_state_change": {
-        "title": "Are you sure you want to delete this state-change rule?",
-        "description": "Once deleted, you can't undo this change and you will have to set the rule again if you want it running for this project."
+        "title": "Осы күй өзгерісі ережесін жойғыңыз келетінін растайсыз ба?",
+        "description": "Жойылғаннан кейін бұл өзгерісті қайтара алмайсыз және осы жоба үшін іске қосу үшін ережені қайта орнатуыңыз керек болады."
       }
     },
     "toasts": {
       "enable_disable": {
-        "loading": "{action} workflow",
+        "loading": "Workflow {action}",
         "success": {
-          "title": "Success",
-          "message": "Workflow {action} successfully"
+          "title": "Сәтті",
+          "message": "Workflow {action} сәтті аяқталды"
         },
         "error": {
-          "title": "Error",
-          "message": "Workflow could not be {action}. Please try again."
+          "title": "Қате",
+          "message": "Workflow {action} болмады. Қайта көріңіз."
         }
       },
       "reset": {
         "success": {
-          "title": "Success",
-          "message": "Workflow reset successfully"
+          "title": "Сәтті",
+          "message": "Workflow сәтті қалпына келтірілді"
         },
         "error": {
-          "title": "Error resetting workflow",
-          "message": "Workflow could not be reset. Please try again."
+          "title": "Workflow-ды қалпына келтіру қатесі",
+          "message": "Workflow-ды қалпына келтіру мүмкін болмады. Қайта көріңіз."
         }
       },
       "add_state_change_rule": {
         "error": {
-          "title": "Error adding state change rule",
-          "message": "State change rule could not be added. Please try again."
+          "title": "Күй өзгерісі ережесін қосу қатесі",
+          "message": "Күй өзгерісі ережесін қосу мүмкін болмады. Қайта көріңіз."
         }
       },
       "modify_state_change_rule": {
         "error": {
-          "title": "Error modifying state change rule",
-          "message": "State change rule could not be modified. Please try again."
+          "title": "Күй өзгерісі ережесін өзгерту қатесі",
+          "message": "Күй өзгерісі ережесін өзгерту мүмкін болмады. Қайта көріңіз."
         }
       },
       "remove_state_change_rule": {
         "error": {
-          "title": "Error removing state change rule",
-          "message": "State change rule could not be removed. Please try again."
+          "title": "Күй өзгерісі ережесін жою қатесі",
+          "message": "Күй өзгерісі ережесін жою мүмкін болмады. Қайта көріңіз."
         }
       },
       "modify_state_change_rule_movers": {
         "error": {
-          "title": "Error modifying state change rule reviewers",
-          "message": "State change rule reviewers could not be modified. Please try again."
+          "title": "Күй өзгерісі ережесі рецензенттерін өзгерту қатесі",
+          "message": "Күй өзгерісі ережесі рецензенттерін өзгерту мүмкін болмады. Қайта көріңіз."
         }
       }
     }

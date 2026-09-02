@@ -2,154 +2,154 @@
   "account_settings": {
     "profile": {
       "change_email_modal": {
-        "title": "Change email",
-        "description": "Enter a new email address to receive a verification link.",
+        "title": "Электрондық поштаны өзгерту",
+        "description": "Тексеру сілтемесін алу үшін жаңа электрондық пошта мекенжайын енгізіңіз.",
         "toasts": {
-          "success_title": "Success!",
-          "success_message": "Email updated successfully. Please sign in again."
+          "success_title": "Сәтті!",
+          "success_message": "Электрондық пошта сәтті жаңартылды. Қайта кіріңіз."
         },
         "form": {
           "email": {
-            "label": "New email",
-            "placeholder": "Enter your email",
+            "label": "Жаңа электрондық пошта",
+            "placeholder": "Электрондық поштаңызды енгізіңіз",
             "errors": {
-              "required": "Email is required",
-              "invalid": "Email is invalid",
-              "exists": "Email already exists. Please use a different one.",
-              "validation_failed": "Email validation failed. Please try again."
+              "required": "Электрондық пошта қажет",
+              "invalid": "Электрондық пошта жарамсыз",
+              "exists": "Электрондық пошта бұрыннан бар. Басқасын пайдаланыңыз.",
+              "validation_failed": "Электрондық поштаны тексеру сәтсіз аяқталды. Қайта көріңіз."
             }
           },
           "code": {
-            "label": "Unique code",
+            "label": "Бірегей код",
             "placeholder": "123456",
-            "helper_text": "Verification code sent to your new email.",
+            "helper_text": "Жаңа электрондық поштаңызға тексеру коды жіберілді.",
             "errors": {
-              "required": "Unique code is required",
-              "invalid": "Invalid verification code. Please try again."
+              "required": "Бірегей код қажет",
+              "invalid": "Жарамсыз тексеру коды. Қайта көріңіз."
             }
           }
         },
         "actions": {
-          "continue": "Continue",
-          "confirm": "Confirm",
-          "cancel": "Cancel"
+          "continue": "Жалғастыру",
+          "confirm": "Растау",
+          "cancel": "Болдырмау"
         },
         "states": {
-          "sending": "Sending"
+          "sending": "Жіберілуде"
         }
       }
     },
     "preferences": {
-      "heading": "Preferences",
-      "description": "Customize your app experience the way you work"
+      "heading": "Артықшылықтар",
+      "description": "Қолданбаны өзіңіздің жұмыс стиліңізге сай реттеңіз"
     },
     "notifications": {
-      "heading": "Email notifications",
-      "description": "Stay in the loop on Work items you are subscribed to. Enable this to get notified.",
-      "select_default_view": "Select default view",
-      "compact": "Compact",
-      "full": "Full Screen"
+      "heading": "Электрондық пошта хабарландырулары",
+      "description": "Жазылған тапсырмалардан хабардар болыңыз. Хабарланым алу үшін қосыңыз.",
+      "select_default_view": "Әдепкі көріністі таңдаңыз",
+      "compact": "Ықшам",
+      "full": "Толық экран"
     },
     "security": {
-      "heading": "Security"
+      "heading": "Қауіпсіздік"
     },
     "api_tokens": {
-      "title": "Personal Access Tokens",
-      "description": "Generate secure API tokens to integrate your data with external systems and applications."
+      "title": "Жеке кіру таңбалауыштары",
+      "description": "Деректеріңізді сыртқы жүйелер мен қолданбалармен біріктіру үшін қауіпсіз API таңбалауыштарын жасаңыз."
     },
     "activity": {
-      "heading": "Activity",
-      "description": "Track your recent actions and changes across all projects and work items."
+      "heading": "Белсенділік",
+      "description": "Барлық жобалар мен тапсырмалардағы жақындағы әрекеттер мен өзгерістерді бақылаңыз."
     },
     "connections": {
-      "title": "Connections",
-      "heading": "Connections",
-      "description": "Manage your workspace connections settings."
+      "title": "Байланыстар",
+      "heading": "Байланыстар",
+      "description": "Жұмыс кеңістігі байланыстары параметрлерін басқарыңыз."
     }
   },
   "profile": {
-    "label": "Profile",
-    "page_label": "Your work",
-    "work": "Work",
+    "label": "Профиль",
+    "page_label": "Жұмыстарым",
+    "work": "Жұмыс",
     "details": {
-      "joined_on": "Joined on",
-      "time_zone": "Timezone"
+      "joined_on": "Қосылған күн",
+      "time_zone": "Уақыт белдеуі"
     },
     "stats": {
-      "workload": "Workload",
-      "overview": "Overview",
-      "created": "Work items created",
-      "assigned": "Work items assigned",
-      "subscribed": "Work items subscribed",
+      "workload": "Жүктеме",
+      "overview": "Шолу",
+      "created": "Жасалған тапсырмалар",
+      "assigned": "Тағайындалған тапсырмалар",
+      "subscribed": "Жазылған тапсырмалар",
       "state_distribution": {
-        "title": "Work items by state",
-        "empty": "Create work items to view the them by states in the graph for better analysis."
+        "title": "Күй бойынша тапсырмалар",
+        "empty": "Жақсырақ талдау үшін күйлер бойынша диаграммада тапсырмаларды қарау үшін тапсырмалар жасаңыз."
       },
       "priority_distribution": {
-        "title": "Work items by Priority",
-        "empty": "Create work items to view the them by priority in the graph for better analysis."
+        "title": "Басымдылық бойынша тапсырмалар",
+        "empty": "Жақсырақ талдау үшін басымдылық бойынша диаграммада тапсырмаларды қарау үшін тапсырмалар жасаңыз."
       },
       "recent_activity": {
-        "title": "Recent activity",
-        "empty": "We couldn't find data. Kindly view your inputs",
-        "button": "Download today's activity",
-        "button_loading": "Downloading"
+        "title": "Жақындағы белсенділік",
+        "empty": "Деректер табылмады. Кірістеріңізді қараңыз",
+        "button": "Бүгінгі белсенділікті жүктеу",
+        "button_loading": "Жүктелуде"
       }
     },
     "actions": {
-      "profile": "Profile",
-      "security": "Security",
-      "activity": "Activity",
-      "preferences": "Preferences",
-      "notifications": "Notifications",
-      "api-tokens": "Personal Access Tokens",
-      "connections": "Connections"
+      "profile": "Профиль",
+      "security": "Қауіпсіздік",
+      "activity": "Белсенділік",
+      "preferences": "Артықшылықтар",
+      "notifications": "Хабарландырулар",
+      "api-tokens": "Жеке кіру таңбалауыштары",
+      "connections": "Байланыстар"
     },
     "tabs": {
-      "summary": "Summary",
-      "assigned": "Assigned",
-      "created": "Created",
-      "subscribed": "Subscribed",
-      "activity": "Activity"
+      "summary": "Қорытынды",
+      "assigned": "Тағайындалған",
+      "created": "Жасалған",
+      "subscribed": "Жазылған",
+      "activity": "Белсенділік"
     },
     "empty_state": {
       "activity": {
-        "title": "No activities yet",
-        "description": "Get started by creating a new work item! Add details and properties to it. Explore more in Plane to see your activity."
+        "title": "Белсенділіктер жоқ",
+        "description": "Жаңа тапсырма жасаудан бастаңыз! Оған мәліметтер мен қасиеттер қосыңыз. Белсенділікті көру үшін Plane-де көбірек зерттеңіз."
       },
       "assigned": {
-        "title": "No work items are assigned to you",
-        "description": "Work items assigned to you can be tracked from here."
+        "title": "Сізге тағайындалған тапсырмалар жоқ",
+        "description": "Сізге тағайындалған тапсырмаларды осы жерден бақылауға болады."
       },
       "created": {
-        "title": "No work items yet",
-        "description": "All work items created by you come here, track them here directly."
+        "title": "Тапсырмалар жоқ",
+        "description": "Сіз жасаған барлық тапсырмалар осы жерге келеді, оларды тікелей бақылаңыз."
       },
       "subscribed": {
-        "title": "No work items yet",
-        "description": "Subscribe to work items you are interested in, track all of them here."
+        "title": "Тапсырмалар жоқ",
+        "description": "Қызыққан тапсырмаларға жазылып, барлығын осы жерден бақылаңыз."
       }
     }
   },
   "themes": {
     "theme_options": {
       "system_preference": {
-        "label": "System preference"
+        "label": "Жүйе параметрі"
       },
       "light": {
-        "label": "Light"
+        "label": "Ашық"
       },
       "dark": {
-        "label": "Dark"
+        "label": "Қараңғы"
       },
       "light_contrast": {
-        "label": "Light high contrast"
+        "label": "Жоғары контрастты ашық"
       },
       "dark_contrast": {
-        "label": "Dark high contrast"
+        "label": "Жоғары контрастты қараңғы"
       },
       "custom": {
-        "label": "Custom theme"
+        "label": "Арнайы тақырып"
       }
     }
   }

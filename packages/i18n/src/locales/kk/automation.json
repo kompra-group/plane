@@ -1,270 +1,270 @@
 {
   "automations": {
     "settings": {
-      "title": "Custom automations",
-      "create_automation": "Create automation"
+      "title": "Арнайы автоматтандырулар",
+      "create_automation": "Автоматтандыру жасау"
     },
     "scope": {
-      "label": "Scope",
-      "run_on": "Run on"
+      "label": "Ауқым",
+      "run_on": "Іске қосу"
     },
     "trigger": {
-      "label": "Trigger",
-      "add_trigger": "Add trigger",
-      "sidebar_header": "Trigger configuration",
-      "input_label": "What’s the trigger for this automation?",
-      "input_placeholder": "Select an option",
-      "section_plane_events": "Plane events",
-      "section_time_based": "Time based",
-      "fixed_schedule": "Fixed schedule",
+      "label": "Триггер",
+      "add_trigger": "Триггер қосу",
+      "sidebar_header": "Триггер конфигурациясы",
+      "input_label": "Осы автоматтандырудың триггері не?",
+      "input_placeholder": "Опция таңдаңыз",
+      "section_plane_events": "Plane оқиғалары",
+      "section_time_based": "Уақытқа негізделген",
+      "fixed_schedule": "Тіркелген кесте",
       "schedule": {
-        "frequency": "Frequency",
-        "select_day": "Select day",
-        "day_of_month": "Day of month",
-        "monthly_every": "Every",
-        "monthly_day_aria": "Day {day}",
-        "time": "Time",
-        "hour": "Hour",
-        "minute": "Minute",
-        "hour_suffix": "hr",
-        "minute_suffix": "min",
-        "am": "AM",
-        "pm": "PM",
-        "timezone": "Timezone",
-        "timezone_placeholder": "Select a timezone",
-        "frequency_daily": "Daily",
-        "frequency_weekly": "Weekly",
-        "frequency_monthly": "Monthly",
-        "on": "On",
-        "validation_weekly_day_required": "Select at least one day of the week.",
-        "validation_monthly_date_required": "Select a day of the month.",
-        "main_content_schedule_summary_daily": "Every day at {time} ({timezone}).",
-        "main_content_schedule_summary_weekly": "Every week on {days} at {time} ({timezone}).",
-        "main_content_schedule_summary_monthly": "Every month on day {day} at {time} ({timezone}).",
-        "schedule_mode": "Schedule mode",
-        "schedule_mode_fixed": "Fixed",
+        "frequency": "Жиілік",
+        "select_day": "Күнді таңдаңыз",
+        "day_of_month": "Айдың күні",
+        "monthly_every": "Сайын",
+        "monthly_day_aria": "{day} күн",
+        "time": "Уақыт",
+        "hour": "Сағат",
+        "minute": "Минут",
+        "hour_suffix": "сағ",
+        "minute_suffix": "мин",
+        "am": "ТД",
+        "pm": "ТК",
+        "timezone": "Уақыт белдеуі",
+        "timezone_placeholder": "Уақыт белдеуін таңдаңыз",
+        "frequency_daily": "Күнделікті",
+        "frequency_weekly": "Апталық",
+        "frequency_monthly": "Айлық",
+        "on": "Күні",
+        "validation_weekly_day_required": "Аптаның кем дегенде бір күнін таңдаңыз.",
+        "validation_monthly_date_required": "Айдың күнін таңдаңыз.",
+        "main_content_schedule_summary_daily": "Күн сайын {time} ({timezone}) сағатта.",
+        "main_content_schedule_summary_weekly": "Апта сайын {days} күні {time} ({timezone}) сағатта.",
+        "main_content_schedule_summary_monthly": "Ай сайын {day} күні {time} ({timezone}) сағатта.",
+        "schedule_mode": "Кесте режимі",
+        "schedule_mode_fixed": "Тіркелген",
         "schedule_mode_cron": "Cron",
-        "cron_expression_label": "Enter Cron expression",
+        "cron_expression_label": "Cron өрнегін енгізіңіз",
         "cron_expression_placeholder": "0 9 * * 1-5",
-        "cron_invalid": "Invalid cron expression.",
-        "cron_preview": "This Cron expression runs \"{description}\".",
+        "cron_invalid": "Жарамсыз cron өрнегі.",
+        "cron_preview": "Бұл Cron өрнегі \"{description}\" іске қосады.",
         "main_content_cron_summary": "{description} ({timezone})."
       },
       "button": {
-        "previous": "Back",
-        "next": "Add action"
+        "previous": "Артқа",
+        "next": "Әрекет қосу"
       },
       "warning": {
-        "disabled_trigger_switching": "You can't change the trigger type once created"
+        "disabled_trigger_switching": "Жасалғаннан кейін триггер түрін өзгерту мүмкін емес"
       }
     },
     "condition": {
-      "label": "Provided",
-      "add_condition": "Add condition",
-      "adding_condition": "Adding condition"
+      "label": "Берілген",
+      "add_condition": "Шарт қосу",
+      "adding_condition": "Шарт қосылуда"
     },
     "action": {
-      "label": "Action",
-      "add_action": "Add action",
-      "sidebar_header": "Actions",
-      "input_label": "What does the automation do?",
-      "input_placeholder": "Select an option",
+      "label": "Әрекет",
+      "add_action": "Әрекет қосу",
+      "sidebar_header": "Әрекеттер",
+      "input_label": "Автоматтандыру не жасайды?",
+      "input_placeholder": "Опция таңдаңыз",
       "handler_name": {
-        "add_comment": "Add comment",
-        "change_property": "Change property",
-        "run_script": "Run Script"
+        "add_comment": "Пікір қосу",
+        "change_property": "Қасиетті өзгерту",
+        "run_script": "Скрипт іске қосу"
       },
       "configuration": {
-        "label": "Configuration",
+        "label": "Конфигурация",
         "change_property": {
           "placeholders": {
-            "property_name": "Select a property",
-            "change_type": "Select",
-            "property_value_select": "{count, plural, one{Select value} other{Select values}}",
-            "property_value_select_date": "Select date"
+            "property_name": "Қасиет таңдаңыз",
+            "change_type": "Таңдаңыз",
+            "property_value_select": "{count, plural, one{Мән таңдаңыз} other{Мәндер таңдаңыз}}",
+            "property_value_select_date": "Күн таңдаңыз"
           },
           "validation": {
-            "property_name_required": "Property name is required",
-            "change_type_required": "Change type is required",
-            "property_value_required": "Property value is required"
+            "property_name_required": "Қасиет атауы қажет",
+            "change_type_required": "Өзгерту түрі қажет",
+            "property_value_required": "Қасиет мәні қажет"
           }
         }
       },
       "comment_block": {
-        "title": "Add comment"
+        "title": "Пікір қосу"
       },
       "run_script_block": {
-        "title": "Run script"
+        "title": "Скрипт іске қосу"
       },
       "change_property_block": {
-        "title": "Change property"
+        "title": "Қасиетті өзгерту"
       },
       "validation": {
-        "delete_only_action": "Disable the automation before deleting its only action."
+        "delete_only_action": "Жалғыз әрекетті жоймас бұрын автоматтандыруды өшіріңіз."
       }
     },
     "conjunctions": {
-      "and": "And",
-      "or": "Or",
-      "if": "If",
-      "then": "Then"
+      "and": "Және",
+      "or": "Немесе",
+      "if": "Егер",
+      "then": "Онда"
     },
     "enable": {
-      "alert": "Hit 'Enable' whenever your automation is complete. Once enabled, the automation will be ready to run.",
+      "alert": "Автоматтандыруыңыз дайын болғанда «Қосу» батырмасын басыңыз. Қосылғаннан кейін автоматтандыру іске қосылуға дайын болады.",
       "validation": {
-        "required": "Automation must have a trigger and at least one action to be enabled."
+        "required": "Автоматтандыруды қосу үшін триггер және кем дегенде бір әрекет болуы керек."
       }
     },
     "delete": {
       "validation": {
-        "enabled": "Automation must be disabled before deleting it."
+        "enabled": "Жоймас бұрын автоматтандыруды өшіру қажет."
       }
     },
     "table": {
-      "title": "Automation title",
-      "scope": "Scope",
-      "projects": "Projects",
-      "last_run_on": "Last run on",
-      "created_on": "Created on",
-      "last_updated_on": "Last updated on",
-      "last_run_status": "Last run status",
-      "average_duration": "Average duration",
-      "owner": "Owner",
-      "executions": "Executions"
+      "title": "Автоматтандыру тақырыбы",
+      "scope": "Ауқым",
+      "projects": "Жобалар",
+      "last_run_on": "Соңғы іске қосу",
+      "created_on": "Жасалған күн",
+      "last_updated_on": "Соңғы жаңарту",
+      "last_run_status": "Соңғы іске қосу күйі",
+      "average_duration": "Орташа ұзақтық",
+      "owner": "Иесі",
+      "executions": "Орындалулар"
     },
     "create_modal": {
       "heading": {
-        "create": "Create automation",
-        "update": "Update automation"
+        "create": "Автоматтандыру жасау",
+        "update": "Автоматтандыруды жаңарту"
       },
       "title": {
-        "placeholder": "Name your automation.",
-        "required_error": "Title is required"
+        "placeholder": "Автоматтандыруыңызға ат беріңіз.",
+        "required_error": "Тақырып қажет"
       },
       "description": {
-        "placeholder": "Describe your automation."
+        "placeholder": "Автоматтандыруыңызды сипаттаңыз."
       },
       "submit_button": {
-        "create": "Create automation",
-        "update": "Update automation"
+        "create": "Автоматтандыру жасау",
+        "update": "Автоматтандыруды жаңарту"
       }
     },
     "delete_modal": {
-      "heading": "Delete automation"
+      "heading": "Автоматтандыруды жою"
     },
     "activity": {
       "filters": {
-        "show_fails": "Show fails",
-        "all": "All",
-        "only_activity": "Only activity",
-        "only_run_history": "Only run history"
+        "show_fails": "Сәтсіздіктерді көрсету",
+        "all": "Барлығы",
+        "only_activity": "Тек белсенділік",
+        "only_run_history": "Тек іске қосу тарихы"
       },
       "run_history": {
-        "initiator": "Initiator"
+        "initiator": "Бастаушы"
       }
     },
     "toasts": {
       "create": {
         "success": {
-          "title": "Success!",
-          "message": "Automation created successfully."
+          "title": "Сәтті!",
+          "message": "Автоматтандыру сәтті жасалды."
         },
         "error": {
-          "title": "Error!",
-          "message": "Automation creation failed."
+          "title": "Қате!",
+          "message": "Автоматтандыру жасау сәтсіз аяқталды."
         }
       },
       "update": {
         "success": {
-          "title": "Success!",
-          "message": "Automation updated successfully."
+          "title": "Сәтті!",
+          "message": "Автоматтандыру сәтті жаңартылды."
         },
         "error": {
-          "title": "Error!",
-          "message": "Automation update failed."
+          "title": "Қате!",
+          "message": "Автоматтандыруды жаңарту сәтсіз аяқталды."
         }
       },
       "enable": {
         "success": {
-          "title": "Success!",
-          "message": "Automation enabled successfully."
+          "title": "Сәтті!",
+          "message": "Автоматтандыру сәтті қосылды."
         },
         "error": {
-          "title": "Error!",
-          "message": "Automation enable failed."
+          "title": "Қате!",
+          "message": "Автоматтандыруды қосу сәтсіз аяқталды."
         }
       },
       "disable": {
         "success": {
-          "title": "Success!",
-          "message": "Automation disabled successfully."
+          "title": "Сәтті!",
+          "message": "Автоматтандыру сәтті өшірілді."
         },
         "error": {
-          "title": "Error!",
-          "message": "Automation disable failed."
+          "title": "Қате!",
+          "message": "Автоматтандыруды өшіру сәтсіз аяқталды."
         }
       },
       "delete": {
         "success": {
-          "title": "Automation deleted",
-          "message": "{name}, the automation, has now been deleted from your project."
+          "title": "Автоматтандыру жойылды",
+          "message": "{name} автоматтандыруы жобаңыздан жойылды."
         },
         "error": {
-          "title": "We couldn't delete that automation this time.",
-          "message": "Try deleting it again or come back to it later. If you can't delete it then, reach out to us."
+          "title": "Автоматтандыруды жою мүмкін болмады.",
+          "message": "Қайта жойып көріңіз немесе кейінірек оралыңыз. Жоя алмасаңыз, бізге хабарласыңыз."
         }
       },
       "action": {
         "create": {
           "error": {
-            "title": "Error!",
-            "message": "Failed to create action. Please try again!"
+            "title": "Қате!",
+            "message": "Әрекет жасау сәтсіз аяқталды. Қайта көріңіз!"
           }
         },
         "update": {
           "error": {
-            "title": "Error!",
-            "message": "Failed to update action. Please try again!"
+            "title": "Қате!",
+            "message": "Әрекетті жаңарту сәтсіз аяқталды. Қайта көріңіз!"
           }
         }
       }
     },
     "empty_state": {
       "no_automations": {
-        "title": "There’re no automations to show yet.",
-        "description": "Automations help you eliminate repetitive tasks by setting triggers, conditions, and actions. Create one to save time and keep work moving effortlessly."
+        "title": "Автоматтандырулар жоқ.",
+        "description": "Автоматтандырулар триггерлерді, шарттарды және әрекеттерді орнату арқылы қайталанатын тапсырмаларды жоюға көмектеседі. Уақытты үнемдеу және жұмысты еш кедергісіз жалғастыру үшін бір жасаңыз."
       },
       "upgrade": {
-        "title": "Automations",
-        "description": "Automations are a way to automate tasks in your project.",
-        "sub_description": "Get 80% of your admin time back when you use Automations."
+        "title": "Автоматтандырулар",
+        "description": "Автоматтандырулар — жобаңыздағы тапсырмаларды автоматтандыру тәсілі.",
+        "sub_description": "Автоматтандыруларды пайдаланып әкімшілік уақытыңыздың 80%-ын қайтарып алыңыз."
       }
     },
     "global_automations": {
       "project_select": {
-        "label": "Select projects to run this automation on",
+        "label": "Осы автоматтандыруды іске қосу үшін жобаларды таңдаңыз",
         "all_projects": {
-          "label": "All projects",
-          "description": "Automation will run for all projects in the workspace."
+          "label": "Барлық жобалар",
+          "description": "Автоматтандыру жұмыс кеңістігіндегі барлық жобалар үшін іске қосылады."
         },
         "select_projects": {
-          "label": "Select projects",
-          "description": "Automation will run for selected projects in the workspace.",
-          "placeholder": "Select projects"
+          "label": "Жобаларды таңдаңыз",
+          "description": "Автоматтандыру жұмыс кеңістігіндегі таңдалған жобалар үшін іске қосылады.",
+          "placeholder": "Жобаларды таңдаңыз"
         }
       },
       "settings": {
-        "sidebar_label": "Automations",
-        "title": "Automations",
-        "description": "Standardize processes across your workspace with global automations."
+        "sidebar_label": "Автоматтандырулар",
+        "title": "Автоматтандырулар",
+        "description": "Жаһандық автоматтандырулармен жұмыс кеңістігінде процестерді стандартизациялаңыз."
       },
       "table": {
         "scope": {
-          "global": "Global",
+          "global": "Жаһандық",
           "project": {
-            "label": "Project",
-            "multiple": "Multiple",
-            "all": "All"
+            "label": "Жоба",
+            "multiple": "Бірнеше",
+            "all": "Барлығы"
           }
         }
       }
