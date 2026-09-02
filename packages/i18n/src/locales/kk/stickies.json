@@ -1,58 +1,58 @@
 {
   "stickies": {
-    "title": "Your stickies",
-    "placeholder": "click to type here",
-    "all": "All stickies",
-    "no-data": "Jot down an idea, capture an aha, or record a brainwave. Add a sticky to get started.",
-    "add": "Add sticky",
-    "search_placeholder": "Search by title",
-    "delete": "Delete sticky",
-    "delete_confirmation": "Are you sure you want to delete this sticky?",
+    "title": "Сіздің жабысқақ жазбаларыңыз",
+    "placeholder": "жазу үшін басыңыз",
+    "all": "Барлық жабысқақ жазбалар",
+    "no-data": "Идея жазыңыз, ой тіркеңіз немесе шабыт сақтаңыз. Бастау үшін жабысқақ жазба қосыңыз.",
+    "add": "Жабысқақ жазба қосу",
+    "search_placeholder": "Тақырып бойынша іздеу",
+    "delete": "Жабысқақ жазбаны жою",
+    "delete_confirmation": "Осы жабысқақ жазбаны жойғыңыз келетінін растайсыз ба?",
     "empty_state": {
-      "simple": "Jot down an idea, capture an aha, or record a brainwave. Add a sticky to get started.",
+      "simple": "Идея жазыңыз, ой тіркеңіз немесе шабыт сақтаңыз. Бастау үшін жабысқақ жазба қосыңыз.",
       "general": {
-        "title": "Stickies are quick notes and to-dos you take down on the fly.",
-        "description": "Capture your thoughts and ideas effortlessly by creating stickies that you can access anytime and from anywhere.",
+        "title": "Жабысқақ жазбалар — ұшып жүргенде жазылатын жылдам жазбалар мен тізімдер.",
+        "description": "Жабысқақ жазбалар жасай отырып, ойларыңыз бен идеяларыңызды оңай тіркеңіз — кез келген жерде, кез келген уақытта.",
         "primary_button": {
-          "text": "Add sticky"
+          "text": "Жабысқақ жазба қосу"
         }
       },
       "search": {
-        "title": "That doesn't match any of your stickies.",
-        "description": "Try a different term or let us know\nif you are sure your search is right. ",
+        "title": "Бұл сіздің жабысқақ жазбаларыңызға сәйкес келмейді.",
+        "description": "Басқа сөз қолданып көріңіз\nнемесе іздеу нәтижесі дұрыс деп санасаңыз бізге хабарлаңыз.",
         "primary_button": {
-          "text": "Add sticky"
+          "text": "Жабысқақ жазба қосу"
         }
       }
     },
     "toasts": {
       "errors": {
-        "wrong_name": "The sticky name cannot be longer than 100 characters.",
-        "already_exists": "There already exists a sticky with no description"
+        "wrong_name": "Жабысқақ жазба атауы 100 таңбадан ұзын болмауы керек.",
+        "already_exists": "Сипатсыз жабысқақ жазба бұрыннан бар"
       },
       "created": {
-        "title": "Sticky created",
-        "message": "The sticky has been successfully created"
+        "title": "Жабысқақ жазба жасалды",
+        "message": "Жабысқақ жазба сәтті жасалды"
       },
       "not_created": {
-        "title": "Sticky not created",
-        "message": "The sticky could not be created"
+        "title": "Жабысқақ жазба жасалмады",
+        "message": "Жабысқақ жазба жасалмады"
       },
       "updated": {
-        "title": "Sticky updated",
-        "message": "The sticky has been successfully updated"
+        "title": "Жабысқақ жазба жаңартылды",
+        "message": "Жабысқақ жазба сәтті жаңартылды"
       },
       "not_updated": {
-        "title": "Sticky not updated",
-        "message": "The sticky could not be updated"
+        "title": "Жабысқақ жазба жаңартылмады",
+        "message": "Жабысқақ жазба жаңартылмады"
       },
       "removed": {
-        "title": "Sticky removed",
-        "message": "The sticky has been successfully removed"
+        "title": "Жабысқақ жазба жойылды",
+        "message": "Жабысқақ жазба сәтті жойылды"
       },
       "not_removed": {
-        "title": "Sticky not removed",
-        "message": "The sticky could not be removed"
+        "title": "Жабысқақ жазба жойылмады",
+        "message": "Жабысқақ жазба жойылмады"
       }
     }
   }

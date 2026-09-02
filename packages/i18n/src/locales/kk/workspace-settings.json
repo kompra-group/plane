@@ -1,507 +1,507 @@
 {
   "workspace_settings": {
-    "label": "Workspace settings",
-    "page_label": "{workspace} - General settings",
-    "key_created": "Key created",
-    "copy_key": "Copy and save this secret key in Plane Pages. You can't see this key after you hit Close. A CSV file containing the key has been downloaded.",
-    "token_copied": "Token copied to clipboard.",
+    "label": "Жұмыс кеңістігі параметрлері",
+    "page_label": "{workspace} - Жалпы параметрлер",
+    "key_created": "Кілт жасалды",
+    "copy_key": "Бұл құпия кілтті Plane Pages-те көшіріп сақтаңыз. Жабу түймесін басқаннан кейін бұл кілтті қайтadan көре алмайсыз. Кілті бар CSV файлы жүктелді.",
+    "token_copied": "Токен алмасу буферіне көшірілді.",
     "settings": {
       "general": {
-        "title": "General",
-        "upload_logo": "Upload logo",
-        "edit_logo": "Edit logo",
-        "name": "Workspace name",
-        "company_size": "Company size",
-        "url": "Workspace URL",
-        "workspace_timezone": "Workspace Timezone",
-        "update_workspace": "Update workspace",
-        "delete_workspace": "Delete this workspace",
-        "delete_workspace_description": "When deleting a workspace, all of the data and resources within that workspace will be permanently removed and cannot be recovered.",
-        "delete_btn": "Delete this workspace",
+        "title": "Жалпы",
+        "upload_logo": "Логотипті жүктеу",
+        "edit_logo": "Логотипті өңдеу",
+        "name": "Жұмыс кеңістігінің атауы",
+        "company_size": "Компания өлшемі",
+        "url": "Жұмыс кеңістігінің URL-і",
+        "workspace_timezone": "Жұмыс кеңістігінің уақыт белдеуі",
+        "update_workspace": "Жұмыс кеңістігін жаңарту",
+        "delete_workspace": "Бұл жұмыс кеңістігін жою",
+        "delete_workspace_description": "Жұмыс кеңістігін жойған кезде ондағы барлық деректер мен ресурстар біржола жойылады және қалпына келтірілмейді.",
+        "delete_btn": "Бұл жұмыс кеңістігін жою",
         "delete_modal": {
-          "title": "Are you sure you want to delete this workspace?",
-          "description": "You have an active trial to one of our paid plans. Please cancel it first to proceed.",
-          "dismiss": "Dismiss",
-          "cancel": "Cancel trial",
-          "success_title": "Workspace deleted.",
-          "success_message": "You will soon go to your profile page.",
-          "error_title": "That didn't work.",
-          "error_message": "Try again, please."
+          "title": "Бұл жұмыс кеңістігін жойғыңыз келетінін растайсыз ба?",
+          "description": "Сізде ақылы жоспарлардың біріне белсенді сынақ мерзімі бар. Жалғастыру үшін алдымен оны болдырмаңыз.",
+          "dismiss": "Жабу",
+          "cancel": "Сынақ мерзімін болдырмау",
+          "success_title": "Жұмыс кеңістігі жойылды.",
+          "success_message": "Жақында профиль бетіңізге өтесіз.",
+          "error_title": "Бұл іске аспады.",
+          "error_message": "Қайталап көріңіз."
         },
         "errors": {
           "name": {
-            "required": "Name is required",
-            "max_length": "Workspace name should not exceed 80 characters"
+            "required": "Атауы міндетті",
+            "max_length": "Жұмыс кеңістігінің атауы 80 таңбадан аспауы тиіс"
           },
           "company_size": {
-            "required": "Company size is required",
-            "select_a_range": "Select organization size"
+            "required": "Компания өлшемі міндетті",
+            "select_a_range": "Ұйым өлшемін таңдаңыз"
           }
         }
       },
       "members": {
-        "title": "Members",
-        "add_member": "Add member",
-        "pending_invites": "Pending invites",
-        "invitations_sent_successfully": "Invitations sent successfully",
-        "leave_confirmation": "Are you sure you want to leave the workspace? You will no longer have access to this workspace. This action cannot be undone.",
+        "title": "Мүшелер",
+        "add_member": "Мүше қосу",
+        "pending_invites": "Күтудегі шақырулар",
+        "invitations_sent_successfully": "Шақырулар сәтті жіберілді",
+        "leave_confirmation": "Жұмыс кеңістігінен шыққыңыз келетінін растайсыз ба? Сіз бұл жұмыс кеңістігіне қол жеткізе алмайсыз. Бұл әрекетті кері қайтару мүмкін емес.",
         "details": {
-          "full_name": "Full name",
-          "display_name": "Display name",
-          "email_address": "Email address",
-          "account_type": "Account type",
-          "authentication": "Authentication",
-          "joining_date": "Joining date"
+          "full_name": "Толық аты-жөні",
+          "display_name": "Көрсетілетін атауы",
+          "email_address": "Электрондық пошта мекенжайы",
+          "account_type": "Аккаунт түрі",
+          "authentication": "Аутентификация",
+          "joining_date": "Қосылған күні"
         },
         "modal": {
-          "title": "Invite people to collaborate",
-          "description": "Invite people to collaborate on your workspace.",
-          "button": "Send invitations",
-          "button_loading": "Sending invitations",
+          "title": "Ынтымақтастыққа шақыру",
+          "description": "Жұмыс кеңістігіңізде ынтымақтасу үшін адамдарды шақырыңыз.",
+          "button": "Шақыруларды жіберу",
+          "button_loading": "Шақырулар жіберілуде",
           "placeholder": "name@company.com",
           "errors": {
-            "required": "We need an email address to invite them.",
-            "invalid": "Email is invalid"
+            "required": "Шақыру үшін электрондық пошта мекенжайы қажет.",
+            "invalid": "Электрондық пошта жарамсыз"
           }
         }
       },
       "billing_and_plans": {
-        "heading": "Billing & Plans",
-        "description": "Choose your plan, manage subscriptions, and easily upgrade as your needs grow.",
-        "title": "Billing & Plans",
-        "current_plan": "Current plan",
-        "free_plan": "You are currently using the free plan",
-        "view_plans": "View plans"
+        "heading": "Есеп айырысу және жоспарлар",
+        "description": "Жоспарыңызды таңдаңыз, жазылымдарды басқарыңыз және қажеттіліктеріңіз өскен сайын оңай жаңартыңыз.",
+        "title": "Есеп айырысу және жоспарлар",
+        "current_plan": "Ағымдағы жоспар",
+        "free_plan": "Сіз қазір тегін жоспарды пайдаланып жатырсыз",
+        "view_plans": "Жоспарларды қарау"
       },
       "exports": {
-        "heading": "Exports",
-        "description": "Export your project data in various formats and access your export history with download links.",
-        "title": "Exports",
-        "exporting": "Exporting",
-        "previous_exports": "Previous exports",
-        "export_separate_files": "Export the data into separate files",
-        "exporting_projects": "Exporting project",
-        "format": "Format",
-        "filters_info": "Apply filters to export specific work items based on your criteria.",
+        "heading": "Экспорт",
+        "description": "Жоба деректерін түрлі форматтарда экспорттаңыз және жүктеу сілтемелері бар экспорт тарихыңызға қол жеткізіңіз.",
+        "title": "Экспорт",
+        "exporting": "Экспортталуда",
+        "previous_exports": "Алдыңғы экспорттар",
+        "export_separate_files": "Деректерді бөлек файлдарға экспорттау",
+        "exporting_projects": "Жоба экспортталуда",
+        "format": "Формат",
+        "filters_info": "Критерийлеріңізге сәйкес нақты тапсырмаларды экспорттау үшін сүзгілерді қолданыңыз.",
         "modal": {
-          "title": "Export to",
+          "title": "Мынаға экспорттау",
           "toasts": {
             "success": {
-              "title": "Export successful",
-              "message": "You will be able to download the exported {entity} from the previous export."
+              "title": "Экспорт сәтті аяқталды",
+              "message": "Экспортталған {entity}-ді алдыңғы экспорттан жүктей аласыз."
             },
             "error": {
-              "title": "Export failed",
-              "message": "Export was unsuccessful. Please try again."
+              "title": "Экспорт сәтсіз аяқталды",
+              "message": "Экспорт орындалмады. Қайталап көріңіз."
             }
           }
         }
       },
       "webhooks": {
         "heading": "Webhooks",
-        "description": "Automate notifications to external services when project events occur.",
+        "description": "Жоба оқиғалары болғанда сыртқы қызметтерге хабарландыруларды автоматтандырыңыз.",
         "title": "Webhooks",
-        "add_webhook": "Add webhook",
+        "add_webhook": "Webhook қосу",
         "modal": {
-          "title": "Create webhook",
-          "details": "Webhook details",
+          "title": "Webhook жасау",
+          "details": "Webhook мәліметтері",
           "payload": "Payload URL",
-          "question": "Which events would you like to trigger this webhook?",
-          "error": "URL is required"
+          "question": "Қандай оқиғалар осы webhook-ты іске қосуы тиіс?",
+          "error": "URL міндетті"
         },
         "secret_key": {
-          "title": "Secret key",
-          "message": "Generate a token to sign-in to the webhook payload"
+          "title": "Құпия кілт",
+          "message": "Webhook payload-ына кіру үшін токен жасаңыз"
         },
         "options": {
-          "all": "Send me everything",
-          "individual": "Select individual events"
+          "all": "Барлығын жіберу",
+          "individual": "Жеке оқиғаларды таңдау"
         },
         "toasts": {
           "created": {
-            "title": "Webhook created",
-            "message": "The webhook has been successfully created"
+            "title": "Webhook жасалды",
+            "message": "Webhook сәтті жасалды"
           },
           "not_created": {
-            "title": "Webhook not created",
-            "message": "The webhook could not be created"
+            "title": "Webhook жасалмады",
+            "message": "Webhook жасалмады"
           },
           "updated": {
-            "title": "Webhook updated",
-            "message": "The webhook has been successfully updated"
+            "title": "Webhook жаңартылды",
+            "message": "Webhook сәтті жаңартылды"
           },
           "not_updated": {
-            "title": "Webhook not updated",
-            "message": "The webhook could not be updated"
+            "title": "Webhook жаңартылмады",
+            "message": "Webhook жаңартылмады"
           },
           "removed": {
-            "title": "Webhook removed",
-            "message": "The webhook has been successfully removed"
+            "title": "Webhook жойылды",
+            "message": "Webhook сәтті жойылды"
           },
           "not_removed": {
-            "title": "Webhook not removed",
-            "message": "The webhook could not be removed"
+            "title": "Webhook жойылмады",
+            "message": "Webhook жойылмады"
           },
           "secret_key_copied": {
-            "message": "Secret key copied to clipboard."
+            "message": "Құпия кілт алмасу буферіне көшірілді."
           },
           "secret_key_not_copied": {
-            "message": "Error occurred while copying secret key."
+            "message": "Құпия кілтті көшіру кезінде қате орын алды."
           }
         }
       },
       "api_tokens": {
-        "heading": "Access Tokens",
-        "description": "Generate secure API tokens to integrate your data with external systems and applications.",
-        "title": "Access Tokens",
-        "add_token": "Add access token",
-        "create_token": "Create token",
-        "never_expires": "Never expires",
-        "generate_token": "Generate token",
-        "generating": "Generating",
+        "heading": "Қол жеткізу токендері",
+        "description": "Деректеріңізді сыртқы жүйелер мен қолданбалармен біріктіру үшін қауіпсіз API токендерін жасаңыз.",
+        "title": "Қол жеткізу токендері",
+        "add_token": "Қол жеткізу токенін қосу",
+        "create_token": "Токен жасау",
+        "never_expires": "Мерзімсіз",
+        "generate_token": "Токен жасау",
+        "generating": "Жасалуда",
         "delete": {
-          "title": "Delete access token",
-          "description": "Any application using this token will no longer have the access to Plane data. This action cannot be undone.",
+          "title": "Қол жеткізу токенін жою",
+          "description": "Осы токенді пайдаланатын кез келген қолданба Plane деректеріне қол жеткізе алмайды. Бұл әрекетті кері қайтару мүмкін емес.",
           "success": {
-            "title": "Success!",
-            "message": "The token has been successfully deleted"
+            "title": "Сәтті!",
+            "message": "Токен сәтті жойылды"
           },
           "error": {
-            "title": "Error!",
-            "message": "The token could not be deleted"
+            "title": "Қате!",
+            "message": "Токенді жою мүмкін болмады"
           }
         }
       },
       "integrations": {
-        "title": "Integrations",
-        "heading": "Integrations",
-        "description": "Connect with popular tools and services to sync your work across your entire workflow ecosystem.",
-        "page_title": "Work with your Plane data in available apps or your own.",
-        "page_description": "View all the integrations in use by this workspace or you."
+        "title": "Интеграциялар",
+        "heading": "Интеграциялар",
+        "description": "Жұмыс процесіңіз бойынша жұмысыңызды синхрондау үшін танымал құралдар мен қызметтерге қосылыңыз.",
+        "page_title": "Plane деректеріңізбен қолжетімді қолданбаларда немесе өзіңіздікінде жұмыс жасаңыз.",
+        "page_description": "Осы жұмыс кеңістігі немесе сіз пайдаланатын барлық интеграцияларды қараңыз."
       },
       "imports": {
-        "title": "Imports",
-        "heading": "Imports",
-        "description": "Connect and import data from your existing project management tools to streamline your workflow integration."
+        "title": "Импорт",
+        "heading": "Импорт",
+        "description": "Жұмыс процесі интеграциясын жеңілдету үшін бар жоба басқару құралдарынан деректерді қосыңыз және импорттаңыз."
       },
       "worklogs": {
-        "title": "Worklogs",
-        "heading": "Worklogs",
-        "description": "Download worklogs AKA timesheets for anyone in any project."
+        "title": "Жұмыс журналдары",
+        "heading": "Жұмыс журналдары",
+        "description": "Кез келген жобадағы кез келген адамның жұмыс журналдарын (уақыт кестелерін) жүктеңіз."
       },
       "group_syncing": {
-        "title": "Group syncing",
-        "heading": "Group syncing",
-        "description": "Link identity provider groups to projects and roles. User access updates automatically when group membership changes in your IdP, simplifying onboarding and offboarding.",
+        "title": "Топ синхрондауы",
+        "heading": "Топ синхрондауы",
+        "description": "Сәйкестендіру провайдері топтарын жобалар мен рөлдерге байланыстырыңыз. IdP-дағы топ мүшелігі өзгерген кезде пайдаланушы қол жеткізуі автоматты түрде жаңартылады.",
         "enable": {
-          "title": "Enable group syncing",
-          "description": "Automatically add users to projects based on identity provider groups."
+          "title": "Топ синхрондауын қосу",
+          "description": "Сәйкестендіру провайдері топтары негізінде пайдаланушыларды жобаларға автоматты түрде қосыңыз."
         },
         "config": {
-          "title": "Configure group sync",
-          "description": "Set up how identity provider groups are mapped to projects and roles.",
+          "title": "Топ синхрондауын баптау",
+          "description": "Сәйкестендіру провайдері топтарының жобалар мен рөлдерге салыстырылу тәсілін орнатыңыз.",
           "sync_on_login": {
-            "title": "Sync on login",
-            "description": "Update group membership and project access when a user signs in."
+            "title": "Кіруде синхрондау",
+            "description": "Пайдаланушы кіргенде топ мүшелігін және жобаға қол жеткізуді жаңартыңыз."
           },
           "sync_offline": {
-            "title": "Offline sync",
-            "description": "Runs sync every six hours automatically, without waiting for users to log in."
+            "title": "Офлайн синхрондау",
+            "description": "Пайдаланушылардың кіруін күтпей, синхрондауды автоматты түрде әр алты сағатта орындайды."
           },
           "auto_remove": {
-            "title": "Auto remove",
-            "description": "Automatically remove users from projects when they no longer match the group."
+            "title": "Автоматты жою",
+            "description": "Пайдаланушылар топ критерийіне сәйкес келмеген кезде оларды жобалардан автоматты түрде жойыңыз."
           },
           "group_attribute_key": {
-            "title": "Group attribute key",
-            "description": "The identity provider attribute used to identify and sync user groups.",
-            "placeholder": "Groups"
+            "title": "Топ атрибуты кілті",
+            "description": "Пайдаланушы топтарын анықтау және синхрондау үшін пайдаланылатын сәйкестендіру провайдері атрибуты.",
+            "placeholder": "Топтар"
           }
         },
         "group_mapping": {
-          "title": "Group mapping",
-          "description": "Link identity provider groups to projects and roles.",
-          "button_text": "Add new group sync"
+          "title": "Топ салыстыруы",
+          "description": "Сәйкестендіру провайдері топтарын жобалар мен рөлдерге байланыстырыңыз.",
+          "button_text": "Жаңа топ синхрондауын қосу"
         },
         "toast": {
-          "updating": "Updating group syncing feature",
-          "success": "Group syncing feature updated successfully.",
-          "error": "Failed to update group syncing feature!"
+          "updating": "Топ синхрондауы мүмкіндігі жаңартылуда",
+          "success": "Топ синхрондауы мүмкіндігі сәтті жаңартылды.",
+          "error": "Топ синхрондауы мүмкіндігін жаңарту сәтсіз аяқталды!"
         },
         "delete_modal": {
-          "title": "Delete group sync",
-          "content": "New users from this identity group will no longer be added to the project. Users already added will keep their current role."
+          "title": "Топ синхрондауын жою",
+          "content": "Бұл сәйкестендіру тобынан жаңа пайдаланушылар жобаға қосылмайды. Бұрын қосылған пайдаланушылар ағымдағы рөлін сақтайды."
         },
         "modal": {
           "idp_group_name": {
-            "text": "User group",
-            "required": "User group is required",
-            "placeholder": "Enter the IdP group names"
+            "text": "Пайдаланушы тобы",
+            "required": "Пайдаланушы тобы міндетті",
+            "placeholder": "IdP топ атауларын енгізіңіз"
           },
           "project": {
-            "text": "Project",
-            "required": "Project is required",
-            "placeholder": "Select a project"
+            "text": "Жоба",
+            "required": "Жоба міндетті",
+            "placeholder": "Жобаны таңдаңыз"
           },
           "default_role": {
-            "text": "Project role",
-            "required": "Project role is required",
-            "placeholder": "Select a project role"
+            "text": "Жоба рөлі",
+            "required": "Жоба рөлі міндетті",
+            "placeholder": "Жоба рөлін таңдаңыз"
           }
         }
       },
       "identity": {
-        "title": "Identity",
-        "heading": "Identity",
-        "description": "Configure your domain and enable Single sign-on"
+        "title": "Сәйкестендіру",
+        "heading": "Сәйкестендіру",
+        "description": "Доменіңізді баптаңыз және бірыңғай кіруді (SSO) қосыңыз"
       },
       "project_states": {
-        "title": "Project states",
-        "heading": "See progress overview for all projects.",
-        "description": "Project States is a Plane-only feature for tracking progress of all your projects by any project property.",
-        "go_to_settings": "Go to settings"
+        "title": "Жоба күйлері",
+        "heading": "Барлық жобалардың орындалу шолуын қараңыз.",
+        "description": "Жоба күйлері — барлық жобалардың кез келген жоба қасиеті бойынша орындалуын бақылауға арналған Plane-дің жеке мүмкіндігі.",
+        "go_to_settings": "Параметрлерге өту"
       },
       "projects": {
-        "title": "Projects",
-        "description": "Manage project states, and enable project labels, and other configuration.",
+        "title": "Жобалар",
+        "description": "Жоба күйлерін басқарыңыз, жоба белгілерін және басқа баптауды қосыңыз.",
         "tabs": {
-          "states": "Project states",
-          "labels": "Project labels"
+          "states": "Жоба күйлері",
+          "labels": "Жоба белгілері"
         }
       },
       "templates": {
-        "title": "Templates",
-        "heading": "Templates",
-        "description": "Save 80% time spent on creating projects, work items, and pages when you use templates."
+        "title": "Үлгілер",
+        "heading": "Үлгілер",
+        "description": "Үлгілерді пайдаланған кезде жобаларды, тапсырмаларды және беттерді жасауға кететін уақыттың 80%-ін үнемдеңіз."
       },
       "relations": {
-        "title": "Relations",
-        "heading": "Relations",
-        "description": "Create and manage relation types that connect work items across your workspace."
+        "title": "Байланыстар",
+        "heading": "Байланыстар",
+        "description": "Жұмыс кеңістігіңіздегі тапсырмаларды байланыстыратын байланыс түрлерін жасаңыз және басқарыңыз."
       },
       "cancel_trial": {
-        "title": "Cancel your trial first.",
-        "description": "You have an active trial to one of our paid plans. Please cancel it first to proceed.",
-        "dismiss": "Dismiss",
-        "cancel": "Cancel trial",
-        "cancel_success_title": "Trial cancelled.",
-        "cancel_success_message": "You can now delete the workspace.",
-        "cancel_error_title": "That didn't work.",
-        "cancel_error_message": "Try again, please."
+        "title": "Алдымен сынақ мерзімін болдырмаңыз.",
+        "description": "Сізде ақылы жоспарлардың біріне белсенді сынақ мерзімі бар. Жалғастыру үшін алдымен оны болдырмаңыз.",
+        "dismiss": "Жабу",
+        "cancel": "Сынақ мерзімін болдырмау",
+        "cancel_success_title": "Сынақ мерзімі болдырылмады.",
+        "cancel_success_message": "Енді жұмыс кеңістігін жоя аласыз.",
+        "cancel_error_title": "Бұл іске аспады.",
+        "cancel_error_message": "Қайталап көріңіз."
       },
       "applications": {
-        "internal": "Internal",
-        "title": "Applications",
-        "applicationId_copied": "Application ID copied to clipboard",
-        "clientId_copied": "Client ID copied to clipboard",
-        "clientSecret_copied": "Client Secret copied to clipboard",
-        "third_party_apps": "Third-party apps",
-        "your_apps": "Your apps",
-        "connect": "Connect",
-        "connected": "Connected",
-        "disconnect": "Disconnect",
-        "install": "Install",
-        "installed": "Installed",
-        "configure": "Configure",
-        "app_available": "You have made this app available to use with a Plane workspace",
+        "internal": "Ішкі",
+        "title": "Қолданбалар",
+        "applicationId_copied": "Қолданба идентификаторы алмасу буферіне көшірілді",
+        "clientId_copied": "Клиент идентификаторы алмасу буферіне көшірілді",
+        "clientSecret_copied": "Клиент құпиясы алмасу буферіне көшірілді",
+        "third_party_apps": "Үшінші тарап қолданбалары",
+        "your_apps": "Сіздің қолданбаларыңыз",
+        "connect": "Қосу",
+        "connected": "Қосылды",
+        "disconnect": "Ажырату",
+        "install": "Орнату",
+        "installed": "Орнатылды",
+        "configure": "Баптау",
+        "app_available": "Сіз осы қолданбаны Plane жұмыс кеңістігімен пайдалануға мүмкіндік бердіңіз",
         "app_credentials_regenrated": {
-          "title": "App credentials successfully re-generated",
-          "description": "Replace the client secret everywhere it's used. The previous secret is no longer valid."
+          "title": "Қолданба тіркелгі деректері сәтті қайта жасалды",
+          "description": "Клиент құпиясын пайдаланылатын барлық жерде ауыстырыңыз. Бұрынғы құпия енді жарамсыз."
         },
         "app_created": {
-          "title": "App created successfully",
-          "description": "Use the credentials to install the app in a Plane workspace"
+          "title": "Қолданба сәтті жасалды",
+          "description": "Қолданбаны Plane жұмыс кеңістігіне орнату үшін тіркелгі деректерін пайдаланыңыз"
         },
-        "installed_apps": "Installed apps",
-        "all_apps": "All apps",
-        "internal_apps": "Internal apps",
-        "app_name_title": "App Name",
+        "installed_apps": "Орнатылған қолданбалар",
+        "all_apps": "Барлық қолданбалар",
+        "internal_apps": "Ішкі қолданбалар",
+        "app_name_title": "Қолданба атауы",
         "app_description_title": {
-          "label": "Long Description",
-          "placeholder": "Write a long description for marketplace. Press ‘/’ for commands."
+          "label": "Толық сипаттама",
+          "placeholder": "Маркетплейс үшін толық сипаттама жазыңыз. Командалар үшін '/' басыңыз."
         },
         "authorization_grant_type": {
-          "title": "Connection Type",
-          "description": "Choose if your app should be installed once for the workspace or let every user connect their own account"
+          "title": "Қосылым түрі",
+          "description": "Қолданба жұмыс кеңістігі үшін бір рет орнатылуы немесе әр пайдаланушының өз аккаунтын қосуы керек пе?"
         },
         "website": {
-          "title": "Website",
-          "description": "Link to your app's website.",
+          "title": "Веб-сайт",
+          "description": "Қолданбаңыздың веб-сайтына сілтеме.",
           "placeholder": "https://example.com"
         },
         "app_maker": {
-          "title": "App Maker",
-          "description": "The person or organization creating the app."
+          "title": "Қолданба жасаушы",
+          "description": "Қолданбаны жасайтын тұлға немесе ұйым."
         },
-        "app_maker_error": "Maker name is required",
+        "app_maker_error": "Жасаушы атауы міндетті",
         "setup_url": {
-          "label": "Setup URL",
-          "description": "Users will be redirected to this URL when they install the app.",
+          "label": "Орнату URL-і",
+          "description": "Пайдаланушы қолданбаны орнатқанда осы URL-ге бағытталады.",
           "placeholder": "https://example.com/setup"
         },
         "webhook_url": {
           "label": "Webhook URL",
-          "description": "This is where we will send webhook events and updates from the workspaces where your app is installed.",
+          "description": "Қолданбаңыз орнатылған жұмыс кеңістіктерінен webhook оқиғалары мен жаңартуларын осында жіберіңіз.",
           "placeholder": "https://example.com/webhook"
         },
         "webhook_secret": {
-          "label": "Webhook Secret",
-          "description": "Secret used to verify incoming webhook requests.",
-          "placeholder": "Enter a random secret key"
+          "label": "Webhook құпиясы",
+          "description": "Кіретін webhook сұраныстарын тексеру үшін пайдаланылатын құпия.",
+          "placeholder": "Кездейсоқ құпия кілт енгізіңіз"
         },
         "redirect_uris": {
-          "label": "Redirect URIs (space separated)",
-          "description": "Users will be redirected to this path after they have authenticated with Plane.",
+          "label": "Бағыттау URI-лері (бос орынмен бөлінген)",
+          "description": "Пайдаланушы Plane-мен аутентификацияланған соң осы жолға бағытталады.",
           "placeholder": "https://example.com https://example.com/"
         },
-        "app_available_description": "Connect a Plane workspace to start using it",
-        "client_id_and_secret": "Client ID and Secret",
-        "client_id_and_secret_description": "Copy and save this secret key in Pages. You can't see this key again after you hit Close.",
-        "client_id_and_secret_download": "You can download a CSV with the key from here.",
-        "application_id": "Application ID",
-        "client_id": "Client ID",
-        "client_secret": "Client Secret",
-        "export_as_csv": "Export as CSV",
-        "slug_already_exists": "Slug already exists",
-        "failed_to_create_application": "Failed to create application",
-        "upload_logo": "Upload Logo",
-        "app_name_error": "App name is required",
-        "app_short_description_title": "Short Description",
-        "app_short_description_error": "App short description is required",
-        "app_description_error": "App description is required",
-        "app_slug_title": "App slug",
-        "app_slug_error": "App slug is required",
-        "invalid_website_error": "Invalid website",
+        "app_available_description": "Пайдалануды бастау үшін Plane жұмыс кеңістігін қосыңыз",
+        "client_id_and_secret": "Клиент идентификаторы және құпиясы",
+        "client_id_and_secret_description": "Бұл құпия кілтті Pages-те көшіріп сақтаңыз. Жабу түймесін басқаннан кейін бұл кілтті қайтадан көре алмайсыз.",
+        "client_id_and_secret_download": "Кілті бар CSV файлын осыдан жүктей аласыз.",
+        "application_id": "Қолданба идентификаторы",
+        "client_id": "Клиент идентификаторы",
+        "client_secret": "Клиент құпиясы",
+        "export_as_csv": "CSV ретінде экспорттау",
+        "slug_already_exists": "Slug бұрыннан бар",
+        "failed_to_create_application": "Қолданба жасау сәтсіз аяқталды",
+        "upload_logo": "Логотипті жүктеу",
+        "app_name_error": "Қолданба атауы міндетті",
+        "app_short_description_title": "Қысқа сипаттама",
+        "app_short_description_error": "Қолданбаның қысқа сипаттамасы міндетті",
+        "app_description_error": "Қолданба сипаттамасы міндетті",
+        "app_slug_title": "Қолданба slug-ы",
+        "app_slug_error": "Қолданба slug-ы міндетті",
+        "invalid_website_error": "Жарамсыз веб-сайт",
         "webhook_url_title": "Webhook URL",
-        "webhook_url_error": "Webhook URL is required",
-        "invalid_webhook_url_error": "Invalid webhook URL",
-        "redirect_uris_title": "Redirect URIs",
-        "redirect_uris_error": "Redirect URIs are required",
-        "invalid_redirect_uris_error": "Invalid redirect URIs",
-        "redirect_uris_description": "Enter space seperated URIs where the app will redirect to after the user e.g https://example.com https://example.com/",
-        "authorized_javascript_origins_title": "Authorized Javascript Origins",
-        "authorized_javascript_origins_error": "Authorized Javascript Origins are required",
-        "invalid_authorized_javascript_origins_error": "Invalid authorized Javascript Origins",
-        "authorized_javascript_origins_description": "Enter space seperated origins where the app will be allowed to make requests e.g app.com example.com",
-        "create_app": "Create app",
-        "update_app": "Update app",
-        "build_your_own_app": "Build your own app",
-        "edit_app_details": "Edit app details",
-        "regenerate_client_secret_description": "Regenerate the client secret. If you regenerate the secret, you can copy the key or download it to a CSV file right after.",
-        "regenerate_client_secret": "Regenerate client secret",
-        "regenerate_client_secret_confirm_title": "Sure you want to regenerate the client secret?",
-        "regenerate_client_secret_confirm_description": "App using this secret will stop working. You will need to update the secret in the app.",
-        "regenerate_client_secret_confirm_cancel": "Cancel",
-        "regenerate_client_secret_confirm_regenerate": "Regenerate",
-        "read_only_access_to_workspace": "Read-only access to your workspace",
-        "write_access_to_workspace": "Write access to your workspace",
-        "read_only_access_to_user_profile": "Read-only access to your user profile",
-        "write_access_to_user_profile": "Write access to your user profile",
-        "connect_app_to_workspace": "Connect {app} to your workspace {workspace}",
-        "user_permissions": "User permissions",
-        "user_permissions_description": "User permissions are used to grant access to the user's profile.",
-        "workspace_permissions": "Workspace permissions",
-        "workspace_permissions_description": "Workspace permissions are used to grant access to the workspace.",
-        "with_the_permissions": "with the permissions",
-        "app_consent_title": "{app} is requesting access to your Plane workspace and profile.",
-        "choose_workspace_to_connect_app_with": "Choose a workspace to connect the app with",
-        "app_consent_workspace_permissions_title": "{app} would like",
-        "app_consent_user_permissions_title": "{app} can also request a user's permission to the following resources. These permissions will be requested and authorized of and by a user only.",
-        "app_consent_accept_title": "By accepting, you",
-        "app_consent_accept_1": "Grant the app access to your Plane data wherever you can use the app in or outside Plane",
-        "app_consent_accept_2": "Agree to {app}'s Privacy Policy and Terms Of Use",
-        "accepting": "Accepting...",
-        "accept": "Accept",
-        "categories": "Categories",
-        "select_app_categories": "Select app categories",
-        "categories_title": "Categories",
-        "categories_error": "Categories are required",
-        "invalid_categories_error": "Invalid categories",
-        "categories_description": "Select the categories that best describe the app",
-        "supported_plans": "Supported Plans",
-        "supported_plans_description": "Select the workspace plans that can install this application. Leave empty to allow all plans.",
-        "select_plans": "Select Plans",
-        "privacy_policy_url_title": "Privacy Policy URL",
-        "privacy_policy_url_error": "Privacy Policy URL is required",
-        "invalid_privacy_policy_url_error": "Invalid privacy policy URL",
-        "terms_of_service_url_title": "Terms of Service URL",
-        "terms_of_service_url_error": "Terms of Service URL is required",
-        "invalid_terms_of_service_url_error": "Invalid terms of service URL",
-        "support_url_title": "Support URL",
-        "support_url_error": "Support URL is required",
-        "invalid_support_url_error": "Invalid support URL",
-        "video_url_title": "Video URL",
-        "video_url_error": "Video URL is required",
-        "invalid_video_url_error": "Invalid video URL",
-        "setup_url_error": "Setup URL is required",
-        "invalid_setup_url_error": "Invalid setup URL",
-        "configuration_url_title": "Configuration URL",
-        "configuration_url_error": "Configuration URL is required",
-        "invalid_configuration_url_error": "Invalid configuration URL",
-        "contact_email_title": "Contact Email",
-        "contact_email_error": "Contact Email is required",
-        "invalid_contact_email_error": "Invalid contact email",
-        "upload_attachments": "Upload Attachments",
-        "uploading_images": "Uploading {count} Image{count, plural, one {s} other {s}}",
-        "drop_images_here": "Drop images here",
-        "click_to_upload_images": "Click to upload images",
-        "invalid_file_or_exceeds_size_limit": "Invalid file or exceeds size limit ({size} MB)",
-        "uploading": "Uploading...",
-        "upload_and_save": "Upload & Save",
-        "app_consent_no_access_title": "Request to install",
-        "app_consent_no_access_description": "This app can only be installed after a workspace admin installs it. Contact your workspace admin to proceed.",
-        "app_consent_unapproved_title": "This app hasn't been reviewed or approved by Plane yet.",
-        "app_consent_unapproved_description": "Make sure you trust this app before connecting it to your workspace.",
-        "go_to_app": "Go to app",
-        "enable_app_mentions": "Enable App Mentions",
-        "enable_app_mentions_tooltip": "When this is enabled, Users can mention or assign Work Items to this application.",
-        "scopes": "Scopes",
-        "select_scopes": "Select Scopes",
-        "read_access_to": "Read-only access to",
-        "write_access_to": "Write access to",
-        "global_permission_expiration": "Global scopes are expiring soon. Use granular scopes instead. For example, use project:read instead of a global read.",
-        "selected_scopes": "{count} selected",
-        "scopes_and_permissions": "Scopes & Permissions",
-        "read": "Read",
-        "write": "Write",
+        "webhook_url_error": "Webhook URL міндетті",
+        "invalid_webhook_url_error": "Жарамсыз webhook URL",
+        "redirect_uris_title": "Бағыттау URI-лері",
+        "redirect_uris_error": "Бағыттау URI-лері міндетті",
+        "invalid_redirect_uris_error": "Жарамсыз бағыттау URI-лері",
+        "redirect_uris_description": "Пайдаланушы кіргеннен кейін қолданба бағыттайтын бос орынмен бөлінген URI-лерді енгізіңіз, мысалы https://example.com https://example.com/",
+        "authorized_javascript_origins_title": "Рұқсат етілген Javascript бастаулары",
+        "authorized_javascript_origins_error": "Рұқсат етілген Javascript бастаулары міндетті",
+        "invalid_authorized_javascript_origins_error": "Жарамсыз рұқсат етілген Javascript бастаулары",
+        "authorized_javascript_origins_description": "Қолданбаға сұраныс жасауға рұқсат берілетін бос орынмен бөлінген бастауларды енгізіңіз, мысалы app.com example.com",
+        "create_app": "Қолданба жасау",
+        "update_app": "Қолданбаны жаңарту",
+        "build_your_own_app": "Өз қолданбаңызды жасаңыз",
+        "edit_app_details": "Қолданба мәліметтерін өңдеу",
+        "regenerate_client_secret_description": "Клиент құпиясын қайта жасаңыз. Қайта жасасаңыз, кілтті жабудан кейін бірден көшіре немесе CSV файлына жүктей аласыз.",
+        "regenerate_client_secret": "Клиент құпиясын қайта жасау",
+        "regenerate_client_secret_confirm_title": "Клиент құпиясын қайта жасағыңыз келетінін растайсыз ба?",
+        "regenerate_client_secret_confirm_description": "Осы құпияны пайдаланатын қолданба жұмысын тоқтатады. Қолданбадағы құпияны жаңарту қажет.",
+        "regenerate_client_secret_confirm_cancel": "Болдырмау",
+        "regenerate_client_secret_confirm_regenerate": "Қайта жасау",
+        "read_only_access_to_workspace": "Жұмыс кеңістігіне тек оқу қол жеткізуі",
+        "write_access_to_workspace": "Жұмыс кеңістігіне жазу қол жеткізуі",
+        "read_only_access_to_user_profile": "Пайдаланушы профиліне тек оқу қол жеткізуі",
+        "write_access_to_user_profile": "Пайдаланушы профиліне жазу қол жеткізуі",
+        "connect_app_to_workspace": "{app} қолданбасын {workspace} жұмыс кеңістігіне қосу",
+        "user_permissions": "Пайдаланушы рұқсаттары",
+        "user_permissions_description": "Пайдаланушы рұқсаттары пайдаланушы профиліне қол жеткізу беру үшін пайдаланылады.",
+        "workspace_permissions": "Жұмыс кеңістігі рұқсаттары",
+        "workspace_permissions_description": "Жұмыс кеңістігі рұқсаттары жұмыс кеңістігіне қол жеткізу беру үшін пайдаланылады.",
+        "with_the_permissions": "рұқсаттармен",
+        "app_consent_title": "{app} Plane жұмыс кеңістігіңізге және профиліңізге қол жеткізуді сұрап жатыр.",
+        "choose_workspace_to_connect_app_with": "Қолданбаны қосу үшін жұмыс кеңістігін таңдаңыз",
+        "app_consent_workspace_permissions_title": "{app} мынаны қалайды",
+        "app_consent_user_permissions_title": "{app} сонымен қатар пайдаланушы рұқсатын сұрауы мүмкін. Бұл рұқсаттар тек пайдаланушы тарапынан сұралады және рұқсат беріледі.",
+        "app_consent_accept_title": "Қабылдасаңыз, сіз",
+        "app_consent_accept_1": "Plane ішінде немесе сыртында пайдалана алатын жерде қолданбаға Plane деректеріңізге қол жеткізу беріңіз",
+        "app_consent_accept_2": "{app} Құпиялылық саясаты мен Пайдалану шарттарына келісесіз",
+        "accepting": "Қабылдануда...",
+        "accept": "Қабылдау",
+        "categories": "Санаттар",
+        "select_app_categories": "Қолданба санаттарын таңдаңыз",
+        "categories_title": "Санаттар",
+        "categories_error": "Санаттар міндетті",
+        "invalid_categories_error": "Жарамсыз санаттар",
+        "categories_description": "Қолданбаны жақсы сипаттайтын санаттарды таңдаңыз",
+        "supported_plans": "Қолдауы бар жоспарлар",
+        "supported_plans_description": "Осы қолданбаны орнатуы мүмкін жұмыс кеңістігі жоспарларын таңдаңыз. Барлық жоспарларға рұқсат беру үшін бос қалдырыңыз.",
+        "select_plans": "Жоспарларды таңдаңыз",
+        "privacy_policy_url_title": "Құпиялылық саясаты URL-і",
+        "privacy_policy_url_error": "Құпиялылық саясаты URL-і міндетті",
+        "invalid_privacy_policy_url_error": "Жарамсыз құпиялылық саясаты URL-і",
+        "terms_of_service_url_title": "Пайдалану шарттары URL-і",
+        "terms_of_service_url_error": "Пайдалану шарттары URL-і міндетті",
+        "invalid_terms_of_service_url_error": "Жарамсыз пайдалану шарттары URL-і",
+        "support_url_title": "Қолдау URL-і",
+        "support_url_error": "Қолдау URL-і міндетті",
+        "invalid_support_url_error": "Жарамсыз қолдау URL-і",
+        "video_url_title": "Бейне URL-і",
+        "video_url_error": "Бейне URL-і міндетті",
+        "invalid_video_url_error": "Жарамсыз бейне URL-і",
+        "setup_url_error": "Орнату URL-і міндетті",
+        "invalid_setup_url_error": "Жарамсыз орнату URL-і",
+        "configuration_url_title": "Баптау URL-і",
+        "configuration_url_error": "Баптау URL-і міндетті",
+        "invalid_configuration_url_error": "Жарамсыз баптау URL-і",
+        "contact_email_title": "Байланыс электрондық поштасы",
+        "contact_email_error": "Байланыс электрондық поштасы міндетті",
+        "invalid_contact_email_error": "Жарамсыз байланыс электрондық поштасы",
+        "upload_attachments": "Тіркемелерді жүктеу",
+        "uploading_images": "{count} сурет жүктелуде",
+        "drop_images_here": "Суреттерді осюда тастаңыз",
+        "click_to_upload_images": "Суреттерді жүктеу үшін басыңыз",
+        "invalid_file_or_exceeds_size_limit": "Жарамсыз файл немесе өлшем шегінен асады ({size} МБ)",
+        "uploading": "Жүктелуде...",
+        "upload_and_save": "Жүктеу және сақтау",
+        "app_consent_no_access_title": "Орнату сұранысы",
+        "app_consent_no_access_description": "Бұл қолданбаны тек жұмыс кеңістігі әкімшісі орнатқаннан кейін орнатуға болады. Жалғастыру үшін жұмыс кеңістігі әкімшісіне хабарласыңыз.",
+        "app_consent_unapproved_title": "Бұл қолданба әлі Plane тарапынан тексерілмеген немесе мақұлданбаған.",
+        "app_consent_unapproved_description": "Жұмыс кеңістігіңізге қосудан бұрын осы қолданбаға сенетініңізге көз жеткізіңіз.",
+        "go_to_app": "Қолданбаға өту",
+        "enable_app_mentions": "Қолданба атауларын қосу",
+        "enable_app_mentions_tooltip": "Бұл қосылған кезде пайдаланушылар осы қолданбаны атай немесе тапсырмаларды тіркей алады.",
+        "scopes": "Аумақтар",
+        "select_scopes": "Аумақтарды таңдаңыз",
+        "read_access_to": "Тек оқу қол жеткізуі:",
+        "write_access_to": "Жазу қол жеткізуі:",
+        "global_permission_expiration": "Жаһандық аумақтардың мерзімі бітуге жақын. Оның орнына нақты аумақтарды пайдаланыңыз. Мысалы, жаһандық оқу орнына project:read пайдаланыңыз.",
+        "selected_scopes": "{count} таңдалды",
+        "scopes_and_permissions": "Аумақтар және рұқсаттар",
+        "read": "Оқу",
+        "write": "Жазу",
         "scope_description": {
-          "projects": "Access to projects, and all project related entities",
-          "wiki": "Access to wiki, and all wiki related entities",
-          "workspaces": "Access to workspaces, and all workspace related entities",
-          "stickies": "Access to stickies, and all sticky related entities",
-          "profile": "Access to user profile information",
-          "agents": "Access to agents, and all agent related entities",
-          "assets": "Access to assets, and all asset related entities"
+          "projects": "Жобаларға және барлық жобаға қатысты объектілерге қол жеткізу",
+          "wiki": "Wiki-ге және барлық wiki-ге қатысты объектілерге қол жеткізу",
+          "workspaces": "Жұмыс кеңістіктеріне және барлық жұмыс кеңістігіне қатысты объектілерге қол жеткізу",
+          "stickies": "Жабысқақ жазбаларға және барлық жабысқақ жазбаға қатысты объектілерге қол жеткізу",
+          "profile": "Пайдаланушы профиль ақпаратына қол жеткізу",
+          "agents": "Агенттерге және барлық агентке қатысты объектілерге қол жеткізу",
+          "assets": "Активтерге және барлық активке қатысты объектілерге қол жеткізу"
         }
       },
       "plane-intelligence": {
         "title": "Plane AI",
         "heading": "Plane AI",
-        "description": "See your work get smarter and faster with AI that is natively connected to your work and knowledge base. "
+        "description": "Жұмысыңыз бен білім базаңызға тікелей қосылған AI арқылы жұмысыңыздың ақылдырақ және жылдамырақ болуын қараңыз."
       },
       "runners": {
         "title": "Plane Runner",
-        "heading": "Scripts",
-        "new_script": "New Script",
-        "description": "Automate your workflows with custom scripts and automation rules."
+        "heading": "Сценарийлер",
+        "new_script": "Жаңа сценарий",
+        "description": "Пайдаланушы сценарийлері мен автоматтандыру ережелерімен жұмыс процестерін автоматтандырыңыз."
       }
     },
     "empty_state": {
       "api_tokens": {
-        "title": "No access tokens created",
-        "description": "Plane APIs can be used to integrate your data in Plane with any external system. Create a token to get started."
+        "title": "Қол жеткізу токендері жасалмаған",
+        "description": "Plane API-лерін Plane-дегі деректеріңізді кез келген сыртқы жүйемен біріктіру үшін пайдалануға болады. Бастау үшін токен жасаңыз."
       },
       "webhooks": {
-        "title": "No webhooks added",
-        "description": "Create webhooks to receive real-time updates and automate actions."
+        "title": "Webhooks қосылмаған",
+        "description": "Нақты уақыт жаңартуларын алу және әрекеттерді автоматтандыру үшін webhook-тар жасаңыз."
       },
       "exports": {
-        "title": "No exports yet",
-        "description": "Anytime you export, you will also have a copy here for reference."
+        "title": "Экспорт жоқ",
+        "description": "Экспорттаған кезде мұнда сілтеме ретінде көшірмесі болады."
       },
       "imports": {
-        "title": "No imports yet",
-        "description": "Find all your previous imports here and download them."
+        "title": "Импорт жоқ",
+        "description": "Барлық алдыңғы импорттарыңызды осында тауып, жүктей аласыз."
       }
     }
   }

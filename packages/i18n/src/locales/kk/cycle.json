@@ -2,39 +2,39 @@
   "active_cycle": {
     "empty_state": {
       "progress": {
-        "title": "Add work items to the cycle to view it's progress"
+        "title": "Прогресті көру үшін циклға тапсырмалар қосыңыз"
       },
       "chart": {
-        "title": "Add work items to the cycle to view the burndown chart."
+        "title": "Burndown диаграммасын көру үшін циклға тапсырмалар қосыңыз."
       },
       "priority_issue": {
-        "title": "Observe high priority work items tackled in the cycle at a glance."
+        "title": "Циклде орындалатын жоғары басымдылықтағы тапсырмаларды бір қарауда бақылаңыз."
       },
       "assignee": {
-        "title": "Add assignees to work items to see a breakdown of work by assignees."
+        "title": "Орындаушылар бойынша жұмысты бөлуді көру үшін тапсырмаларға орындаушылар қосыңыз."
       },
       "label": {
-        "title": "Add labels to work items to see the breakdown of work by labels."
+        "title": "Белгілер бойынша жұмысты бөлуді көру үшін тапсырмаларға белгілер қосыңыз."
       }
     }
   },
   "cycle": {
-    "label": "{count, plural, one {Cycle} other {Cycles}}",
-    "no_cycle": "No cycle"
+    "label": "{count, plural, one {Цикл} other {Циклдар}}",
+    "no_cycle": "Цикл жоқ"
   },
   "active_cycle_analytics": {
     "empty_state": {
       "progress": {
-        "title": "Add work items to the cycle to view it's\n progress"
+        "title": "Прогресті көру үшін циклға\n тапсырмалар қосыңыз"
       },
       "priority": {
-        "title": "Observe high priority work items tackled in\n the cycle at a glance."
+        "title": "Циклде орындалатын жоғары\n басымдылықтағы тапсырмаларды бір қарауда бақылаңыз."
       },
       "assignee": {
-        "title": "Add assignees to work items to see a\n breakdown of work by assignees."
+        "title": "Орындаушылар бойынша жұмысты\n бөлуді көру үшін тапсырмаларға орындаушылар қосыңыз."
       },
       "label": {
-        "title": "Add labels to work items to see the\n breakdown of work by labels."
+        "title": "Белгілер бойынша жұмысты\n бөлуді көру үшін тапсырмаларға белгілер қосыңыз."
       }
     }
   }

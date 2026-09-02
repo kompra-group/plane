@@ -1,522 +1,522 @@
 {
   "project_settings": {
     "general": {
-      "enter_project_id": "Enter project ID",
-      "please_select_a_timezone": "Please select a timezone",
+      "enter_project_id": "Жоба ID енгізіңіз",
+      "please_select_a_timezone": "Уақыт белдеуін таңдаңыз",
       "archive_project": {
-        "title": "Archive project",
-        "description": "Archiving a project will unlist your project from your side navigation although you will still be able to access it from your projects page. You can restore the project or delete it whenever you want.",
-        "button": "Archive project"
+        "title": "Жобаны мұрағаттау",
+        "description": "Жобаны мұрағаттау бүйір навигациядан жобаны тізімнен алып тастайды, дегенмен жобалар бетінен оған қол жеткізе аласыз. Жобаны қалпына келтіруге немесе қалаған кезде жоюға болады.",
+        "button": "Жобаны мұрағаттау"
       },
       "delete_project": {
-        "title": "Delete project",
-        "description": "When deleting a project, all of the data and resources within that project will be permanently removed and cannot be recovered.",
-        "button": "Delete my project"
+        "title": "Жобаны жою",
+        "description": "Жобаны жою кезінде, жобадағы барлық деректер мен ресурстар біржолата жойылады және қалпына келтіру мүмкін болмайды.",
+        "button": "Жобамды жою"
       },
       "toast": {
-        "success": "Project updated successfully",
-        "error": "Project could not be updated. Please try again."
+        "success": "Жоба сәтті жаңартылды",
+        "error": "Жобаны жаңарту мүмкін болмады. Қайта көріңіз."
       }
     },
     "members": {
-      "label": "Members",
-      "project_lead": "Project lead",
-      "project_lead_description": "Select the project lead for the project.",
-      "default_assignee": "Default assignee",
-      "default_assignee_description": "Select the default assignee for the project.",
-      "project_subscribers": "Project subscribers",
-      "project_subscribers_description": "Select members who will receive notifications for this project.",
+      "label": "Мүшелер",
+      "project_lead": "Жоба жетекшісі",
+      "project_lead_description": "Жоба жетекшісін таңдаңыз.",
+      "default_assignee": "Әдепкі орындаушы",
+      "default_assignee_description": "Жоба үшін әдепкі орындаушыны таңдаңыз.",
+      "project_subscribers": "Жоба жазылушылары",
+      "project_subscribers_description": "Осы жоба үшін хабарландырулар алатын мүшелерді таңдаңыз.",
       "guest_super_permissions": {
-        "title": "Grant view access to all work items for guest users:",
-        "sub_heading": "This will allow guests to have view access to all the project work items."
+        "title": "Қонақ пайдаланушыларға барлық тапсырмаларды қарау рұқсатын беру:",
+        "sub_heading": "Бұл қонақтарға барлық жоба тапсырмаларын қарауға мүмкіндік береді."
       },
       "invite_members": {
-        "title": "Invite members",
-        "sub_heading": "Invite members to work on your project.",
-        "select_co_worker": "Select co-worker"
+        "title": "Мүшелерді шақыру",
+        "sub_heading": "Жобаңызда жұмыс істеуге мүшелерді шақырыңыз.",
+        "select_co_worker": "Әріптесті таңдаңыз"
       }
     },
     "states": {
-      "heading": "States",
-      "description": "Define and customize workflow states to track the progress of your work items.",
-      "describe_this_state_for_your_members": "Describe this state for your members.",
+      "heading": "Күйлер",
+      "description": "Тапсырмалардың прогресін бақылау үшін workflow күйлерін анықтаңыз және реттеңіз.",
+      "describe_this_state_for_your_members": "Бұл күйді мүшелеріңіз үшін сипаттаңыз.",
       "empty_state": {
-        "title": "No states available for the {groupKey} group",
-        "description": "Please create a new state"
+        "title": "{groupKey} тобы үшін күйлер жоқ",
+        "description": "Жаңа күй жасаңыз"
       }
     },
     "labels": {
-      "heading": "Labels",
-      "description": "Create custom labels to categorize and organize your work items",
-      "label_title": "Label title",
-      "label_title_is_required": "Label title is required",
-      "label_max_char": "Label name should not exceed 255 characters",
+      "heading": "Белгілер",
+      "description": "Тапсырмаларды санаттау мен ұйымдастыру үшін арнайы белгілер жасаңыз",
+      "label_title": "Белгі тақырыбы",
+      "label_title_is_required": "Белгі тақырыбы қажет",
+      "label_max_char": "Белгі атауы 255 таңбадан аспауы керек",
       "toast": {
-        "error": "Error while updating the label"
+        "error": "Белгіні жаңарту кезінде қате"
       }
     },
     "estimates": {
-      "heading": "Estimates",
-      "description": "Set up estimation systems to track and communicate the effort required for each work item.",
-      "label": "Estimates",
-      "title": "Enable estimates for my project",
-      "enable_description": "They help you in communicating complexity and workload of the team.",
-      "no_estimate": "No estimate",
-      "new": "New estimate system",
+      "heading": "Бағалаулар",
+      "description": "Әр тапсырма үшін қажет күш-жігерді бақылау мен жеткізу үшін бағалау жүйелерін орнатыңыз.",
+      "label": "Бағалаулар",
+      "title": "Жобам үшін бағалауларды қосу",
+      "enable_description": "Олар командаңыздың күрделілігі мен жүктемесін жеткізуге көмектеседі.",
+      "no_estimate": "Бағалаусыз",
+      "new": "Жаңа бағалау жүйесі",
       "create": {
-        "custom": "Custom",
-        "start_from_scratch": "Start from scratch",
-        "choose_template": "Choose a template",
-        "choose_estimate_system": "Choose an estimate system",
-        "enter_estimate_point": "Enter estimate",
-        "step": "Step {step} of {total}",
-        "label": "Create estimate"
+        "custom": "Арнайы",
+        "start_from_scratch": "Нөлден бастау",
+        "choose_template": "Үлгі таңдау",
+        "choose_estimate_system": "Бағалау жүйесін таңдау",
+        "enter_estimate_point": "Бағалауды енгізу",
+        "step": "{total} ішінен {step} қадам",
+        "label": "Бағалау жасау"
       },
       "toasts": {
         "created": {
           "success": {
-            "title": "Estimate created",
-            "message": "The estimate has been created successfully"
+            "title": "Бағалау жасалды",
+            "message": "Бағалау сәтті жасалды"
           },
           "error": {
-            "title": "Estimate creation failed",
-            "message": "We were unable to create the new estimate, please try again."
+            "title": "Бағалау жасау сәтсіз аяқталды",
+            "message": "Жаңа бағалауды жасай алмадық, қайта көріңіз."
           }
         },
         "updated": {
           "success": {
-            "title": "Estimate modified",
-            "message": "The estimate has been updated in your project."
+            "title": "Бағалау өзгертілді",
+            "message": "Бағалау жобаңызда жаңартылды."
           },
           "error": {
-            "title": "Estimate modification failed",
-            "message": "We were unable to modify the estimate, please try again"
+            "title": "Бағалауды өзгерту сәтсіз аяқталды",
+            "message": "Бағалауды өзгерту мүмкін болмады, қайта көріңіз"
           }
         },
         "enabled": {
           "success": {
-            "title": "Success!",
-            "message": "Estimates have been enabled."
+            "title": "Сәтті!",
+            "message": "Бағалаулар қосылды."
           }
         },
         "disabled": {
           "success": {
-            "title": "Success!",
-            "message": "Estimates have been disabled."
+            "title": "Сәтті!",
+            "message": "Бағалаулар өшірілді."
           },
           "error": {
-            "title": "Error!",
-            "message": "Estimate could not be disabled. Please try again"
+            "title": "Қате!",
+            "message": "Бағалауды өшіру мүмкін болмады. Қайта көріңіз"
           }
         },
         "reorder": {
           "success": {
-            "title": "Estimates re-ordered",
-            "message": "Estimates have been re-ordered in your project."
+            "title": "Бағалаулар ретке келтірілді",
+            "message": "Бағалаулар жобаңызда ретке келтірілді."
           },
           "error": {
-            "title": "Estimate re-order failed",
-            "message": "We were unable to re-order the estimates, please try again"
+            "title": "Бағалауларды ретке келтіру сәтсіз аяқталды",
+            "message": "Бағалауларды ретке келтіру мүмкін болмады, қайта көріңіз"
           }
         },
         "switch": {
           "success": {
-            "title": "Estimate system created",
-            "message": "Created and Enabled successfully"
+            "title": "Бағалау жүйесі жасалды",
+            "message": "Сәтті жасалды және қосылды"
           },
           "error": {
-            "title": "Error",
-            "message": "Something went wrong"
+            "title": "Қате",
+            "message": "Бір нәрсе дұрыс болмады"
           }
         }
       },
       "validation": {
-        "min_length": "Estimate needs to be greater than 0.",
-        "unable_to_process": "We are unable to process your request, please try again.",
-        "numeric": "Estimate needs to be a numeric value.",
-        "character": "Estimate needs to be a character value.",
-        "empty": "Estimate value cannot be empty.",
-        "already_exists": "Estimate value already exists.",
-        "unsaved_changes": "You have some unsaved changes, Please save them before clicking on done",
-        "remove_empty": "Estimate can't be empty. Enter a value in each field or remove those you don't have values for.",
-        "fill": "Please fill this estimate field",
-        "repeat": "Estimate value cannot be repeated"
+        "min_length": "Бағалау 0-ден үлкен болуы керек.",
+        "unable_to_process": "Сұрауыңызды өңдеу мүмкін емес, қайта көріңіз.",
+        "numeric": "Бағалау сандық мән болуы керек.",
+        "character": "Бағалау таңбалық мән болуы керек.",
+        "empty": "Бағалау мәні бос болмауы керек.",
+        "already_exists": "Бағалау мәні бұрыннан бар.",
+        "unsaved_changes": "Сақталмаған өзгерістеріңіз бар, дайын батырмасын басмас бұрын оларды сақтаңыз",
+        "remove_empty": "Бағалау бос болмауы керек. Әр өріске мән енгізіңіз немесе мәні жоқтарды жойыңыз.",
+        "fill": "Осы бағалау өрісін толтырыңыз",
+        "repeat": "Бағалау мәні қайталанбауы керек"
       },
       "systems": {
         "points": {
-          "label": "Points",
+          "label": "Баллдар",
           "fibonacci": "Fibonacci",
-          "linear": "Linear",
-          "squares": "Squares",
-          "custom": "Custom"
+          "linear": "Сызықтық",
+          "squares": "Квадраттар",
+          "custom": "Арнайы"
         },
         "categories": {
-          "label": "Categories",
-          "t_shirt_sizes": "T-Shirt Sizes",
-          "easy_to_hard": "Easy to hard",
-          "custom": "Custom"
+          "label": "Санаттар",
+          "t_shirt_sizes": "Футболка өлшемдері",
+          "easy_to_hard": "Жеңілден қиынға",
+          "custom": "Арнайы"
         },
         "time": {
-          "label": "Time",
-          "hours": "Hours"
+          "label": "Уақыт",
+          "hours": "Сағаттар"
         }
       },
       "edit": {
-        "title": "Edit estimate system",
+        "title": "Бағалау жүйесін өңдеу",
         "add_or_update": {
-          "title": "Add, update or remove estimates",
-          "description": "Manage current system either adding, updating or removing the points or categories."
+          "title": "Бағалауларды қосу, жаңарту немесе жою",
+          "description": "Баллдарды немесе санаттарды қосу, жаңарту немесе жою арқылы ағымдағы жүйені басқарыңыз."
         },
         "switch": {
-          "title": "Change estimate type",
-          "description": "Convert your points system to categories system and vice versa."
+          "title": "Бағалау түрін өзгерту",
+          "description": "Баллдар жүйесін санаттар жүйесіне және керісінше түрлендіру."
         }
       },
-      "switch": "Switch estimate system",
-      "current": "Current estimate system",
-      "select": "Select an estimate system"
+      "switch": "Бағалау жүйесін ауыстыру",
+      "current": "Ағымдағы бағалау жүйесі",
+      "select": "Бағалау жүйесін таңдаңыз"
     },
     "automations": {
-      "label": "Automations",
-      "heading": "Automations",
-      "description": "Configure automated actions to streamline your project management workflow and reduce manual tasks.",
+      "label": "Автоматтандырулар",
+      "heading": "Автоматтандырулар",
+      "description": "Жоба басқару workflow-ын жеңілдету және қолмен жасалатын тапсырмаларды азайту үшін автоматтандырылған әрекеттерді баптаңыз.",
       "auto-archive": {
-        "title": "Auto-archive closed work items",
-        "description": "Plane will auto archive work items that have been completed or canceled.",
-        "duration": "Auto-archive work items that are closed for"
+        "title": "Жабық тапсырмаларды автоматты мұрағаттау",
+        "description": "Plane аяқталған немесе жойылған тапсырмаларды автоматты түрде мұрағаттайды.",
+        "duration": "Мыналар үшін жабық тапсырмаларды автоматты мұрағаттау"
       },
       "auto-close": {
-        "title": "Auto-close work items",
-        "description": "Plane will automatically close work items that haven't been completed or canceled.",
-        "duration": "Auto-close work items that are inactive for",
-        "auto_close_status": "Auto-close status"
+        "title": "Тапсырмаларды автоматты жабу",
+        "description": "Plane аяқталмаған немесе жойылмаған тапсырмаларды автоматты түрде жабады.",
+        "duration": "Мыналар үшін белсенсіз тапсырмаларды автоматты жабу",
+        "auto_close_status": "Автоматты жабу күйі"
       },
       "auto-remind": {
-        "title": "Auto-reminders",
-        "description": "Plane will automatically send reminders via email and in-app notifications to keep your team on track with deadlines.",
-        "duration": "Send reminder before"
+        "title": "Автоматты еске салулар",
+        "description": "Plane командаңызды мерзімдерден хабардар ету үшін электрондық пошта мен қолданба арқылы автоматты түрде еске салулар жібереді.",
+        "duration": "Алдын ала еске салу жіберу"
       }
     },
     "empty_state": {
       "labels": {
-        "title": "No labels yet",
-        "description": "Create labels to help organize and filter work items in you project."
+        "title": "Белгілер жоқ",
+        "description": "Жобаңыздағы тапсырмаларды ұйымдастыру мен сүзуге көмектесу үшін белгілер жасаңыз."
       },
       "estimates": {
-        "title": "No estimate systems yet",
-        "description": "Create a set of estimates to communicate the amount of work per work item.",
-        "primary_button": "Add estimate system"
+        "title": "Бағалау жүйелері жоқ",
+        "description": "Тапсырма басына жұмыс мөлшерін жеткізу үшін бағалаулар жиынтығы жасаңыз.",
+        "primary_button": "Бағалау жүйесін қосу"
       },
       "integrations": {
-        "title": "No integrations configured",
-        "description": "Configure GitHub and other integrations to sync your project work items."
+        "title": "Интеграциялар бапталмаған",
+        "description": "Жоба тапсырмаларын синхрондау үшін GitHub және басқа интеграцияларды баптаңыз."
       }
     },
     "workflows": {
       "toggle": {
-        "title": "Enable workflows",
-        "description": "Set workflows to control work item movement",
-        "no_states_tooltip": "No states are added to the workflow.",
-        "no_work_item_types_tooltip": "No work item types are added to the workflow.",
-        "no_states_or_work_item_types_tooltip": "No states or work item types are added to the workflow.",
+        "title": "Workflow-ларды қосу",
+        "description": "Тапсырма қозғалысын бақылау үшін workflow-лар орнатыңыз",
+        "no_states_tooltip": "Workflow-ға күйлер қосылмаған.",
+        "no_work_item_types_tooltip": "Workflow-ға тапсырма түрлері қосылмаған.",
+        "no_states_or_work_item_types_tooltip": "Workflow-ға күйлер немесе тапсырма түрлері қосылмаған.",
         "toast": {
           "loading": {
-            "enabling": "Enabling workflows",
-            "disabling": "Disabling workflows"
+            "enabling": "Workflow-лар қосылуда",
+            "disabling": "Workflow-лар өшірілуде"
           },
           "success": {
-            "title": "Success!",
-            "message": "Workflows enabled successfully."
+            "title": "Сәтті!",
+            "message": "Workflow-лар сәтті қосылды."
           },
           "error": {
-            "title": "Error!",
-            "message": "Failed to enable workflows. Please try again."
+            "title": "Қате!",
+            "message": "Workflow-ларды қосу сәтсіз аяқталды. Қайта көріңіз."
           }
         }
       },
-      "heading": "Workflows",
-      "description": "Automate work item transitions and set rules to control how tasks move through your project pipeline.",
-      "add_button": "Add new workflow",
-      "search": "Search workflows",
+      "heading": "Workflow-лар",
+      "description": "Тапсырма ауысуларын автоматтандырыңыз және тапсырмалардың жоба конвейері арқылы қалай жылжитынын бақылауға арналған ережелер орнатыңыз.",
+      "add_button": "Жаңа workflow қосу",
+      "search": "Workflow-ларды іздеу",
       "detail": {
-        "define": "Define workflow",
-        "add_states": "Add states",
+        "define": "Workflow анықтау",
+        "add_states": "Күйлер қосу",
         "unmapped_states": {
-          "title": "Unmapped states detected",
-          "description": "Some work items for the selected types are currently in states that do not exist in this workflow.",
-          "note": "If you enable this workflow, these items will automatically move to the initial state for this workflow.",
-          "label": "Missing states",
-          "tooltip": "Some work items are in states that are not mapped to this workflow. Open the workflow to review."
+          "title": "Бейнелемелген күйлер анықталды",
+          "description": "Таңдалған түрлердің кейбір тапсырмалары бұл workflow-да жоқ күйлерде.",
+          "note": "Бұл workflow-ды қоссаңыз, осы элементтер автоматты түрде осы workflow-дың бастапқы күйіне жылжиды.",
+          "label": "Жетіспейтін күйлер",
+          "tooltip": "Кейбір тапсырмалар осы workflow-ға бейнелемелген емес күйлерде. Қарау үшін workflow-ды ашыңыз."
         }
       },
       "select_states": {
         "empty_state": {
-          "title": "All states are in use",
-          "description": "All defined states for this project are already present in your current workflow."
+          "title": "Барлық күйлер пайдалануда",
+          "description": "Осы жоба үшін анықталған барлық күйлер ағымдағы workflow-да бар."
         }
       },
       "default_footer": {
-        "fallback_message": "This workflow applies to any work item type that is not assigned to a workflow."
+        "fallback_message": "Бұл workflow workflow-ға тағайындалмаған кез келген тапсырма түріне қолданылады."
       },
       "create": {
-        "heading": "Create new workflow",
+        "heading": "Жаңа workflow жасау",
         "name": {
-          "placeholder": "Add a unique name",
+          "placeholder": "Бірегей ат қосыңыз",
           "validation": {
-            "max_length": "Name must be less than 255 characters",
-            "required": "Name is required",
-            "invalid": "Name can only contain letters, numbers, spaces, hyphens, and apostrophes"
+            "max_length": "Ат 255 таңбадан аз болуы керек",
+            "required": "Ат қажет",
+            "invalid": "Ат тек әріптер, сандар, бос орындар, сызықшалар мен апострофтарды қамтуы мүмкін"
           }
         },
         "description": {
-          "placeholder": "Add a short description",
+          "placeholder": "Қысқаша сипаттама қосыңыз",
           "validation": {
-            "invalid": "Description can only contain letters, numbers, spaces, hyphens, and apostrophes"
+            "invalid": "Сипаттама тек әріптер, сандар, бос орындар, сызықшалар мен апострофтарды қамтуы мүмкін"
           }
         },
         "work_item_type": {
-          "label": "Work item type"
+          "label": "Тапсырма түрі"
         },
         "success": {
-          "title": "Success!",
-          "message": "Workflow created successfully."
+          "title": "Сәтті!",
+          "message": "Workflow сәтті жасалды."
         },
         "error": {
-          "title": "Error!",
-          "message": "Failed to create workflow. Please try again."
+          "title": "Қате!",
+          "message": "Workflow жасау сәтсіз аяқталды. Қайта көріңіз."
         }
       },
       "update": {
         "success": {
-          "title": "Success!",
-          "message": "Workflow updated successfully."
+          "title": "Сәтті!",
+          "message": "Workflow сәтті жаңартылды."
         },
         "error": {
-          "title": "Error!",
-          "message": "Failed to update workflow. Please try again."
+          "title": "Қате!",
+          "message": "Workflow жаңарту сәтсіз аяқталды. Қайта көріңіз."
         }
       },
       "delete": {
-        "loading": "Deleting workflow",
+        "loading": "Workflow жойылуда",
         "success": {
-          "title": "Success!",
-          "message": "Workflow deleted successfully."
+          "title": "Сәтті!",
+          "message": "Workflow сәтті жойылды."
         },
         "error": {
-          "title": "Error!",
-          "message": "Failed to delete workflow. Please try again."
+          "title": "Қате!",
+          "message": "Workflow жою сәтсіз аяқталды. Қайта көріңіз."
         }
       },
       "add_states": {
         "success": {
-          "title": "Success!",
-          "message": "States added successfully."
+          "title": "Сәтті!",
+          "message": "Күйлер сәтті қосылды."
         },
         "error": {
-          "title": "Error!",
-          "message": "Failed to add states. Please try again."
+          "title": "Қате!",
+          "message": "Күйлер қосу сәтсіз аяқталды. Қайта көріңіз."
         }
       }
     },
     "work_item_types": {
-      "heading": "Work item Types",
-      "description": "Create and customize different types of work items with unique properties"
+      "heading": "Тапсырма түрлері",
+      "description": "Бірегей қасиеттері бар әртүрлі тапсырма түрлерін жасаңыз және реттеңіз"
     },
     "features": {
       "cycles": {
-        "title": "Cycles",
-        "short_title": "Cycles",
-        "description": "Schedule work in flexible periods that adapt to this project's unique rhythm and pace.",
-        "toggle_title": "Enable cycles",
-        "toggle_description": "Plan work in focused timeframes."
+        "title": "Циклдар",
+        "short_title": "Циклдар",
+        "description": "Осы жобаның бірегей ырғағы мен қарқынына бейімделетін икемді кезеңдерде жұмысты жоспарлаңыз.",
+        "toggle_title": "Циклдарды қосу",
+        "toggle_description": "Жұмысты бағытталған уақыт аралықтарында жоспарлаңыз."
       },
       "modules": {
-        "title": "Modules",
-        "short_title": "Modules",
-        "description": "Organize work into sub-projects with dedicated leads and assignees.",
-        "toggle_title": "Enable modules",
-        "toggle_description": "Project members will be able to create and edit modules."
+        "title": "Модульдер",
+        "short_title": "Модульдер",
+        "description": "Жұмысты арнайы жетекшілер мен орындаушылармен бірге ішкі жобаларға ұйымдастырыңыз.",
+        "toggle_title": "Модульдерді қосу",
+        "toggle_description": "Жоба мүшелері модульдерді жасай және өңдей алады."
       },
       "views": {
-        "title": "Views",
-        "short_title": "Views",
-        "description": "Save custom sorts, filters, and display options or share them with your team.",
-        "toggle_title": "Enable views",
-        "toggle_description": "Project members will be able to create and edit views."
+        "title": "Көріністер",
+        "short_title": "Көріністер",
+        "description": "Арнайы сұрыптауларды, сүзгілерді және дисплей параметрлерін сақтаңыз немесе командаңызбен ортақтасыңыз.",
+        "toggle_title": "Көріністерді қосу",
+        "toggle_description": "Жоба мүшелері көріністерді жасай және өңдей алады."
       },
       "pages": {
-        "title": "Pages",
-        "short_title": "Pages",
-        "description": "Create and edit free-form content; notes, docs, anything.",
-        "toggle_title": "Enable pages",
-        "toggle_description": "Project members will be able to create and edit pages."
+        "title": "Беттер",
+        "short_title": "Беттер",
+        "description": "Еркін мазмұн жасаңыз және өңдеңіз; жазбалар, құжаттар, кез келген нәрсе.",
+        "toggle_title": "Беттерді қосу",
+        "toggle_description": "Жоба мүшелері беттерді жасай және өңдей алады."
       },
       "intake": {
-        "intake_responsibility": "Intake responsibility",
-        "intake_sources": "Intake sources",
-        "title": "Intake",
-        "short_title": "Intake",
-        "description": "Let non-members share bugs, feedback, and suggestions; without disrupting your workflow.",
-        "toggle_title": "Enable intake",
-        "toggle_description": "Let project members create in app intake requests.",
-        "toggle_tooltip_on": "Ask your Project Admin to turn this on.",
-        "toggle_tooltip_off": "Ask your Project Admin to turn this off.",
+        "intake_responsibility": "Кіріс жауапкершілігі",
+        "intake_sources": "Кіріс көздері",
+        "title": "Кіріс",
+        "short_title": "Кіріс",
+        "description": "Мүше еместерге workflow-ыңызды бұзбай қателер, пікірлер мен ұсыныстар бөлісуге мүмкіндік беріңіз.",
+        "toggle_title": "Кірісті қосу",
+        "toggle_description": "Жоба мүшелеріне қолданба ішінде кіріс сұраулар жасауға мүмкіндік беріңіз.",
+        "toggle_tooltip_on": "Мұны қосу үшін Жоба Әкімшіңізден сұраңыз.",
+        "toggle_tooltip_off": "Мұны өшіру үшін Жоба Әкімшіңізден сұраңыз.",
         "notify_assignee": {
-          "title": "Notify assignees",
-          "description": "For a new request to intake, default assignees will be alerted via notifications"
+          "title": "Орындаушыларды хабарландыру",
+          "description": "Жаңа кіріс сұрауы үшін әдепкі орындаушылар хабарландырулар арқылы ескертіледі"
         },
         "in_app": {
-          "title": "In-app",
-          "description": "Get new work items from Members and Guests in your workspace without disruption to your existing work items."
+          "title": "Қолданба ішінде",
+          "description": "Жұмыс кеңістігіңіздегі Мүшелер мен Қонақтарданбар тапсырмаларыңызды бұзбай жаңа тапсырмалар алыңыз."
         },
         "email": {
-          "title": "Email",
-          "description": "Collect new work items from anyone who sends an email to a Plane email address.",
-          "fieldName": "Email ID"
+          "title": "Электрондық пошта",
+          "description": "Plane электрондық пошта мекенжайына хат жіберген кез келген адамнан жаңа тапсырмаларды жинаңыз.",
+          "fieldName": "Электрондық пошта ID"
         },
         "form": {
-          "title": "Forms",
-          "description": "Let folks outside your workspace create potential new work items for you via a dedicated and secure form.",
-          "fieldName": "Default form URL",
-          "create_forms": "Create Forms using work item types",
-          "manage_forms": "Manage forms",
-          "manage_forms_tooltip": "Ask your Workspace Admin to manage this.",
-          "create_form": "Create form",
-          "edit_form": "Edit form details",
-          "form_title": "Form title",
-          "form_title_required": "Form title is required",
-          "work_item_type": "Work item type",
-          "remove_property": "Remove property",
-          "select_properties": "Select properties",
-          "search_placeholder": "Search for properties",
+          "title": "Формалар",
+          "description": "Жұмыс кеңістігіңіздің сыртындағы адамдарға арнайы және қауіпсіз форма арқылы жаңа тапсырмалар жасауға мүмкіндік беріңіз.",
+          "fieldName": "Әдепкі форма URL",
+          "create_forms": "Тапсырма түрлері арқылы формалар жасау",
+          "manage_forms": "Формаларды басқару",
+          "manage_forms_tooltip": "Мұны басқару үшін Жұмыс кеңістігі Әкімшіңізден сұраңыз.",
+          "create_form": "Форма жасау",
+          "edit_form": "Форма мәліметтерін өңдеу",
+          "form_title": "Форма тақырыбы",
+          "form_title_required": "Форма тақырыбы қажет",
+          "work_item_type": "Тапсырма түрі",
+          "remove_property": "Қасиетті жою",
+          "select_properties": "Қасиеттерді таңдаңыз",
+          "search_placeholder": "Қасиеттерді іздеу",
           "toasts": {
-            "success_create": "Intake form created successfully",
-            "success_update": "Intake form updated successfully",
-            "error_create": "Failed to create intake form",
-            "error_update": "Failed to update intake form"
+            "success_create": "Кіріс формасы сәтті жасалды",
+            "success_update": "Кіріс формасы сәтті жаңартылды",
+            "error_create": "Кіріс формасын жасау сәтсіз аяқталды",
+            "error_update": "Кіріс формасын жаңарту сәтсіз аяқталды"
           }
         },
         "toasts": {
           "set": {
-            "loading": "Setting assignees...",
+            "loading": "Орындаушылар орнатылуда...",
             "success": {
-              "title": "Success!",
-              "message": "Assignees set successfully."
+              "title": "Сәтті!",
+              "message": "Орындаушылар сәтті орнатылды."
             },
             "error": {
-              "title": "Error!",
-              "message": "Something went wrong while setting assignees. Please try again."
+              "title": "Қате!",
+              "message": "Орындаушыларды орнату кезінде бір нәрсе дұрыс болмады. Қайта көріңіз."
             }
           }
         }
       },
       "time_tracking": {
-        "title": "Time tracking",
-        "short_title": "Time tracking",
-        "description": "Log time spent on work items and projects.",
-        "toggle_title": "Enable time tracking",
-        "toggle_description": "Project members will be able to log time worked."
+        "title": "Уақытты бақылау",
+        "short_title": "Уақытты бақылау",
+        "description": "Тапсырмалар мен жобаларға жұмсалған уақытты тіркеңіз.",
+        "toggle_title": "Уақытты бақылауды қосу",
+        "toggle_description": "Жоба мүшелері жұмысқа жұмсалған уақытты тіркей алады."
       },
       "milestones": {
-        "title": "Milestones",
-        "short_title": "Milestones",
-        "description": "Milestones provide a layer to align work items toward shared completion dates.",
-        "toggle_title": "Enable milestones",
-        "toggle_description": "Organize work items by milestone deadlines."
+        "title": "Кезеңдер",
+        "short_title": "Кезеңдер",
+        "description": "Кезеңдер тапсырмаларды ортақ аяқталу күндеріне бағыттауға мүмкіндік береді.",
+        "toggle_title": "Кезеңдерді қосу",
+        "toggle_description": "Тапсырмаларды кезең дедлайндары бойынша ұйымдастырыңыз."
       },
       "toasts": {
-        "loading": "Updating project feature...",
-        "success": "Project feature updated successfully.",
-        "error": "Something went wrong while updating project feature. Please try again."
+        "loading": "Жоба мүмкіндігі жаңартылуда...",
+        "success": "Жоба мүмкіндігі сәтті жаңартылды.",
+        "error": "Жоба мүмкіндігін жаңарту кезінде бір нәрсе дұрыс болмады. Қайта көріңіз."
       }
     },
     "project_updates": {
-      "heading": "Project Updates",
-      "description": "Consolidated tracking and progress monitoring for this project"
+      "heading": "Жоба жаңартулары",
+      "description": "Осы жоба үшін жинақталған бақылау және прогресс мониторингі"
     },
     "templates": {
-      "heading": "Templates",
-      "description": "Save 80% time spent on creating projects, work items, and pages when you use templates."
+      "heading": "Үлгілер",
+      "description": "Үлгілерді пайдаланып жобалар, тапсырмалар мен беттер жасауға жұмсалатын уақыттың 80%-ын үнемдеңіз."
     },
     "cycles": {
       "auto_schedule": {
-        "heading": "Auto-schedule cycles",
-        "description": "Keep cycles moving without manual setup.",
-        "tooltip": "Automatically create new cycles based on your chosen schedule.",
-        "edit_button": "Edit",
+        "heading": "Циклдарды автоматты жоспарлау",
+        "description": "Циклдарды қолмен орнатпай жылжытыңыз.",
+        "tooltip": "Таңдалған кестеге негізделіп автоматты түрде жаңа циклдар жасаңыз.",
+        "edit_button": "Өңдеу",
         "form": {
           "cycle_title": {
-            "label": "Cycle Title",
-            "placeholder": "Title",
-            "tooltip": "The title will be appended with numbers for subsequent cycles. For eg: Design - 1/2/3",
+            "label": "Цикл тақырыбы",
+            "placeholder": "Тақырып",
+            "tooltip": "Тақырыпқа келесі циклдар үшін сандар қосылады. Мысалы: Дизайн - 1/2/3",
             "validation": {
-              "required": "Cycle title is required",
-              "max_length": "Title must not exceed 255 characters"
+              "required": "Цикл тақырыбы қажет",
+              "max_length": "Тақырып 255 таңбадан аспауы керек"
             }
           },
           "cycle_duration": {
-            "label": "Cycle Duration",
-            "unit": "Weeks",
+            "label": "Цикл ұзақтығы",
+            "unit": "Апта",
             "validation": {
-              "required": "Cycle duration is required",
-              "min": "Cycle duration must be at least 1 week",
-              "max": "Cycle duration cannot exceed 30 weeks",
-              "positive": "Cycle duration must be positive"
+              "required": "Цикл ұзақтығы қажет",
+              "min": "Цикл ұзақтығы кем дегенде 1 апта болуы керек",
+              "max": "Цикл ұзақтығы 30 аптадан аспауы керек",
+              "positive": "Цикл ұзақтығы оң болуы керек"
             }
           },
           "cooldown_period": {
-            "label": "Cooldown Period",
-            "unit": "days",
-            "tooltip": "Pause between cycles before the next begins.",
+            "label": "Салқындату кезеңі",
+            "unit": "күн",
+            "tooltip": "Келесі цикл басталмас бұрын циклдар арасындағы үзіліс.",
             "validation": {
-              "required": "Cooldown period is required",
-              "negative": "Cooldown period cannot be negative"
+              "required": "Салқындату кезеңі қажет",
+              "negative": "Салқындату кезеңі теріс болмауы керек"
             }
           },
           "start_date": {
-            "label": "Cycle starts day",
+            "label": "Цикл басталу күні",
             "validation": {
-              "required": "Start date is required",
-              "past": "Start date cannot be in the past"
+              "required": "Басталу күні қажет",
+              "past": "Басталу күні өткен күн болмауы керек"
             }
           },
           "number_of_cycles": {
-            "label": "Number of future cycles",
+            "label": "Болашақ циклдар саны",
             "validation": {
-              "required": "Number of cycles is required",
-              "min": "At least 1 cycle is required",
-              "max": "Cannot schedule more than 3 cycles"
+              "required": "Циклдар саны қажет",
+              "min": "Кем дегенде 1 цикл қажет",
+              "max": "3-тен артық цикл жоспарлау мүмкін емес"
             }
           },
           "auto_rollover": {
-            "label": "Auto-rollover work items",
-            "tooltip": "On the day a cycle completes, move all unfinished work items into the next cycle."
+            "label": "Тапсырмаларды автоматты ауыстыру",
+            "tooltip": "Цикл аяқталған күні барлық аяқталмаған тапсырмаларды келесі циклге жылжытыңыз."
           }
         },
         "toast": {
           "toggle": {
-            "loading_enable": "Enabling auto-schedule cycles",
-            "loading_disable": "Disabling auto-schedule cycles",
+            "loading_enable": "Автоматты цикл жоспарлауы қосылуда",
+            "loading_disable": "Автоматты цикл жоспарлауы өшірілуде",
             "success": {
-              "title": "Success!",
-              "message": "Auto-schedule cycles toggled successfully."
+              "title": "Сәтті!",
+              "message": "Автоматты цикл жоспарлауы сәтті ауысты."
             },
             "error": {
-              "title": "Error!",
-              "message": "Failed to toggle auto-schedule cycles."
+              "title": "Қате!",
+              "message": "Автоматты цикл жоспарлауын ауыстыру сәтсіз аяқталды."
             }
           },
           "save": {
-            "loading": "Saving auto-schedule cycles configuration",
+            "loading": "Автоматты цикл жоспарлауы конфигурациясы сақталуда",
             "success": {
-              "title": "Success!",
-              "message_create": "Auto-schedule cycles configuration saved successfully.",
-              "message_update": "Auto-schedule cycles configuration updated successfully."
+              "title": "Сәтті!",
+              "message_create": "Автоматты цикл жоспарлауы конфигурациясы сәтті сақталды.",
+              "message_update": "Автоматты цикл жоспарлауы конфигурациясы сәтті жаңартылды."
             },
             "error": {
-              "title": "Error!",
-              "message_create": "Failed to save auto-schedule cycles configuration.",
-              "message_update": "Failed to update auto-schedule cycles configuration."
+              "title": "Қате!",
+              "message_create": "Автоматты цикл жоспарлауы конфигурациясын сақтау сәтсіз аяқталды.",
+              "message_update": "Автоматты цикл жоспарлауы конфигурациясын жаңарту сәтсіз аяқталды."
             }
           }
         }

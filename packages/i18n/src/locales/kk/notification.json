@@ -1,58 +1,58 @@
 {
   "notification": {
-    "label": "Inbox",
-    "page_label": "{workspace} - Inbox",
+    "label": "Кіріс жәшік",
+    "page_label": "{workspace} - Кіріс жәшік",
     "options": {
-      "mark_all_as_read": "Mark all as read",
-      "mark_read": "Mark as read",
-      "mark_unread": "Mark as unread",
-      "refresh": "Refresh",
-      "filters": "Inbox Filters",
-      "show_unread": "Show unread",
-      "show_snoozed": "Show snoozed",
-      "show_archived": "Show archived",
-      "mark_archive": "Archive",
-      "mark_unarchive": "Un archive",
-      "mark_snooze": "Snooze",
-      "mark_unsnooze": "Un snooze"
+      "mark_all_as_read": "Барлығын оқылды деп белгілеу",
+      "mark_read": "Оқылды деп белгілеу",
+      "mark_unread": "Оқылмады деп белгілеу",
+      "refresh": "Жаңарту",
+      "filters": "Кіріс жәшік сүзгілері",
+      "show_unread": "Оқылмағандарды көрсету",
+      "show_snoozed": "Кейінге қалдырылғандарды көрсету",
+      "show_archived": "Мұрағатталғандарды көрсету",
+      "mark_archive": "Мұрағат",
+      "mark_unarchive": "Мұрағаттан шығару",
+      "mark_snooze": "Кейінге қалдыру",
+      "mark_unsnooze": "Кейінге қалдыруды болдырмау"
     },
     "toasts": {
-      "read": "Notification marked as read",
-      "unread": "Notification marked as unread",
-      "archived": "Notification marked as archived",
-      "unarchived": "Notification marked as un archived",
-      "snoozed": "Notification snoozed",
-      "unsnoozed": "Notification un snoozed"
+      "read": "Хабарландыру оқылды деп белгіленді",
+      "unread": "Хабарландыру оқылмады деп белгіленді",
+      "archived": "Хабарландыру мұрағатталды деп белгіленді",
+      "unarchived": "Хабарландыру мұрағаттан шығарылды",
+      "snoozed": "Хабарландыру кейінге қалдырылды",
+      "unsnoozed": "Хабарландырудың кейінге қалдырылуы болдырылмады"
     },
     "empty_state": {
       "detail": {
-        "title": "Select to view details."
+        "title": "Мәліметтерді көру үшін таңдаңыз."
       },
       "all": {
-        "title": "No work items assigned",
-        "description": "Updates for work items assigned to you can be\n seen here"
+        "title": "Тағайындалған тапсырмалар жоқ",
+        "description": "Сізге тағайындалған тапсырмалардың\n жаңартулары осы жерде көрінеді"
       },
       "mentions": {
-        "title": "No work items assigned",
-        "description": "Updates for work items assigned to you can be\n seen here"
+        "title": "Тағайындалған тапсырмалар жоқ",
+        "description": "Сізге тағайындалған тапсырмалардың\n жаңартулары осы жерде көрінеді"
       }
     },
     "tabs": {
-      "all": "All",
-      "mentions": "Mentions"
+      "all": "Барлығы",
+      "mentions": "Аталымдар"
     },
     "filter": {
-      "assigned": "Assigned to me",
-      "created": "Created by me",
-      "subscribed": "Subscribed by me"
+      "assigned": "Маған тағайындалған",
+      "created": "Мен жасаған",
+      "subscribed": "Мен жазылған"
     },
     "snooze": {
-      "1_day": "1 day",
-      "3_days": "3 days",
-      "5_days": "5 days",
-      "1_week": "1 week",
-      "2_weeks": "2 weeks",
-      "custom": "Custom"
+      "1_day": "1 күн",
+      "3_days": "3 күн",
+      "5_days": "5 күн",
+      "1_week": "1 апта",
+      "2_weeks": "2 апта",
+      "custom": "Өзгеше"
     }
   }
 }

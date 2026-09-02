@@ -1,68 +1,68 @@
 {
   "updates": {
     "progress": {
-      "title": "Progress",
-      "since_last_update": "Since last update",
-      "comments": "{count, plural, one{# Comment} other{# Comments}}"
+      "title": "Прогресс",
+      "since_last_update": "Соңғы жаңартудан бері",
+      "comments": "{count, plural, one{# Пікір} other{# Пікір}}"
     },
-    "add_update": "Add Update",
-    "add_update_placeholder": "Add your update here",
+    "add_update": "Жаңарту қосу",
+    "add_update_placeholder": "Жаңартуыңызды осы жерге қосыңыз",
     "empty": {
-      "title": "No updates yet",
-      "description": "You can see the updates here."
+      "title": "Жаңартулар жоқ",
+      "description": "Жаңартуларды осы жерде көруге болады."
     },
     "reaction": {
       "create": {
         "success": {
-          "title": "Reaction created",
-          "message": "The reaction has been successfully created"
+          "title": "Реакция қосылды",
+          "message": "Реакция сәтті қосылды"
         },
         "error": {
-          "title": "Reaction not created",
-          "message": "The reaction could not be created"
+          "title": "Реакция қосылмады",
+          "message": "Реакция қосылмады"
         }
       },
       "remove": {
         "success": {
-          "title": "Reaction removed",
-          "message": "The reaction has been successfully removed"
+          "title": "Реакция жойылды",
+          "message": "Реакция сәтті жойылды"
         },
         "error": {
-          "title": "Reaction not removed",
-          "message": "The reaction could not be removed"
+          "title": "Реакция жойылмады",
+          "message": "Реакция жойылмады"
         }
       }
     },
     "create": {
       "success": {
-        "title": "Update created",
-        "message": "The update has been successfully created"
+        "title": "Жаңарту жасалды",
+        "message": "Жаңарту сәтті жасалды"
       },
       "error": {
-        "title": "Update not created",
-        "message": "The update could not be created"
+        "title": "Жаңарту жасалмады",
+        "message": "Жаңарту жасалмады"
       }
     },
     "delete": {
-      "title": "Delete update",
-      "confirmation": "Are you sure you want to delete this update? This is an irreversible action.",
+      "title": "Жаңартуды жою",
+      "confirmation": "Осы жаңартуды жойғыңыз келетінін растайсыз ба? Бұл қайтарымсыз әрекет.",
       "success": {
-        "title": "Update deleted",
-        "message": "The update has been successfully deleted"
+        "title": "Жаңарту жойылды",
+        "message": "Жаңарту сәтті жойылды"
       },
       "error": {
-        "title": "Update not deleted",
-        "message": "The update could not be deleted"
+        "title": "Жаңарту жойылмады",
+        "message": "Жаңарту жойылмады"
       }
     },
     "update": {
       "success": {
-        "title": "Updated",
-        "message": "The update has been successfully updated"
+        "title": "Жаңартылды",
+        "message": "Жаңарту сәтті жаңартылды"
       },
       "error": {
-        "title": "Update not updated",
-        "message": "The update could not be updated"
+        "title": "Жаңарту жаңартылмады",
+        "message": "Жаңарту жаңартылмады"
       }
     }
   }

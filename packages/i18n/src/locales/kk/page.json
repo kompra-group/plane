@@ -2,114 +2,114 @@
   "page_navigation_pane": {
     "tabs": {
       "outline": {
-        "label": "Outline",
+        "label": "Мазмұн",
         "empty_state": {
-          "title": "Missing headings",
-          "description": "Let's put some headings in this page to see them here."
+          "title": "Тақырыптар жоқ",
+          "description": "Бетке тақырыптар қосып, оларды осы жерде қараңыз."
         }
       },
       "info": {
-        "label": "Info",
+        "label": "Ақпарат",
         "document_info": {
-          "words": "Words",
-          "characters": "Characters",
-          "paragraphs": "Paragraphs",
-          "read_time": "Read time"
+          "words": "Сөздер",
+          "characters": "Таңбалар",
+          "paragraphs": "Абзацтар",
+          "read_time": "Оқу уақыты"
         },
         "actors_info": {
-          "edited_by": "Edited by",
-          "created_by": "Created by"
+          "edited_by": "Өңдеген",
+          "created_by": "Жасаған"
         },
         "version_history": {
-          "label": "Version history",
-          "current_version": "Current version",
-          "highlight_changes": "Highlight changes"
+          "label": "Нұсқа тарихы",
+          "current_version": "Ағымдағы нұсқа",
+          "highlight_changes": "Өзгерістерді бөлектеу"
         }
       },
       "assets": {
-        "label": "Assets",
-        "download_button": "Download",
+        "label": "Ресурстар",
+        "download_button": "Жүктеу",
         "empty_state": {
-          "title": "Missing images",
-          "description": "Add images to see them here."
+          "title": "Суреттер жоқ",
+          "description": "Оларды осы жерде көру үшін суреттер қосыңыз."
         }
       },
       "comments": {
-        "label": "Comments",
+        "label": "Пікірлер",
         "empty_state": {
-          "title": "No comments",
-          "description": "Add comments to see them here."
+          "title": "Пікірлер жоқ",
+          "description": "Оларды осы жерде көру үшін пікірлер қосыңыз."
         }
       }
     },
     "toasts": {
       "errors": {
-        "wrong_name": "The sticky name cannot be longer than 100 characters.",
-        "already_exists": "There already exists a sticky with no description"
+        "wrong_name": "Жабысқақ жазба атауы 100 таңбадан ұзын болмауы керек.",
+        "already_exists": "Сипатсыз жабысқақ жазба бұрыннан бар"
       },
       "created": {
-        "title": "Sticky created",
-        "message": "The sticky has been successfully created"
+        "title": "Жабысқақ жазба жасалды",
+        "message": "Жабысқақ жазба сәтті жасалды"
       },
       "not_created": {
-        "title": "Sticky not created",
-        "message": "The sticky could not be created"
+        "title": "Жабысқақ жазба жасалмады",
+        "message": "Жабысқақ жазба жасалмады"
       },
       "updated": {
-        "title": "Sticky updated",
-        "message": "The sticky has been successfully updated"
+        "title": "Жабысқақ жазба жаңартылды",
+        "message": "Жабысқақ жазба сәтті жаңартылды"
       },
       "not_updated": {
-        "title": "Sticky not updated",
-        "message": "The sticky could not be updated"
+        "title": "Жабысқақ жазба жаңартылмады",
+        "message": "Жабысқақ жазба жаңартылмады"
       },
       "removed": {
-        "title": "Sticky removed",
-        "message": "The sticky has been successfully removed"
+        "title": "Жабысқақ жазба жойылды",
+        "message": "Жабысқақ жазба сәтті жойылды"
       },
       "not_removed": {
-        "title": "Sticky not removed",
-        "message": "The sticky could not be removed"
+        "title": "Жабысқақ жазба жойылмады",
+        "message": "Жабысқақ жазба жойылмады"
       }
     },
-    "open_button": "Open navigation pane",
-    "close_button": "Close navigation pane",
-    "outline_floating_button": "Open outline"
+    "open_button": "Навигация тақтасын ашу",
+    "close_button": "Навигация тақтасын жабу",
+    "outline_floating_button": "Мазмұнды ашу"
   },
   "page_actions": {
     "move_page": {
       "submit_button": {
-        "default": "Move",
-        "loading": "Moving"
+        "default": "Жылжыту",
+        "loading": "Жылжытылуда"
       },
-      "cannot_move_to_teamspace": "Private and shared pages cannot be moved to a teamspace.",
+      "cannot_move_to_teamspace": "Жеке және ортақ беттерді командалық кеңістікке жылжыту мүмкін емес.",
       "placeholders": {
-        "workspace_to_all": "Search for projects and teamspaces",
-        "workspace_to_project": "Search for projects",
-        "project_to_all": "Search for projects and teamspaces",
-        "project_to_project": "Search for projects",
-        "project_to_all_with_wiki": "Search for wiki collections, projects, and teamspaces",
-        "project_to_project_with_wiki": "Search for wiki collections and projects"
+        "workspace_to_all": "Жобалар мен командалық кеңістіктерді іздеу",
+        "workspace_to_project": "Жобаларды іздеу",
+        "project_to_all": "Жобалар мен командалық кеңістіктерді іздеу",
+        "project_to_project": "Жобаларды іздеу",
+        "project_to_all_with_wiki": "Wiki жинақтарын, жобалар мен командалық кеңістіктерді іздеу",
+        "project_to_project_with_wiki": "Wiki жинақтары мен жобаларды іздеу"
       },
       "toasts": {
         "success": {
-          "title": "Success!",
-          "message": "Page moved successfully."
+          "title": "Сәтті!",
+          "message": "Бет сәтті жылжытылды."
         },
         "error": {
-          "title": "Error!",
-          "message": "Page could not be moved. Please try again later."
+          "title": "Қате!",
+          "message": "Бетті жылжыту мүмкін болмады. Кейінірек қайта көріңіз."
         },
         "collection_error": {
-          "title": "Moved to wiki",
-          "message": "Page was moved to wiki, but could not be added to the selected collection. It remains in General."
+          "title": "Wiki-ге жылжытылды",
+          "message": "Бет wiki-ге жылжытылды, бірақ таңдалған жинаққа қосылмады. Ол Жалпы бөлімінде қалды."
         }
       }
     },
     "remove_from_collection": {
-      "label": "Remove from collection",
-      "success_message": "Page removed from collection.",
-      "error_message": "Page could not be removed from the collection. Please try again."
+      "label": "Жинақтан жою",
+      "success_message": "Бет жинақтан жойылды.",
+      "error_message": "Бетті жинақтан жою мүмкін болмады. Қайта көріңіз."
     }
   }
 }

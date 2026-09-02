@@ -1,416 +1,416 @@
 {
   "project_view": {
     "sort_by": {
-      "created_at": "Created at",
-      "updated_at": "Updated at",
-      "name": "Name"
+      "created_at": "Жасалған уақыт",
+      "updated_at": "Жаңартылған уақыт",
+      "name": "Атауы"
     }
   },
   "project_cycles": {
-    "add_cycle": "Add cycle",
-    "more_details": "More details",
-    "cycle": "Cycle",
-    "update_cycle": "Update cycle",
-    "create_cycle": "Create cycle",
-    "no_matching_cycles": "No matching cycles",
-    "remove_filters_to_see_all_cycles": "Remove the filters to see all cycles",
-    "remove_search_criteria_to_see_all_cycles": "Remove the search criteria to see all cycles",
-    "only_completed_cycles_can_be_archived": "Only completed cycles can be archived",
-    "start_date": "Start date",
-    "end_date": "End date",
-    "in_your_timezone": "In your timezone",
-    "transfer_work_items": "Transfer {count} work items",
+    "add_cycle": "Цикл қосу",
+    "more_details": "Толығырақ",
+    "cycle": "Цикл",
+    "update_cycle": "Циклді жаңарту",
+    "create_cycle": "Цикл жасау",
+    "no_matching_cycles": "Сәйкес циклдар жоқ",
+    "remove_filters_to_see_all_cycles": "Барлық циклдарды көру үшін сүзгілерді алып тастаңыз",
+    "remove_search_criteria_to_see_all_cycles": "Барлық циклдарды көру үшін іздеу өлшемін алып тастаңыз",
+    "only_completed_cycles_can_be_archived": "Тек аяқталған циклдарды мұрағаттауға болады",
+    "start_date": "Басталу күні",
+    "end_date": "Аяқталу күні",
+    "in_your_timezone": "Сіздің уақыт белдеуіңізде",
+    "transfer_work_items": "{count} тапсырманы тасымалдау",
     "transfer": {
-      "no_cycles_available": "No other cycles available to transfer work items to."
+      "no_cycles_available": "Тапсырмаларды тасымалдау үшін басқа циклдар жоқ."
     },
-    "date_range": "Date range",
-    "add_date": "Add date",
+    "date_range": "Күн аралығы",
+    "add_date": "Күн қосу",
     "active_cycle": {
-      "label": "Active cycle",
-      "progress": "Progress",
-      "chart": "Burndown chart",
-      "priority_issue": "Priority work items",
-      "assignees": "Assignees",
-      "issue_burndown": "Work item burndown",
-      "ideal": "Ideal",
-      "current": "Current",
-      "labels": "Labels",
-      "trailing": "Trailing",
-      "leading": "Leading"
+      "label": "Белсенді цикл",
+      "progress": "Прогресс",
+      "chart": "Burndown диаграммасы",
+      "priority_issue": "Басымдылықтағы тапсырмалар",
+      "assignees": "Орындаушылар",
+      "issue_burndown": "Тапсырма burndown",
+      "ideal": "Идеалды",
+      "current": "Ағымдағы",
+      "labels": "Белгілер",
+      "trailing": "Кейінде",
+      "leading": "Алда"
     },
     "upcoming_cycle": {
-      "label": "Upcoming cycle"
+      "label": "Алдағы цикл"
     },
     "completed_cycle": {
-      "label": "Completed cycle"
+      "label": "Аяқталған цикл"
     },
     "status": {
-      "days_left": "Days left",
-      "completed": "Completed",
-      "yet_to_start": "Yet to start",
-      "in_progress": "In progress",
-      "draft": "Draft"
+      "days_left": "Күн қалды",
+      "completed": "Аяқталды",
+      "yet_to_start": "Бастала қойған жоқ",
+      "in_progress": "Орындалуда",
+      "draft": "Жоба"
     },
     "action": {
       "restore": {
-        "title": "Restore cycle",
+        "title": "Циклді қалпына келтіру",
         "success": {
-          "title": "Cycle restored",
-          "description": "The cycle has been restored."
+          "title": "Цикл қалпына келтірілді",
+          "description": "Цикл қалпына келтірілді."
         },
         "failed": {
-          "title": "Cycle restore failed",
-          "description": "The cycle could not be restored. Please try again."
+          "title": "Циклді қалпына келтіру сәтсіз аяқталды",
+          "description": "Циклді қалпына келтіру мүмкін болмады. Қайта көріңіз."
         }
       },
       "favorite": {
-        "loading": "Adding cycle to favorites",
+        "loading": "Цикл таңдаулыларға қосылуда",
         "success": {
-          "description": "Cycle added to favorites.",
-          "title": "Success!"
+          "description": "Цикл таңдаулыларға қосылды.",
+          "title": "Сәтті!"
         },
         "failed": {
-          "description": "Couldn't add the cycle to favorites. Please try again.",
-          "title": "Error!"
+          "description": "Циклді таңдаулыларға қосу мүмкін болмады. Қайта көріңіз.",
+          "title": "Қате!"
         }
       },
       "unfavorite": {
-        "loading": "Removing cycle from favorites",
+        "loading": "Цикл таңдаулылардан жойылуда",
         "success": {
-          "description": "Cycle removed from favorites.",
-          "title": "Success!"
+          "description": "Цикл таңдаулылардан жойылды.",
+          "title": "Сәтті!"
         },
         "failed": {
-          "description": "Couldn't remove the cycle from favorites. Please try again.",
-          "title": "Error!"
+          "description": "Циклді таңдаулылардан жою мүмкін болмады. Қайта көріңіз.",
+          "title": "Қате!"
         }
       },
       "update": {
-        "loading": "Updating cycle",
+        "loading": "Цикл жаңартылуда",
         "success": {
-          "description": "Cycle updated successfully.",
-          "title": "Success!"
+          "description": "Цикл сәтті жаңартылды.",
+          "title": "Сәтті!"
         },
         "failed": {
-          "description": "Error updating the cycle. Please try again.",
-          "title": "Error!"
+          "description": "Циклді жаңарту қатесі. Қайта көріңіз.",
+          "title": "Қате!"
         },
         "error": {
-          "already_exists": "You already have a cycle on the given dates, if you want to create a draft cycle, you can do that by removing both the dates."
+          "already_exists": "Берілген күндерде цикл бұрыннан бар, егер жоба циклін жасағыңыз келсе, екі күнді де алып тастай отырып жасай аласыз."
         }
       }
     },
     "empty_state": {
       "general": {
-        "title": "Group and timebox your work in Cycles.",
-        "description": "Break work down by timeboxed chunks, work backwards from your project deadline to set dates, and make tangible progress as a team.",
+        "title": "Жұмысты Циклдерде топтаңыз және уақыт шектеңіз.",
+        "description": "Жұмысты уақыт блоктарына бөліп, жоба мерзімінен кері санап күндерді белгілеңіз және команда ретінде нақты прогреске жетіңіз.",
         "primary_button": {
-          "text": "Set your first cycle",
+          "text": "Бірінші циклыңызды орнатыңыз",
           "comic": {
-            "title": "Cycles are repetitive time-boxes.",
-            "description": "A sprint, an iteration, and or any other term you use for weekly or fortnightly tracking of work is a cycle."
+            "title": "Циклдар — қайталанатын уақыт блоктары.",
+            "description": "Спринт, итерация немесе апта/екі аптада жұмысты бақылауда пайдаланатын кез келген басқа термин — цикл."
           }
         }
       },
       "no_issues": {
-        "title": "No work items added to the cycle",
-        "description": "Add or create work items you wish to timebox and deliver within this cycle",
+        "title": "Циклге тапсырмалар қосылмады",
+        "description": "Осы цикл ішінде орындалуы керек тапсырмаларды қосыңыз немесе жасаңыз",
         "primary_button": {
-          "text": "Create new work item"
+          "text": "Жаңа тапсырма жасау"
         },
         "secondary_button": {
-          "text": "Add existing work item"
+          "text": "Бар тапсырманы қосу"
         }
       },
       "completed_no_issues": {
-        "title": "No work items in the cycle",
-        "description": "No work items in the cycle. Work items are either transferred or hidden. To see hidden work items if any, update your display properties accordingly."
+        "title": "Циклде тапсырмалар жоқ",
+        "description": "Циклде тапсырмалар жоқ. Тапсырмалар тасымалданған немесе жасырылған. Жасырылған тапсырмаларды қарау үшін дисплей қасиеттерін тиісінше жаңартыңыз."
       },
       "active": {
-        "title": "No active cycle",
-        "description": "An active cycle includes any period that encompasses today's date within its range. Find the progress and details of the active cycle here."
+        "title": "Белсенді цикл жоқ",
+        "description": "Белсенді цикл бүгінгі күнді аралығына қамтитын кез келген кезеңді қамтиды. Белсенді циклдің прогресі мен мәліметтерін осы жерде табыңыз."
       },
       "archived": {
-        "title": "No archived cycles yet",
-        "description": "To tidy up your project, archive completed cycles. Find them here once archived."
+        "title": "Мұрағатталған циклдар жоқ",
+        "description": "Жобаңызды реттеу үшін аяқталған циклдарды мұрағаттаңыз. Мұрағатталғаннан кейін осы жерде табыңыз."
       }
     }
   },
   "project_views": {
     "empty_state": {
       "general": {
-        "title": "Save filtered views for your project. Create as many as you need",
-        "description": "Views are a set of saved filters that you use frequently or want easy access to. All your colleagues in a project can see everyone's views and choose whichever suits their needs best.",
+        "title": "Жобаңыз үшін сүзілген көріністерді сақтаңыз. Қажетінше көп жасаңыз",
+        "description": "Көріністер — жиі пайдаланатын немесе оңай қол жеткізгіңіз келетін сақталған сүзгілер жиынтығы. Жобадағы барлық әріптестеріңіз барлығының көріністерін көре алады және өздеріне сәйкес келетінін таңдай алады.",
         "primary_button": {
-          "text": "Create your first view",
+          "text": "Бірінші көрінісіңізді жасаңыз",
           "comic": {
-            "title": "Views work atop Work item properties.",
-            "description": "You can create a view from here with as many properties as filters as you see fit."
+            "title": "Көріністер тапсырма қасиеттерінің үстінде жұмыс жасайды.",
+            "description": "Осы жерден мүмкіндігінше көп қасиет пен сүзгімен көріністер жасай аласыз."
           }
         },
         "filter": {
-          "title": "No matching views",
-          "description": "No views match the search criteria.\n Create a new view instead."
+          "title": "Сәйкес көріністер жоқ",
+          "description": "Іздеу өлшеміне сәйкес көріністер жоқ.\n Оның орнына жаңа көріністер жасаңыз."
         }
       },
       "no_archived_issues": {
-        "title": "No archived work items yet",
-        "description": "Manually or through automation, you can archive work items that are completed or cancelled. Find them here once archived.",
+        "title": "Мұрағатталған тапсырмалар жоқ",
+        "description": "Қолмен немесе автоматтандыру арқылы аяқталған немесе жойылған тапсырмаларды мұрағаттауға болады. Мұрағатталғаннан кейін осы жерде табыңыз.",
         "primary_button": {
-          "text": "Set automation"
+          "text": "Автоматтандыруды орнату"
         }
       },
       "issues_empty_filter": {
-        "title": "No work items found matching the filters applied",
+        "title": "Қолданылған сүзгілерге сәйкес тапсырмалар табылмады",
         "secondary_button": {
-          "text": "Clear all filters"
+          "text": "Барлық сүзгілерді тазарту"
         }
       },
       "public": {
-        "title": "No public pages yet",
-        "description": "See pages shared with everyone in your project right here.",
+        "title": "Жалпы беттер жоқ",
+        "description": "Жобаңыздағы барлығымен ортақтасылған беттерді осы жерде қараңыз.",
         "primary_button": {
-          "text": "Create your first page"
+          "text": "Бірінші бетіңізді жасаңыз"
         }
       },
       "archived": {
-        "title": "No archived pages yet",
-        "description": "Archive pages not on your radar. Access them here when needed."
+        "title": "Мұрағатталған беттер жоқ",
+        "description": "Назардан тыс қалған беттерді мұрағаттаңыз. Қажет болғанда осы жерде қараңыз."
       },
       "shared": {
-        "title": "No shared pages yet",
-        "description": "Pages that others have shared with you will appear here."
+        "title": "Ортақтасылған беттер жоқ",
+        "description": "Басқалардың сізбен ортақтасқан беттері осы жерде пайда болады."
       }
     },
     "delete_view": {
-      "title": "Are you sure you want to delete this view?",
-      "content": "If you confirm, all the sort, filter, and display options + the layout you have chosen for this view will be permanently deleted without any way to restore them."
+      "title": "Осы көріністі жойғыңыз келетінін растайсыз ба?",
+      "content": "Растасаңыз, осы көріністе таңдалған барлық сұрыптау, сүзгілеу және дисплей параметрлері мен орналасу біржолата жойылады, оларды қалпына келтіру мүмкін болмайды."
     }
   },
   "project_issues": {
     "empty_state": {
       "no_issues": {
-        "title": "Create a work item and assign it to someone, even yourself",
-        "description": "Think of work items as jobs, tasks, work, or JTBD. Which we like. A work item and its sub-work items are usually time-based actionables assigned to members of your team. Your team creates, assigns, and completes work items to move your project towards its goal.",
+        "title": "Тапсырма жасап, оны біреуге тағайындаңыз, тіпті өзіңізге",
+        "description": "Тапсырмаларды жұмыс, міндет немесе JTBD деп санаңыз. Тапсырма мен оның ішкі тапсырмалары әдетте команда мүшелеріне тағайындалатын уақытқа негізделген іс-қимылдар. Командаңыз жобаңызды мақсатына жеткізу үшін тапсырмалар жасайды, тағайындайды және аяқтайды.",
         "primary_button": {
-          "text": "Create your first work item",
+          "text": "Бірінші тапсырмаңызды жасаңыз",
           "comic": {
-            "title": "Work items are building blocks in Plane.",
-            "description": "Redesign the Plane UI, Rebrand the company, or Launch the new fuel injection system are examples of work items that likely have sub-work items."
+            "title": "Тапсырмалар — Plane-дегі негізгі блоктар.",
+            "description": "Plane UI-ді қайта дизайн жасау, компанияны қайта бренд жасау немесе жаңа жанармай инъекциясы жүйесін іске қосу — мұның барлығы ішкі тапсырмалары бар тапсырмалар мысалы."
           }
         }
       },
       "no_archived_issues": {
-        "title": "No archived work items yet",
-        "description": "Manually or through automation, you can archive work items that are completed or cancelled. Find them here once archived.",
+        "title": "Мұрағатталған тапсырмалар жоқ",
+        "description": "Қолмен немесе автоматтандыру арқылы аяқталған немесе жойылған тапсырмаларды мұрағаттауға болады. Мұрағатталғаннан кейін осы жерде табыңыз.",
         "primary_button": {
-          "text": "Set automation"
+          "text": "Автоматтандыруды орнату"
         }
       },
       "issues_empty_filter": {
-        "title": "No work items found matching the filters applied",
+        "title": "Қолданылған сүзгілерге сәйкес тапсырмалар табылмады",
         "secondary_button": {
-          "text": "Clear all filters"
+          "text": "Барлық сүзгілерді тазарту"
         }
       }
     }
   },
   "project_module": {
-    "add_module": "Add Module",
-    "update_module": "Update Module",
-    "create_module": "Create Module",
-    "archive_module": "Archive Module",
-    "restore_module": "Restore Module",
-    "delete_module": "Delete module",
+    "add_module": "Модуль қосу",
+    "update_module": "Модульді жаңарту",
+    "create_module": "Модуль жасау",
+    "archive_module": "Модульді мұрағаттау",
+    "restore_module": "Модульді қалпына келтіру",
+    "delete_module": "Модульді жою",
     "empty_state": {
       "general": {
-        "title": "Map your project milestones to Modules and track aggregated work easily.",
-        "description": "A group of work items that belong to a logical, hierarchical parent form a module. Think of them as a way to track work by project milestones. They have their own periods and deadlines as well as analytics to help you see how close or far you are from a milestone.",
+        "title": "Жоба кезеңдерін Модульдерге бейнелеп, жиынтық жұмысты оңай бақылаңыз.",
+        "description": "Логикалық, иерархиялық ата-ана астына кіретін тапсырмалар тобы модуль жасайды. Оларды жоба кезеңдері бойынша жұмысты бақылау тәсілі деп санаңыз. Олардың өз мерзімдері мен дедлайндары, сонымен қатар белгіге қаншалықты жақын немесе қашық екеніңізді көруге арналған аналитика бар.",
         "primary_button": {
-          "text": "Build your first module",
+          "text": "Бірінші модуліңізді жасаңыз",
           "comic": {
-            "title": "Modules help group work by hierarchy.",
-            "description": "A cart module, a chassis module, and a warehouse module are all good example of this grouping."
+            "title": "Модульдер жұмысты иерархия бойынша топтастырады.",
+            "description": "Арба модулі, шасси модулі және қойма модулі — осы топтастырудың жақсы мысалдары."
           }
         }
       },
       "no_issues": {
-        "title": "No work items in the module",
-        "description": "Create or add work items which you want to accomplish as part of this module",
+        "title": "Модульде тапсырмалар жоқ",
+        "description": "Осы модульдің бөлігі ретінде орындалуы керек тапсырмаларды жасаңыз немесе қосыңыз",
         "primary_button": {
-          "text": "Create new work items"
+          "text": "Жаңа тапсырмалар жасау"
         },
         "secondary_button": {
-          "text": "Add an existing work item"
+          "text": "Бар тапсырманы қосу"
         }
       },
       "archived": {
-        "title": "No archived Modules yet",
-        "description": "To tidy up your project, archive completed or cancelled modules. Find them here once archived."
+        "title": "Мұрағатталған модульдер жоқ",
+        "description": "Жобаңызды реттеу үшін аяқталған немесе жойылған модульдерді мұрағаттаңыз. Мұрағатталғаннан кейін осы жерде табыңыз."
       },
       "sidebar": {
-        "in_active": "This module isn't active yet.",
-        "invalid_date": "Invalid date. Please enter valid date."
+        "in_active": "Бұл модуль әлі белсенді емес.",
+        "invalid_date": "Жарамсыз күн. Жарамды күн енгізіңіз."
       }
     },
     "quick_actions": {
-      "archive_module": "Archive module",
-      "archive_module_description": "Only completed or canceled\nmodule can be archived.",
-      "delete_module": "Delete module"
+      "archive_module": "Модульді мұрағаттау",
+      "archive_module_description": "Тек аяқталған немесе жойылған\nмодульді мұрағаттауға болады.",
+      "delete_module": "Модульді жою"
     },
     "toast": {
       "copy": {
-        "success": "Module link copied to clipboard"
+        "success": "Модуль сілтемесі буферге көшірілді"
       },
       "delete": {
-        "success": "Module deleted successfully",
-        "error": "Failed to delete module"
+        "success": "Модуль сәтті жойылды",
+        "error": "Модульді жою сәтсіз аяқталды"
       }
     }
   },
   "project_page": {
     "empty_state": {
       "general": {
-        "title": "Write a note, a doc, or a full knowledge base. Get Galileo, Plane's AI assistant, to help you get started",
-        "description": "Pages are thoughts potting space in Plane. Take down meeting notes, format them easily, embed work items, lay them out using a library of components, and keep them all in your project's context. To make short work of any doc, invoke Galileo, Plane's AI, with a shortcut or the click of a button.",
+        "title": "Жазба, құжат немесе толық білім базасын жазыңыз. Бастауға Galileo, Plane AI көмекшісінен көмек сұраңыз",
+        "description": "Беттер — Plane-дегі ойларды жазу кеңістігі. Кездесу жазбаларын жазыңыз, оларды оңай пішімдеңіз, тапсырмаларды ендіріңіз, компоненттер кітапханасын пайдаланып оларды орналастырыңыз және барлығын жобаның контекстінде ұстаңыз.",
         "primary_button": {
-          "text": "Create your first page"
+          "text": "Бірінші бетіңізді жасаңыз"
         }
       },
       "private": {
-        "title": "No private pages yet",
-        "description": "Keep your private thoughts here. When you're ready to share, the team's just a click away.",
+        "title": "Жеке беттер жоқ",
+        "description": "Жеке ойларыңызды осы жерде ұстаңыз. Ортақтасуға дайын болғанда команда бір батырманы басу қашықтығында.",
         "primary_button": {
-          "text": "Create your first page"
+          "text": "Бірінші бетіңізді жасаңыз"
         }
       },
       "public": {
-        "title": "No public pages yet",
-        "description": "See pages shared with everyone in your project right here.",
+        "title": "Жалпы беттер жоқ",
+        "description": "Жобаңыздағы барлығымен ортақтасылған беттерді осы жерде қараңыз.",
         "primary_button": {
-          "text": "Create your first page"
+          "text": "Бірінші бетіңізді жасаңыз"
         }
       },
       "archived": {
-        "title": "No archived pages yet",
-        "description": "Archive pages not on your radar. Access them here when needed."
+        "title": "Мұрағатталған беттер жоқ",
+        "description": "Назардан тыс қалған беттерді мұрағаттаңыз. Қажет болғанда осы жерде қараңыз."
       }
     }
   },
   "disabled_project": {
     "empty_state": {
       "inbox": {
-        "title": "Intake is not enabled for the project.",
-        "description": "Intake helps you manage incoming requests to your project and add them as work items in your workflow. Enable intake from project settings to manage requests.",
+        "title": "Кіріс жоба үшін қосылмаған.",
+        "description": "Кіріс жобаңызға кіріс сұраулары мен тапсырмаларды басқаруға көмектеседі. Сұраулар басқаруды бастау үшін жоба параметрлерінен кірісті қосыңыз.",
         "primary_button": {
-          "text": "Manage features"
+          "text": "Мүмкіндіктерді басқару"
         }
       },
       "cycle": {
-        "title": "Cycles is not enabled for this project.",
-        "description": "Break work down by timeboxed chunks, work backwards from your project deadline to set dates, and make tangible progress as a team. Enable the cycles feature for your project to start using them.",
+        "title": "Циклдар осы жоба үшін қосылмаған.",
+        "description": "Жұмысты уақыт блоктарына бөліп, жоба мерзімінен кері санап күндерді белгілеңіз. Пайдалануды бастау үшін жобаңыз үшін циклдар мүмкіндігін қосыңыз.",
         "primary_button": {
-          "text": "Manage features"
+          "text": "Мүмкіндіктерді басқару"
         }
       },
       "module": {
-        "title": "Modules are not enabled for the project.",
-        "description": "Modules are the building blocks of your project. Enable modules from project settings to start using them.",
+        "title": "Модульдер жоба үшін қосылмаған.",
+        "description": "Модульдер — жобаңыздың негізгі блоктары. Пайдалануды бастау үшін жоба параметрлерінен модульдерді қосыңыз.",
         "primary_button": {
-          "text": "Manage features"
+          "text": "Мүмкіндіктерді басқару"
         }
       },
       "page": {
-        "title": "Pages are not enabled for the project.",
-        "description": "Pages are the building blocks of your project. Enable pages from project settings to start using them.",
+        "title": "Беттер жоба үшін қосылмаған.",
+        "description": "Беттер — жобаңыздың негізгі блоктары. Пайдалануды бастау үшін жоба параметрлерінен беттерді қосыңыз.",
         "primary_button": {
-          "text": "Manage features"
+          "text": "Мүмкіндіктерді басқару"
         }
       },
       "view": {
-        "title": "Views are not enabled for the project.",
-        "description": "Views are the building blocks of your project. Enable views from project settings to start using them.",
+        "title": "Көріністер жоба үшін қосылмаған.",
+        "description": "Көріністер — жобаңыздың негізгі блоктары. Пайдалануды бастау үшін жоба параметрлерінен көріністерді қосыңыз.",
         "primary_button": {
-          "text": "Manage features"
+          "text": "Мүмкіндіктерді басқару"
         }
       }
     }
   },
   "project_modules": {
     "status": {
-      "backlog": "Backlog",
-      "planned": "Planned",
-      "in_progress": "In Progress",
-      "paused": "Paused",
-      "completed": "Completed",
-      "cancelled": "Cancelled"
+      "backlog": "Жоспарсыз",
+      "planned": "Жоспарланған",
+      "in_progress": "Орындалуда",
+      "paused": "Тоқтатылды",
+      "completed": "Аяқталды",
+      "cancelled": "Жойылды"
     },
     "layout": {
-      "list": "List layout",
-      "board": "Gallery layout",
-      "timeline": "Timeline layout"
+      "list": "Тізім орналасуы",
+      "board": "Галерея орналасуы",
+      "timeline": "Хронология орналасуы"
     },
     "order_by": {
-      "name": "Name",
-      "progress": "Progress",
-      "issues": "Number of work items",
-      "due_date": "Due date",
-      "created_at": "Created date",
-      "manual": "Manual"
+      "name": "Атауы",
+      "progress": "Прогресс",
+      "issues": "Тапсырмалар саны",
+      "due_date": "Мерзімі",
+      "created_at": "Жасалған күн",
+      "manual": "Қолмен"
     }
   },
   "project_members": {
-    "full_name": "Full name",
-    "display_name": "Display name",
-    "email": "Email",
-    "joining_date": "Joining date",
-    "role": "Role"
+    "full_name": "Толық аты",
+    "display_name": "Көрсетілетін ат",
+    "email": "Электрондық пошта",
+    "joining_date": "Қосылу күні",
+    "role": "Рөл"
   },
   "project": {
     "members_import": {
-      "title": "Import Members from CSV",
-      "description": "Upload a CSV with columns: Email and Role (5=Guest, 15=Member, 20=Admin). Users must already be workspace members.",
-      "download_sample": "Download sample CSV",
+      "title": "CSV арқылы мүшелерді импорттау",
+      "description": "Бағандары бар CSV жүктеңіз: Электрондық пошта және Рөл (5=Қонақ, 15=Мүше, 20=Әкімші). Пайдаланушылар бұрыннан жұмыс кеңістігінің мүшелері болуы керек.",
+      "download_sample": "CSV үлгісін жүктеу",
       "dropzone": {
-        "active": "Drop CSV file here",
-        "inactive": "Drag & drop or click to upload",
-        "file_type": "Only .csv files supported"
+        "active": "CSV файлын осы жерге тастаңыз",
+        "inactive": "Апарып тастаңыз немесе жүктеу үшін басыңыз",
+        "file_type": "Тек .csv файлдары қолданылады"
       },
       "buttons": {
-        "cancel": "Cancel",
-        "import": "Import",
-        "try_again": "Try Again",
-        "close": "Close",
-        "done": "Done"
+        "cancel": "Болдырмау",
+        "import": "Импорттау",
+        "try_again": "Қайта көру",
+        "close": "Жабу",
+        "done": "Дайын"
       },
       "progress": {
-        "uploading": "Uploading...",
-        "importing": "Importing..."
+        "uploading": "Жүктелуде...",
+        "importing": "Импортталуда..."
       },
       "summary": {
         "title": {
-          "complete": "Import Complete"
+          "complete": "Импорт аяқталды"
         },
         "message": {
-          "success": "Successfully imported {count} member{plural} to the project.",
-          "no_imports": "No new members were imported from the CSV file."
+          "success": "Жобаға {count} мүше сәтті импортталды.",
+          "no_imports": "CSV файлынан жаңа мүшелер импортталмады."
         },
         "stats": {
-          "added": "Added",
-          "reactivated": "Reactivated",
-          "already_members": "Already Members",
-          "skipped": "Skipped"
+          "added": "Қосылды",
+          "reactivated": "Қайта белсендірілді",
+          "already_members": "Бұрыннан мүше",
+          "skipped": "Өткізіп жіберілді"
         },
-        "download_errors": "Download skipped details"
+        "download_errors": "Өткізілген мәліметтерді жүктеу"
       },
       "toast": {
         "invalid_file": {
-          "title": "Invalid file",
-          "message": "Only CSV files are supported."
+          "title": "Жарамсыз файл",
+          "message": "Тек CSV файлдары қолданылады."
         },
         "import_failed": {
-          "title": "Import failed",
-          "message": "Something went wrong."
+          "title": "Импорт сәтсіз аяқталды",
+          "message": "Бір нәрсе дұрыс болмады."
         }
       }
     }

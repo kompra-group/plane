@@ -2,85 +2,85 @@
   "inbox_issue": {
     "status": {
       "pending": {
-        "title": "Pending",
-        "description": "Pending"
+        "title": "Күтуде",
+        "description": "Күтуде"
       },
       "declined": {
-        "title": "Declined",
-        "description": "Declined"
+        "title": "Қабылданбады",
+        "description": "Қабылданбады"
       },
       "snoozed": {
-        "title": "Snoozed",
-        "description": "{days, plural, one{# day} other{# days}} to go"
+        "title": "Кейінге қалдырылды",
+        "description": "{days, plural, one{# күн} other{# күн}} қалды"
       },
       "accepted": {
-        "title": "Accepted",
-        "description": "Accepted"
+        "title": "Қабылданды",
+        "description": "Қабылданды"
       },
       "duplicate": {
-        "title": "Duplicate",
-        "description": "Duplicate"
+        "title": "Қайталанба",
+        "description": "Қайталанба"
       }
     },
     "modals": {
       "decline": {
-        "title": "Decline work item",
-        "content": "Are you sure you want to decline work item {value}?"
+        "title": "Тапсырмадан бас тарту",
+        "content": "{value} тапсырмасынан бас тартқыңыз келетінін растайсыз ба?"
       },
       "delete": {
-        "title": "Delete work item",
-        "content": "Are you sure you want to delete work item {value}?",
-        "success": "Work item deleted successfully"
+        "title": "Тапсырманы жою",
+        "content": "{value} тапсырмасын жойғыңыз келетінін растайсыз ба?",
+        "success": "Тапсырма сәтті жойылды"
       }
     },
     "errors": {
-      "snooze_permission": "Only project admins can snooze/Un-snooze work items",
-      "accept_permission": "Only project admins can accept work items",
-      "decline_permission": "Only project admins can deny work items"
+      "snooze_permission": "Тапсырмаларды тек жоба әкімшілері кейінге қалдыра алады",
+      "accept_permission": "Тапсырмаларды тек жоба әкімшілері қабылдай алады",
+      "decline_permission": "Тапсырмаларды тек жоба әкімшілері қабылдамай алады"
     },
     "actions": {
-      "accept": "Accept",
-      "decline": "Decline",
-      "snooze": "Snooze",
-      "unsnooze": "Un snooze",
-      "copy": "Copy work item link",
-      "delete": "Delete",
-      "open": "Open work item",
-      "mark_as_duplicate": "Mark as duplicate",
-      "move": "Move {value} to project work items"
+      "accept": "Қабылдау",
+      "decline": "Бас тарту",
+      "snooze": "Кейінге қалдыру",
+      "unsnooze": "Кейінге қалдырудан шығу",
+      "copy": "Тапсырма сілтемесін көшіру",
+      "delete": "Жою",
+      "open": "Тапсырманы ашу",
+      "mark_as_duplicate": "Қайталанба деп белгілеу",
+      "move": "{value} жоба тапсырмаларына көшіру"
     },
     "source": {
-      "in-app": "in-app"
+      "in-app": "қолданба ішінде"
     },
     "order_by": {
-      "created_at": "Created at",
-      "updated_at": "Updated at",
+      "created_at": "Жасалған уақыт",
+      "updated_at": "Жаңартылған уақыт",
       "id": "ID"
     },
-    "label": "Intake",
-    "page_label": "{workspace} - Intake",
+    "label": "Кіріс",
+    "page_label": "{workspace} - Кіріс",
     "modal": {
-      "title": "Create intake work item"
+      "title": "Кіріс тапсырмасын жасау"
     },
     "tabs": {
-      "open": "Open",
-      "closed": "Closed"
+      "open": "Ашық",
+      "closed": "Жабық"
     },
     "empty_state": {
       "sidebar_open_tab": {
-        "title": "No open work items",
-        "description": "Find open work items here. Create new work item."
+        "title": "Ашық тапсырмалар жоқ",
+        "description": "Ашық тапсырмаларды осы жерде табыңыз. Жаңа тапсырма жасаңыз."
       },
       "sidebar_closed_tab": {
-        "title": "No closed work items",
-        "description": "All the work items whether accepted or declined can be found here."
+        "title": "Жабық тапсырмалар жоқ",
+        "description": "Қабылданған немесе қабылданбаған барлық тапсырмаларды осы жерде табуға болады."
       },
       "sidebar_filter": {
-        "title": "No matching work items",
-        "description": "No work item matches filter applied in intake. Create a new work item."
+        "title": "Сәйкес тапсырмалар жоқ",
+        "description": "Кіріске қолданылған сүзгіге сәйкес тапсырма жоқ. Жаңа тапсырма жасаңыз."
       },
       "detail": {
-        "title": "Select a work item to view its details."
+        "title": "Мәліметтерді көру үшін тапсырманы таңдаңыз."
       }
     }
   }

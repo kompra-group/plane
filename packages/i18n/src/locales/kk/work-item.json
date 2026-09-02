@@ -1,150 +1,150 @@
 {
   "issue": {
-    "label": "{count, plural, one {Work item} other {Work items}}",
-    "all": "All Work items",
-    "edit": "Edit work item",
+    "label": "{count, plural, one {Тапсырма} other {Тапсырмалар}}",
+    "all": "Барлық тапсырмалар",
+    "edit": "Тапсырманы өңдеу",
     "title": {
-      "label": "Work item title",
-      "required": "Work item title is required."
+      "label": "Тапсырма тақырыбы",
+      "required": "Тапсырма тақырыбы қажет."
     },
     "add": {
-      "press_enter": "Press 'Enter' to add another work item",
-      "label": "Add work item",
+      "press_enter": "Тағы бір тапсырма қосу үшін 'Enter' басыңыз",
+      "label": "Тапсырма қосу",
       "cycle": {
-        "failed": "Work item could not be added to the cycle. Please try again.",
-        "success": "{count, plural, one {Work item} other {Work items}} added to the cycle successfully.",
-        "loading": "Adding {count, plural, one {work item} other {work items}} to the cycle"
+        "failed": "Тапсырманы циклге қосу мүмкін болмады. Қайта көріңіз.",
+        "success": "{count, plural, one {Тапсырма} other {Тапсырмалар}} циклге сәтті қосылды.",
+        "loading": "{count, plural, one {тапсырма} other {тапсырма}} циклге қосылуда"
       },
-      "assignee": "Add assignees",
-      "start_date": "Add start date",
-      "due_date": "Add due date",
-      "parent": "Add parent work item",
-      "sub_issue": "Add sub-work item",
-      "dependency": "Add dependency",
-      "relation": "Add relation",
-      "link": "Add link",
-      "existing": "Add existing work item"
+      "assignee": "Орындаушылар қосу",
+      "start_date": "Басталу күнін қосу",
+      "due_date": "Мерзімді қосу",
+      "parent": "Ата-ана тапсырманы қосу",
+      "sub_issue": "Ішкі тапсырма қосу",
+      "dependency": "Тәуелділік қосу",
+      "relation": "Байланыс қосу",
+      "link": "Сілтеме қосу",
+      "existing": "Бар тапсырманы қосу"
     },
     "remove": {
-      "label": "Remove work item",
+      "label": "Тапсырманы жою",
       "cycle": {
-        "loading": "Removing work item from the cycle",
-        "success": "Work item removed from the cycle successfully.",
-        "failed": "Work item could not be removed from the cycle. Please try again."
+        "loading": "Тапсырма циклден жойылуда",
+        "success": "Тапсырма циклден сәтті жойылды.",
+        "failed": "Тапсырманы циклден жою мүмкін болмады. Қайта көріңіз."
       },
       "module": {
-        "loading": "Removing work item from the module",
-        "success": "Work item removed from the module successfully.",
-        "failed": "Work item could not be removed from the module. Please try again."
+        "loading": "Тапсырма модульден жойылуда",
+        "success": "Тапсырма модульден сәтті жойылды.",
+        "failed": "Тапсырманы модульден жою мүмкін болмады. Қайта көріңіз."
       },
       "parent": {
-        "label": "Remove parent work item"
+        "label": "Ата-ана тапсырманы жою"
       }
     },
-    "new": "New work item",
-    "adding": "Adding work item",
+    "new": "Жаңа тапсырма",
+    "adding": "Тапсырма қосылуда",
     "create": {
-      "success": "Work item created successfully"
+      "success": "Тапсырма сәтті жасалды"
     },
     "priority": {
-      "urgent": "Urgent",
-      "high": "High",
-      "medium": "Medium",
-      "low": "Low"
+      "urgent": "Шұғыл",
+      "high": "Жоғары",
+      "medium": "Орташа",
+      "low": "Төмен"
     },
     "display": {
       "properties": {
-        "label": "Display Properties",
+        "label": "Дисплей қасиеттері",
         "id": "ID",
-        "issue_type": "Work item Type",
-        "sub_issue_count": "Sub-work item count",
-        "attachment_count": "Attachment count",
-        "created_on": "Created on",
-        "sub_issue": "Sub-work item",
-        "work_item_count": "Work item count"
+        "issue_type": "Тапсырма түрі",
+        "sub_issue_count": "Ішкі тапсырма саны",
+        "attachment_count": "Тіркеме саны",
+        "created_on": "Жасалған күн",
+        "sub_issue": "Ішкі тапсырма",
+        "work_item_count": "Тапсырма саны"
       },
       "extra": {
-        "show_sub_issues": "Show sub-work items",
-        "show_empty_groups": "Show empty groups"
+        "show_sub_issues": "Ішкі тапсырмаларды көрсету",
+        "show_empty_groups": "Бос топтарды көрсету"
       }
     },
     "layouts": {
-      "ordered_by_label": "This layout is ordered by",
-      "list": "List",
-      "kanban": "Board",
-      "calendar": "Calendar",
-      "spreadsheet": "Table",
-      "gantt": "Timeline",
+      "ordered_by_label": "Бұл орналасу бойынша реттелген",
+      "list": "Тізім",
+      "kanban": "Тақта",
+      "calendar": "Күнтізбе",
+      "spreadsheet": "Кесте",
+      "gantt": "Хронология",
       "title": {
-        "list": "List Layout",
-        "kanban": "Board Layout",
-        "calendar": "Calendar Layout",
-        "spreadsheet": "Table Layout",
-        "gantt": "Timeline Layout"
+        "list": "Тізім орналасуы",
+        "kanban": "Тақта орналасуы",
+        "calendar": "Күнтізбе орналасуы",
+        "spreadsheet": "Кесте орналасуы",
+        "gantt": "Хронология орналасуы"
       }
     },
     "states": {
-      "active": "Active",
-      "backlog": "Backlog"
+      "active": "Белсенді",
+      "backlog": "Жоспарсыз"
     },
     "comments": {
-      "placeholder": "Add comment",
+      "placeholder": "Пікір қосу",
       "switch": {
-        "private": "Switch to private comment",
-        "public": "Switch to public comment"
+        "private": "Жеке пікірге ауыстыру",
+        "public": "Жалпыға ашық пікірге ауыстыру"
       },
       "create": {
-        "success": "Comment created successfully",
-        "error": "Comment creation failed. Please try again later."
+        "success": "Пікір сәтті жасалды",
+        "error": "Пікір жасау сәтсіз аяқталды. Кейінірек қайта көріңіз."
       },
       "update": {
-        "success": "Comment updated successfully",
-        "error": "Comment update failed. Please try again later."
+        "success": "Пікір сәтті жаңартылды",
+        "error": "Пікірді жаңарту сәтсіз аяқталды. Кейінірек қайта көріңіз."
       },
       "remove": {
-        "success": "Comment removed successfully",
-        "error": "Comment remove failed. Please try again later."
+        "success": "Пікір сәтті жойылды",
+        "error": "Пікірді жою сәтсіз аяқталды. Кейінірек қайта көріңіз."
       },
       "upload": {
-        "error": "Asset upload failed. Please try again later."
+        "error": "Ресурс жүктеу сәтсіз аяқталды. Кейінірек қайта көріңіз."
       },
       "copy_link": {
-        "success": "Comment link copied to clipboard",
-        "error": "Error copying comment link. Please try again later."
+        "success": "Пікір сілтемесі буферге көшірілді",
+        "error": "Пікір сілтемесін көшіру қатесі. Кейінірек қайта көріңіз."
       },
       "replies": {
         "create": {
-          "submit_button": "Add reply",
-          "placeholder": "Add reply"
+          "submit_button": "Жауап қосу",
+          "placeholder": "Жауап қосу"
         },
         "toast": {
           "fetch": {
             "error": {
-              "message": "Failed to fetch replies"
+              "message": "Жауаптарды алу сәтсіз аяқталды"
             }
           },
           "create": {
             "success": {
-              "message": "Reply created successfully"
+              "message": "Жауап сәтті жасалды"
             },
             "error": {
-              "message": "Failed to create reply"
+              "message": "Жауап жасау сәтсіз аяқталды"
             }
           },
           "update": {
             "success": {
-              "message": "Reply updated successfully"
+              "message": "Жауап сәтті жаңартылды"
             },
             "error": {
-              "message": "Failed to update reply"
+              "message": "Жауапты жаңарту сәтсіз аяқталды"
             }
           },
           "delete": {
             "success": {
-              "message": "Reply deleted successfully"
+              "message": "Жауап сәтті жойылды"
             },
             "error": {
-              "message": "Failed to delete reply"
+              "message": "Жауапты жою сәтсіз аяқталды"
             }
           }
         }
@@ -152,275 +152,275 @@
     },
     "empty_state": {
       "issue_detail": {
-        "title": "Work item does not exist",
-        "description": "The work item you are looking for does not exist, has been archived, or has been deleted.",
+        "title": "Тапсырма жоқ",
+        "description": "Іздеп отырған тапсырма жоқ, мұрағатталған немесе жойылған.",
         "primary_button": {
-          "text": "View other work items"
+          "text": "Басқа тапсырмаларды қарау"
         }
       }
     },
     "sibling": {
-      "label": "Sibling work items"
+      "label": "Бауырлас тапсырмалар"
     },
     "archive": {
-      "description": "Only completed or canceled work items can be archived",
-      "label": "Archive Work item",
-      "confirm_message": "Are you sure you want to archive the work item? All your archived work items can be restored later.",
+      "description": "Тек аяқталған немесе жойылған тапсырмаларды мұрағаттауға болады",
+      "label": "Тапсырманы мұрағаттау",
+      "confirm_message": "Тапсырманы мұрағаттағыңыз келетінін растайсыз ба? Барлық мұрағатталған тапсырмаларды кейінірек қалпына келтіруге болады.",
       "success": {
-        "label": "Archive success",
-        "message": "Your archives can be found in project archives."
+        "label": "Мұрағаттау сәтті",
+        "message": "Мұрағаттарыңызды жоба мұрағатынан табуға болады."
       },
       "failed": {
-        "message": "Work item could not be archived. Please try again."
+        "message": "Тапсырманы мұрағаттау мүмкін болмады. Қайта көріңіз."
       }
     },
     "restore": {
       "success": {
-        "title": "Restore success",
-        "message": "Your work item can be found in project work items."
+        "title": "Қалпына келтіру сәтті",
+        "message": "Тапсырманы жоба тапсырмаларынан табуға болады."
       },
       "failed": {
-        "message": "Work item could not be restored. Please try again."
+        "message": "Тапсырманы қалпына келтіру мүмкін болмады. Қайта көріңіз."
       }
     },
     "relation": {
-      "relates_to": "Relates to",
-      "duplicate": "Duplicate of",
-      "blocked_by": "Blocked by",
-      "blocking": "Blocking",
-      "start_before": "Starts Before",
-      "start_after": "Starts After",
-      "finish_before": "Finishes Before",
-      "finish_after": "Finishes After",
-      "implements": "Implements",
-      "implemented_by": "Implemented By"
+      "relates_to": "Байланысты",
+      "duplicate": "Қайталанбасы",
+      "blocked_by": "Бөгеткен",
+      "blocking": "Бөгеп тұрған",
+      "start_before": "Бұрын басталады",
+      "start_after": "Кейін басталады",
+      "finish_before": "Бұрын аяқталады",
+      "finish_after": "Кейін аяқталады",
+      "implements": "Жүзеге асырады",
+      "implemented_by": "Жүзеге асырған"
     },
-    "copy_link": "Copy work item link",
+    "copy_link": "Тапсырма сілтемесін көшіру",
     "delete": {
-      "label": "Delete work item",
-      "error": "Error deleting work item"
+      "label": "Тапсырманы жою",
+      "error": "Тапсырманы жою қатесі"
     },
     "subscription": {
       "actions": {
-        "subscribed": "Work item subscribed successfully",
-        "unsubscribed": "Work item unsubscribed successfully"
+        "subscribed": "Тапсырмаға жазылды",
+        "unsubscribed": "Тапсырмадан жазылудан шыққан"
       }
     },
     "select": {
-      "error": "Please select at least one work item",
-      "empty": "No work items selected",
-      "add_selected": "Add selected work items",
-      "select_all": "Select all",
-      "deselect_all": "Deselect all"
+      "error": "Кем дегенде бір тапсырманы таңдаңыз",
+      "empty": "Тапсырмалар таңдалмады",
+      "add_selected": "Таңдалған тапсырмаларды қосу",
+      "select_all": "Барлығын таңдау",
+      "deselect_all": "Барлығынан алу"
     },
-    "open_in_full_screen": "Open work item in full screen",
+    "open_in_full_screen": "Тапсырманы толық экранда ашу",
     "duplicate": {
       "modal": {
-        "title": "Make a copy to another project",
-        "description1": "This creates a copy of the work item.",
-        "description2": "All property data will be removed while duplicating.",
-        "placeholder": "Select a project"
+        "title": "Басқа жобаға көшірме жасау",
+        "description1": "Бұл тапсырманың көшірмесін жасайды.",
+        "description2": "Көшіру кезінде барлық қасиет деректері жойылады.",
+        "placeholder": "Жоба таңдаңыз"
       }
     },
     "toast": {
       "duplicate": {
         "success": {
-          "message": "Work item duplicated successfully"
+          "message": "Тапсырма сәтті көшірілді"
         },
         "error": {
-          "message": "Failed to duplicate work item"
+          "message": "Тапсырманы көшіру сәтсіз аяқталды"
         }
       }
     },
     "pages": {
-      "link_pages": "Link pages",
-      "show_wiki_pages": "Show Wiki pages",
-      "link_pages_to": "Link pages to",
-      "linked_pages": "Linked pages",
-      "no_description": "This is an empty page. Why don't you write something inside and see it show up here like this placeholder",
+      "link_pages": "Беттерді байланыстыру",
+      "show_wiki_pages": "Wiki беттерін көрсету",
+      "link_pages_to": "Беттерді байланыстыру",
+      "linked_pages": "Байланысты беттер",
+      "no_description": "Бұл бос бет. Осы орын ұстаушыша осы жерде пайда болуын байқау үшін ішіне бір нәрсе жазып көрмейсіз бе",
       "toasts": {
         "link": {
           "success": {
-            "title": "Pages updated",
-            "message": "Pages updated successfully"
+            "title": "Беттер жаңартылды",
+            "message": "Беттер сәтті жаңартылды"
           },
           "error": {
-            "title": "Pages update failed",
-            "message": "Pages update failed"
+            "title": "Беттерді жаңарту сәтсіз аяқталды",
+            "message": "Беттерді жаңарту сәтсіз аяқталды"
           }
         },
         "remove": {
           "success": {
-            "title": "Page removed",
-            "message": "Page removed successfully"
+            "title": "Бет жойылды",
+            "message": "Бет сәтті жойылды"
           },
           "error": {
-            "title": "Page removal failed",
-            "message": "Page removal failed"
+            "title": "Бетті жою сәтсіз аяқталды",
+            "message": "Бетті жою сәтсіз аяқталды"
           }
         }
       }
     },
     "vote": {
-      "click_to_upvote": "Click to upvote",
-      "click_to_downvote": "Click to downvote",
-      "click_to_view_upvotes": "Click to view upvotes",
-      "click_to_view_downvotes": "Click to view downvotes"
+      "click_to_upvote": "Жоғары дауыс беру үшін басыңыз",
+      "click_to_downvote": "Төмен дауыс беру үшін басыңыз",
+      "click_to_view_upvotes": "Жоғары дауыстарды қарау үшін басыңыз",
+      "click_to_view_downvotes": "Төмен дауыстарды қарау үшін басыңыз"
     }
   },
   "sub_work_item": {
     "update": {
-      "success": "Sub-work item updated successfully",
-      "error": "Error updating sub-work item"
+      "success": "Ішкі тапсырма сәтті жаңартылды",
+      "error": "Ішкі тапсырманы жаңарту қатесі"
     },
     "remove": {
-      "success": "Sub-work item removed successfully",
-      "error": "Error removing sub-work item"
+      "success": "Ішкі тапсырма сәтті жойылды",
+      "error": "Ішкі тапсырманы жою қатесі"
     },
     "empty_state": {
       "sub_list_filters": {
-        "title": "You don't have sub-work items that match the filters you've applied.",
-        "description": "To see all sub-work items, clear all applied filters.",
-        "action": "Clear filters"
+        "title": "Қолданылған сүзгілерге сәйкес ішкі тапсырмалар жоқ.",
+        "description": "Барлық ішкі тапсырмаларды қарау үшін барлық қолданылған сүзгілерді тазартыңыз.",
+        "action": "Сүзгілерді тазарту"
       },
       "list_filters": {
-        "title": "You don't have work items that match the filters you've applied.",
-        "description": "To see all work items, clear all applied filters.",
-        "action": "Clear filters"
+        "title": "Қолданылған сүзгілерге сәйкес тапсырмалар жоқ.",
+        "description": "Барлық тапсырмаларды қарау үшін барлық қолданылған сүзгілерді тазартыңыз.",
+        "action": "Сүзгілерді тазарту"
       }
     }
   },
   "issue_relation": {
     "empty_state": {
       "search": {
-        "title": "No matching work items found"
+        "title": "Сәйкес тапсырмалар табылмады"
       },
       "no_issues": {
-        "title": "No work items found"
+        "title": "Тапсырмалар табылмады"
       }
     }
   },
   "issue_comment": {
     "empty_state": {
       "general": {
-        "title": "No comments yet",
-        "description": "Comments can be used as a discussion and follow-up space for the work items"
+        "title": "Пікірлер жоқ",
+        "description": "Пікірлерді тапсырмалар үшін талқылау мен қадағалау кеңістігі ретінде пайдалануға болады"
       }
     }
   },
   "bulk_operations": {
     "error_details": {
       "invalid_archive_state_group": {
-        "title": "Unable to archive work items",
-        "message": "Only work items belonging to Completed or Canceled state groups can be archived."
+        "title": "Тапсырмаларды мұрағаттау мүмкін емес",
+        "message": "Тек Аяқталды немесе Жойылды күй топтарына жататын тапсырмаларды мұрағаттауға болады."
       },
       "invalid_issue_start_date": {
-        "title": "Unable to update work items",
-        "message": "Start date selected succeeds the due date for some work items. Ensure start date to be before the due date."
+        "title": "Тапсырмаларды жаңарту мүмкін емес",
+        "message": "Таңдалған басталу күні кейбір тапсырмалардың мерзімінен кейін. Басталу күні мерзімге дейін болуын қамтамасыз етіңіз."
       },
       "invalid_issue_target_date": {
-        "title": "Unable to update work items",
-        "message": "Due date selected precedes the start date for some work items. Ensure due date to be after the start date."
+        "title": "Тапсырмаларды жаңарту мүмкін емес",
+        "message": "Таңдалған мерзім кейбір тапсырмалардың басталу күнінен бұрын. Мерзім басталу күнінен кейін болуын қамтамасыз етіңіз."
       },
       "invalid_state_transition": {
-        "title": "Unable to update work items",
-        "message": "State change is not allowed for some work items. Ensure the state change is allowed."
+        "title": "Тапсырмаларды жаңарту мүмкін емес",
+        "message": "Кейбір тапсырмалар үшін күй өзгерісіне рұқсат берілмеген. Күй өзгерісіне рұқсат берілгенін қамтамасыз етіңіз."
       }
     }
   },
   "recurring_work_items": {
     "settings": {
-      "heading": "Recurring work items",
-      "description": "Set your repeatable work once, and we’ll take care of the repeats. You’ll see everything right here when it’s time.",
-      "new_recurring_work_item": "New recurring work item",
-      "update_recurring_work_item": "Update recurring work item",
+      "heading": "Қайталанатын тапсырмалар",
+      "description": "Қайталанатын жұмысты бір рет орнатыңыз, ал қайталауларды біз қолданамыз. Уақыты келгенде осы жерде барлығын қарайсыз.",
+      "new_recurring_work_item": "Жаңа қайталанатын тапсырма",
+      "update_recurring_work_item": "Қайталанатын тапсырманы жаңарту",
       "form": {
         "interval": {
-          "title": "Schedule",
+          "title": "Кесте",
           "start_date": {
             "validation": {
-              "required": "Start date is required"
+              "required": "Басталу күні қажет"
             }
           },
           "interval_type": {
             "validation": {
-              "required": "Interval type is required"
+              "required": "Аралық түрі қажет"
             }
           }
         },
         "button": {
-          "create": "Create recurring work item",
-          "update": "Update recurring work item"
+          "create": "Қайталанатын тапсырма жасау",
+          "update": "Қайталанатын тапсырманы жаңарту"
         }
       },
       "create_button": {
-        "label": "Create recurring work item",
-        "no_permission": "Contact your project admin to create recurring work items"
+        "label": "Қайталанатын тапсырма жасау",
+        "no_permission": "Қайталанатын тапсырмалар жасау үшін жоба әкімшісіне хабарласыңыз"
       }
     },
     "empty_state": {
       "upgrade": {
-        "title": "Your work, on autopilot",
-        "description": "Set it once. We’ll bring it back when it’s due. Upgrade to Business to make recurring work feel effortless."
+        "title": "Жұмысыңыз, автопилотта",
+        "description": "Бір рет орнатыңыз. Уақыты келгенде қайтарамыз. Қайталанатын жұмысты оңай ету үшін Business-ке жаңартыңыз."
       },
       "no_templates": {
-        "button": "Create your first recurring work item"
+        "button": "Бірінші қайталанатын тапсырмаңызды жасаңыз"
       }
     },
     "toasts": {
       "create": {
         "success": {
-          "title": "Recurring work item created",
-          "message": "{name}, the recurring work item, is now available for your workspace."
+          "title": "Қайталанатын тапсырма жасалды",
+          "message": "{name} қайталанатын тапсырмасы жұмыс кеңістігіңізде қолжетімді."
         },
         "error": {
-          "title": "We couldn't create that recurring work item this time.",
-          "message": "Try saving your details again or copy them over to a new recurring work item, preferably in another tab."
+          "title": "Осы жолы қайталанатын тапсырманы жасау мүмкін болмады.",
+          "message": "Деректеріңізді қайта сақтап көріңіз немесе жаңа қайталанатын тапсырмаға, артықшылықты басқа қойындыда көшіріңіз."
         }
       },
       "update": {
         "success": {
-          "title": "Recurring work item changed",
-          "message": "{name}, the recurring work item, was changed."
+          "title": "Қайталанатын тапсырма өзгертілді",
+          "message": "{name} қайталанатын тапсырмасы өзгертілді."
         },
         "error": {
-          "title": "We couldn't save changes to this recurring work item.",
-          "message": "Try saving your details again or come back to this recurring work item later. If there's trouble still, reach out to us."
+          "title": "Осы қайталанатын тапсырмаға өзгерістерді сақтау мүмкін болмады.",
+          "message": "Деректеріңізді қайта сақтап көріңіз немесе кейінірек осы тапсырмаға оралыңыз. Қиындық болса, бізге хабарласыңыз."
         }
       },
       "delete": {
         "success": {
-          "title": "Recurring work item deleted",
-          "message": "{name}, the recurring work item, has now been deleted from your workspace."
+          "title": "Қайталанатын тапсырма жойылды",
+          "message": "{name} қайталанатын тапсырмасы жұмыс кеңістігіңізден жойылды."
         },
         "error": {
-          "title": "We couldn't delete that recurring work item this.",
-          "message": "Try deleting it again or come back to it later. If you can't delete it then, reach out to us."
+          "title": "Осы жолы қайталанатын тапсырманы жою мүмкін болмады.",
+          "message": "Қайта жойып көріңіз немесе кейінірек оралыңыз. Жоя алмасаңыз, бізге хабарласыңыз."
         }
       }
     },
     "delete_confirmation": {
-      "title": "Delete recurring work item",
+      "title": "Қайталанатын тапсырманы жою",
       "description": {
-        "prefix": "Are you sure you want to delete recurring work item-",
-        "suffix": "? All of the data related to the recurring work item will be permanently removed. This action cannot be undone."
+        "prefix": "Қайталанатын тапсырманы жойғыңыз келетінін растайсыз ба - ",
+        "suffix": "? Қайталанатын тапсырмаға қатысты барлық деректер біржолата жойылады. Бұл әрекетті қайтару мүмкін емес."
       }
     }
   },
   "epic": {
-    "new": "New Epic",
-    "label": "{count, plural, one {Epic} other {Epics}}",
-    "adding": "Adding epic",
+    "new": "Жаңа Эпик",
+    "label": "{count, plural, one {Эпик} other {Эпиктер}}",
+    "adding": "Эпик қосылуда",
     "create": {
-      "success": "Epic created successfully"
+      "success": "Эпик сәтті жасалды"
     },
     "add": {
-      "label": "Add Epic",
-      "press_enter": "Press 'Enter' to add another epic"
+      "label": "Эпик қосу",
+      "press_enter": "Тағы бір эпик қосу үшін 'Enter' басыңыз"
     },
     "title": {
-      "label": "Epic Title",
-      "required": "Epic title is required."
+      "label": "Эпик тақырыбы",
+      "required": "Эпик тақырыбы қажет."
     }
   }
 }
