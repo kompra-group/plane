@@ -46,6 +46,8 @@ build_components:
       - COMPONENT: proxy
         DOCKERFILE: apps/proxy/Dockerfile.ce
         BUILD_CONTEXT: ./apps/proxy
+  only:
+    - dev
   tags:
     - new-test
 
